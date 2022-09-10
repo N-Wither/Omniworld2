@@ -1,0 +1,11 @@
+{
+    "name":"任务",
+    "icon":"ftbquests:book",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"在屏幕左上角找到任务标志查看任务，它们会帮你在一些方面取得进展，而且还有奖励。"
+        }
+    ]
+}

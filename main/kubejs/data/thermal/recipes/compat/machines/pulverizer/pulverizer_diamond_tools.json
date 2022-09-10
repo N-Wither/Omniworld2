@@ -1,0 +1,23 @@
+{
+  "type": "thermal:pulverizer_recycle",
+  "ingredient": {
+    "tag": "forge:tools/diamond"
+  },
+  "result": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "item": "omniores:wood_dust",
+      "count": 1
+    }
+  ],
+  "experience": 0.5,
+  "conditions": [
+    {
+      "tag": "forge:tools/diamond",
+      "type": "cofh_core:tag_exists"
+    }
+  ]
+}

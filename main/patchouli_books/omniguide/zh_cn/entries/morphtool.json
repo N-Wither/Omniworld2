@@ -1,0 +1,16 @@
+{
+    "name":"变形工具",
+    "icon":"morphtool:tool",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"用法和阿卡什宝典类似，不过是针对各个模组的扳手（包括森林法杖），不需要手动选择物品，面对方块会自动变化成合适的工具。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"morphtool:tool",
+            "text":"$(#ff0000)R$(#00ff00)G$(#0000ff)B"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+	id: "4907F8DBFCDF0580"
+	group: "7B447FB054196556"
+	order_index: 1
+	filename: "4907F8DBFCDF0580"
+	title: "植物魔法"
+	icon: "botania:cosmetic_botanist_emblem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/botania.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "简介"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: -9.0d
+			y: 0.0d
+			description: [
+				"虽然Botania自称科技模组，但是你见过要把某样东西的自动化作为“挑战”的科技模组吗？所以这还是个魔法模组。"
+				""
+				"好，你可以继续了。"
+			]
+			dependencies: ["0429F3CC27BED625"]
+			hide: true
+			id: "5D26D8637473E048"
+			tasks: [{
+				id: "1A32961469874868"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+		}
+		{
+			title: "神秘的花"
+			x: -7.5d
+			y: 0.0d
+			subtitle: "共16种颜色！"
+			description: [
+				"你会在野外各处找到这些花，建议尽早收集所有的颜色，免得要用的时候又找不到。"
+				""
+				"做个采花袋可以节省很多物品栏空间。"
+			]
+			dependencies: ["5D26D8637473E048"]
+			id: "444F303BB09F49B3"
+			tasks: [{
+				id: "7314469A61E43300"
+				type: "item"
+				title: "任意神秘花"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "21FF43C86BEF8907"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "魔法培养基"
+			description: ["在这里制作各种各样的花。"]
+			dependencies: ["444F303BB09F49B3"]
+			id: "09728F919265FC38"
+			tasks: [{
+				id: "30BD4BA4E1ED4C6A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "020C7AF3C339CC78"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "微小的生命力"
+			description: ["将周围8格内的石头转化成活石，木头转化成活木，还有更多用途，请查询JEI。"]
+			dependencies: ["09728F919265FC38"]
+			id: "3DCE3A31200FD495"
+			tasks: [{
+				id: "3BC2C4A95A2E81B1"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "5E9945D5F8DA21A2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "熔炉发电机"
+			description: ["消耗任何可燃物产生魔力。初期之选。"]
+			dependencies: ["3DCE3A31200FD495"]
+			id: "755A70A76BF9810D"
+			tasks: [{
+				id: "29CA43FDFC4010E2"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "7210165022AD14F4"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

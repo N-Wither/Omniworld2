@@ -1,0 +1,15 @@
+{
+    "name":"Chunk Claiming",
+    "icon":"charm:atlas",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"You can find the \"FTB Chunks\" button at the topleft corner. You can claim chunks here, claimed chunks won't be damaged by others. You can also make some chunks keep loaded so your machines won't stop working."
+        },
+        {
+            "type":"text",
+            "text":"However you'd better not keep too many chunks loaded, it will greatly effect the performance, the optimization of this modpack sucks."
+        }
+    ]
+}

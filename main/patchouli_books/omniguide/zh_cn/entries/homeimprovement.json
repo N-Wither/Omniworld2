@@ -1,0 +1,15 @@
+{
+    "name":"家装建材",
+    "icon":"adorn:white_sofa",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Omniworld包含这些家具模组：$(br) $(br)Mr Crayfish's Furniture $(br)Builders Crafts & Additions $(br)Macaw's Lights & Lamps $(br)"
+        },
+        {
+            "type":"text",
+            "text":"Omniworld包含这些建筑模组：$(br) $(br)Macaw's Roofs $(br)Macaw's Windows $(br)Macaw's Doors $(br)Macaw's Trapdoors $(br)Macaw's Fences&Walls $(br)Macaw's Bridges $(br)Absent by Design"
+        }
+    ]
+}

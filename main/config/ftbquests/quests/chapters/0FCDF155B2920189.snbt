@@ -1,0 +1,79 @@
+{
+	id: "0FCDF155B2920189"
+	group: "0C7049A86898E462"
+	order_index: 2
+	filename: "0FCDF155B2920189"
+	title: "气动工艺"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/pneumaticcraft.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "炸出个未来"
+			description: ["在铁锭旁边引发一场爆炸，这将是你第一批压缩铁锭的来源，这个过程中大约有五分之一的原料会损失掉。"]
+			dependencies: ["74EE6FB0FD8B4D81"]
+			id: "3D6AC6B0EC5A5A95"
+			tasks: [{
+				id: "66001C4F86555D73"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["3D6AC6B0EC5A5A95"]
+			id: "5CE62F91949D610F"
+			tasks: [
+				{
+					id: "2776CC63911FB3D9"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "17243E6A82DB6F43"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "02375D5CD2A0149D"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "3B65E2897E133B5F"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "介绍"
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["32CB2054D750E015"]
+			hide: true
+			id: "74EE6FB0FD8B4D81"
+			tasks: [{
+				id: "2659E1EE18269A6D"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+		}
+	]
+}

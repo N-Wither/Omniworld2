@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "0C7049A86898E462", title: "科技系列" }
+		{ id: "7B447FB054196556", title: "魔法系列" }
+		{ id: "2280F0CCB7AA3F71", title: "探索系列" }
+		{ id: "203B2C4C445B6C7D", title: "一些信息" }
+	]
+}

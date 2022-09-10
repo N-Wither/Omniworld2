@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tinkers_reforged:molten_blazing_copper",
+      "amount": 180
+    },
+    {
+      "tag": "forge:redstone",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_reforged:molten_electrical_copper",
+    "amount": 180
+  },
+  "temperature": 800
+}

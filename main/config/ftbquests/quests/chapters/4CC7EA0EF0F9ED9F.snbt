@@ -1,0 +1,47 @@
+{
+	id: "4CC7EA0EF0F9ED9F"
+	group: "7B447FB054196556"
+	order_index: 4
+	filename: "4CC7EA0EF0F9ED9F"
+	title: "血之魔法"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/bloodmagic.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0429F3CC27BED625"]
+			hide: true
+			id: "68E597BB986CC347"
+			tasks: [{
+				id: "74528D3492B09AE4"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["68E597BB986CC347"]
+			id: "6E2A34BBE7F94C74"
+			tasks: [{
+				id: "16A101E6A33509A6"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+	]
+}

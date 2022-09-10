@@ -1,0 +1,28 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.CreateWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = vanillabtn:505185
+  x = 18
+  action = addtext
+  actionid = ff7b5d6b-cfc0-401e-af73-2f373bd6083f1636780970687
+  y = 22
+  scale = 1.0
+  alignment = left
+  value = ↑ 建议选择Terraforged世界类型
+}
+

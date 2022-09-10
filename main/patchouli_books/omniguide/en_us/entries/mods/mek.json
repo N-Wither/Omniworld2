@@ -1,0 +1,11 @@
+{
+    "name":"Mekanism",
+    "icon":"mekanism:alloy_atomic",
+    "category":"patchouli:mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"WIP"
+        }
+    ]
+}

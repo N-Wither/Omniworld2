@@ -1,0 +1,11 @@
+{
+    "name":"Prefab",
+    "icon":"prefab:item_start_house",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Prefab is a one-click building mod. You have got one when you enterd this world.$(br)    Enter @prefab in JEI searching box to see other prefabs."
+        }
+    ]
+}

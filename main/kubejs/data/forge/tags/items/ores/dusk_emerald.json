@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:emerald_ore_block",
+        "gemsnjewels:emerald_deepslate_ore_block",
+        "gemsnjewels:emerald_nether_ore_block"
+    ]
+}

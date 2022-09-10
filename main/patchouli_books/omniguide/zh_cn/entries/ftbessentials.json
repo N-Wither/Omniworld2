@@ -1,0 +1,23 @@
+{
+    "name":"FTB Essentials",
+    "icon":"minecraft:command_block",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"FTB Essentials 是一个添加了一些实用的服务器指令的模组，如果没有特殊说明，这些指令不需要开启作弊也能使用！"
+        },
+        {
+            "type":"text",
+            "text":"/back $(br)传送到之前的位置，可以多次使用。 $(br2)/spawn $(br)传送到出生点。 $(br2)/rtp $(br)随机传送到某个地方（不会是海洋）。$(br2)/sethome <名称> $(br)设置家。 $(br2)/home <名称> $(br)传送到家。"
+        },
+        {
+            "type":"text",
+            "text":"/listhomes <玩家名> $(br)列出玩家的家。 $(br2)/delhome <名称> $(br)删除家。 $(br2)/setwarp <名称> $(br)设置传送点，仅限管理员使用。 $(br2)/warp <名称> $(br)传送到传送点。 $(br2)/delwarp <名称> $(br)删除传送点，仅限管理员使用。"
+        },
+        {
+            "type":"text",
+            "text":"/listwarps $(br)列出所有的传送点。 $(br2)/tpa <玩家> $(br)请求传送到玩家。 $(br2)/tpahere <玩家> $(br)请求将玩家传送到你。 $(br2)/tpaccept <id> $(br)接受传送请求。 $(br2)/tpdeny <id> $(br)拒绝传送请求。"
+        }
+    ]
+}

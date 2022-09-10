@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.antimatter",
+    "colors": [
+      "8f2ca8",
+      "310527"
+    ],
+    "ingredient": {
+      "item": "ftbic:antimatter"
+    }
+  }

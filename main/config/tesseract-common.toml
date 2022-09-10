@@ -1,0 +1,5 @@
+[General]
+    # Should the alternative Thermal Series recipe be used when the Thermal Series mods are installed?
+    # Allowed values: true, false - Default: false
+    enableThermalRecipe = false
+

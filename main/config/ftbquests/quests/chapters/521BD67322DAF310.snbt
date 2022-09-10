@@ -1,0 +1,272 @@
+{
+	id: "521BD67322DAF310"
+	group: "2280F0CCB7AA3F71"
+	order_index: 2
+	filename: "521BD67322DAF310"
+	title: "暮色森林"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/twilightforest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["7322554D84075BF9"]
+			hide: true
+			id: "0D4680FD75960165"
+			tasks: [{
+				id: "462EBCC862A4A478"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0D4680FD75960165"]
+			id: "76830DE727FF33E3"
+			tasks: [{
+				id: "5498E87BC64E6D57"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "7D294AAF5B4F4DA1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["76830DE727FF33E3"]
+			id: "03FBE7B422B925FA"
+			tasks: [{
+				id: "0BD9AA9EE441CED9"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+			rewards: [{
+				id: "78C4F25605FBD5FA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["76830DE727FF33E3"]
+			id: "4459197A12C9935C"
+			tasks: [{
+				id: "0CB60E1EFF23DEFA"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "64A3D531E144D228"
+				type: "item"
+				item: "twilightforest:naga_scale"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["4459197A12C9935C"]
+			id: "4B03ADA530EF05C4"
+			tasks: [{
+				id: "250C4542F78976BC"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "1727DBCB855B7629"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["4B03ADA530EF05C4"]
+			id: "5BD531BDCF77F860"
+			tasks: [{
+				id: "7DFA891F0E10B8B4"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [
+				{
+					id: "780E3F51EC23399E"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
+				}
+				{
+					id: "1E7A1E44495653E4"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["4B03ADA530EF05C4"]
+			id: "4E93AB7512C042B8"
+			tasks: [{
+				id: "31C077AB2E287818"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "32D833DD98A965DB"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["4B03ADA530EF05C4"]
+			id: "24D3A0FA87204DC2"
+			tasks: [{
+				id: "7EDC581D49B739C7"
+				type: "item"
+				item: "twilightforest:alpha_yeti_trophy"
+			}]
+			rewards: [{
+				id: "61CB95BBFBA27F69"
+				type: "item"
+				item: "twilightforest:alpha_yeti_fur"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["5BD531BDCF77F860"]
+			id: "77CB59886518C919"
+			tasks: [{
+				id: "2DC317E9A3363E51"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["4E93AB7512C042B8"]
+			id: "7C3D714F6FDE914E"
+			tasks: [{
+				id: "02D5A103416A7A71"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["24D3A0FA87204DC2"]
+			id: "165D579E92CDD74B"
+			tasks: [{
+				id: "641397212D7D25DD"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["76830DE727FF33E3"]
+			id: "726D9FEB2E04FFF0"
+			tasks: [{
+				id: "2E4663061B1BE357"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: [
+				"77CB59886518C919"
+				"7C3D714F6FDE914E"
+				"165D579E92CDD74B"
+			]
+			id: "5EB6342394B670D5"
+			tasks: [
+				{
+					id: "44706D7351FEB216"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B8F824A228228C5"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: [
+				"77CB59886518C919"
+				"7C3D714F6FDE914E"
+				"165D579E92CDD74B"
+			]
+			id: "2E300F50259F572D"
+			tasks: [{
+				id: "4E253B7530D4A171"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: [
+				"5EB6342394B670D5"
+				"2E300F50259F572D"
+			]
+			id: "715158918028DA39"
+			tasks: [{
+				id: "4EC97AD522365647"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

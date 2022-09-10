@@ -1,0 +1,46 @@
+{
+	id: "3513912F076DD009"
+	group: "0C7049A86898E462"
+	order_index: 3
+	filename: "3513912F076DD009"
+	title: "热力系列"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/thermal_series.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["7B79218969E13C51"]
+			id: "3F01F1010A00B049"
+			tasks: [{
+				id: "22B5BE2B35390026"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["32CB2054D750E015"]
+			hide: true
+			id: "7B79218969E13C51"
+			tasks: [{
+				id: "7E1203C93CAB81C9"
+				type: "checkmark"
+			}]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "name":"手册",
+    "icon":"akashictome:tome",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"你应该看到了物品栏里的书，而且你已经打开了这一本。另一本书，也就是怪奇宝典里面已经包含了这个整合包里所有的教程书。"
+        },
+        {
+            "type":"text",
+            "text":"现在把这本书和它一起合成，这样就可以把这本书也包含进去。你也可以把不完整的怪奇宝典放进合成栏里，获得完整的怪奇宝典。"
+        },
+        {
+            "type":"text",
+            "text":"右键选择一本书，对空气左键复原，选择一本书后按 SHIFT + Q 移除这本书。"  
+        },
+        {
+            "type":"crafting",
+            "recipe":"eccentrictome:tome",
+            "recipe2":"kubejs:crafting_shapeless/omniguide"
+        }
+    ]
+
+}

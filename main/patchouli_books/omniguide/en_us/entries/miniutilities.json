@@ -1,0 +1,72 @@
+{
+    "name":"Mini Utilities",
+    "icon":"miniutilities:angel_block",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Mini Utilities is a mod inspired by Extra Utilities 2, you can see how this mod works here."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:cursed_earth",
+            "text":"Hostile mobs will spawn on it quickly in darkness."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:blessed_earth",
+            "text":"Like Cursed Earth, but for Passive mobs."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:blursed_earth",
+            "text":"Spawn all mobs."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:stone_drum",
+            "text":"Drums are for storing fluids, the Unstable Drum can hold 2147483647B of fluids."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:iron_spikes",
+            "text":"Spikes can hurt mobs on them. Wooden Spikes won't kill mobs, mobs killed by Golden Spikes will drop exp, mobs killed by Diamond Spikes will drop Player Killed items."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:quantum_quarry",
+            "text":"Provide energy to make it generate ores."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:solar_panel",
+            "recipe2":"miniutilities:lunar_panel"
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:solar_panel_controller",
+            "text":"Place Solar/Lunar Panels and the controller together, the controller will gather and output energy."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:angel_block",
+            "text":"A Block that can be placed without needing any support blocks."
+        },
+        {
+            "type":"spotlight",
+            "item":"miniutilities:angel_ring",
+            "text":"Allows you to fly in Survival Mode."
+        },
+        {
+            "type":"crafting",
+            "recipe":"miniutilities:kikoku",
+            "text":"Allows Players to stack enchantments higher than the maximum defined by Vanilla Minecraft & Mods. "
+        },
+        {
+            "type":"spotlight",
+            "item":"miniutilities:experience_pearl",
+            "text":"Droped by mobs killed by a tool with Experience Harvest enchantment."
+        }
+        
+    ]
+}

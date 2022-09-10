@@ -1,0 +1,17 @@
+
+["Detail Armor Bar Settings"]
+	#Allowed Values: AURA, OUTLINE
+	"Protection Effect Type" = "AURA"
+	#Allowed Values: NORMAL, SLOW, FAST, VERY_SLOW, VERY_FAST
+	"Animation Speed" = "NORMAL"
+	#Allowed Values: STATIC, ANIMATION
+	"Thorn Animation Type" = "ANIMATION"
+	"Protection Effect" = true
+	"Netherite Armor Bar" = true
+	"Armor Type Bar" = true
+	"Thorn Overlay" = true
+	"Durability Warn Effect" = true
+	"Mending Effect" = true
+	"Show Empty Armor Bar" = true
+	"Show Special Item Bar (like Elytra)" = true
+

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:morganite_ore_block",
+        "gemsnjewels:morganite_deepslate_ore_block",
+        "gemsnjewels:morganite_nether_ore_block"
+    ]
+}

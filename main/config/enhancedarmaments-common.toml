@@ -1,0 +1,107 @@
+
+[experience]
+	#Sets the maximum level cap for weapons and armor. Default: 10
+	maxLevel = 10
+	#The experience amount needed for the first level(1). Default: 100
+	level1Experience = 100
+	#The experience multiplier for each level based on the first level experience. Default: 1.8
+	experienceMultiplier = 1.8
+
+[miscellaneous]
+	#Determines whether or not durability will be displayed in tooltips. Default: true
+	showDurabilityInTooltip = true
+	#Items in this blacklist will not gain the leveling systems. Useful for very powerful items or potential conflicts. Style should be 'modid:item'
+	itemBlacklist = []
+	#This is item whitelist, basically. If you don't want a whitelist, just leave this empty. If you want a whitelist, fill it with items you want. Style should be 'modid:item'
+	itemWhitelist = []
+	#This is an extra item list to add custom support for such modded items. Be careful on this, it may crash if the item can't be enhanced. Style should be 'modid:item'
+	extraItems = []
+	#Determines if the vanilla items won't be affected by this mod. Default: false
+	onlyModdedItems = false
+
+[abilities]
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	fireAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	frostAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	poisonAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	innateAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	bombasticAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	criticalpointAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	illuminationAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	etherealAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	bloodthirstAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	moltenAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	frozenAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	toxicAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	adrenalineAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	beastialAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	remedialAbility = true
+	#Determines whether or not the specific ability will be present in-game. Default: true
+	hardenedAbility = true
+
+[abilitychances]
+	#Determines how rare the Fire ability will occur. (Higher values=lower occurance) Default: 4
+	firechance = 4.0
+	#Determines how rare the Frost ability will occur. (Higher values=lower occurance) Default: 4
+	frostchance = 4.0
+	#Determines how rare the Poison ability will occur. (Higher values=lower occurance) Default: 4
+	poisonchance = 4.0
+	#Determines how rare the Innate ability will occur. (Higher values=lower occurance) Default: 4
+	innatechance = 4.0
+	#Determines how rare the Bombasitc ability will occur. (Higher values=lower occurance) Default: 4
+	bombasticchance = 4.0
+	#Determines how rare the Critical Point ability will occur. (Higher values=lower occurance) Default: 4
+	criticalpointchance = 4.0
+	#Determines how rare the Molten ability will occur. (Higher values=lower occurance) Default: 4
+	moltenchance = 4.0
+	#Determines how rare the Frozen ability will occur. (Higher values=lower occurance) Default: 4
+	frozenchance = 4.0
+	#Determines how rare the Toxic ability will occur. (Higher values=lower occurance) Default: 4
+	toxicchance = 4.0
+	#Determines how rare the Adrinalin ability will occur. (Higher values=lower occurance) Default: 4
+	adrenalinechance = 4.0
+	#Determines how rare the Harden ability will occur. (Higher values=lower occurance) Default: 4
+	hardenedchance = 4.0
+
+[rarities]
+	#Sets the chance the given rarity will be applied. Default: 0.5
+	basicChance = 0.5
+	#Sets the chance the given rarity will be applied. Default: 0.18
+	uncommonChance = 0.18
+	#Sets the chance the given rarity will be applied. Default: 0.1
+	rareChance = 0.1
+	#Sets the chance the given rarity will be applied. Default: 0.05
+	ultraRareChance = 0.05
+	#Sets the chance the given rarity will be applied. Default: 0.02
+	legendaryChance = 0.02
+	#Sets the chance the given rarity will be applied. Default: 0.01
+	archaicChance = 0.01
+
+[multiplier]
+	#Sets the effectiveness for the given rarity. Default: 0
+	basicDamage = 0.0
+	#Sets the effectiveness for the given rarity. Default: 0.155
+	uncommonDamage = 0.155
+	#Sets the effectiveness for the given rarity. Default: 0.305
+	rareDamage = 0.305
+	#Sets the effectiveness for the given rarity. Default: 0.38
+	ultraRareDamage = 0.38
+	#Sets the effectiveness for the given rarity. Default: 0.57
+	legendaryDamage = 0.57
+	#Sets the effectiveness for the given rarity. Default: 0.81
+	archaicDamage = 0.81
+

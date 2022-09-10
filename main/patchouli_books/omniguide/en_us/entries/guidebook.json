@@ -1,0 +1,25 @@
+{
+    "name":"Guidebooks",
+    "icon":"akashictome:tome",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"You should have seen the books in your inventory, and you're reading this one. Another one, the Eccentric Tome has included all guidebooks in this modpack(including this one) "
+        },
+        {
+            "type":"text",
+            "text":"Now put this book and the Eccentric Tome in the crafting grid to include this book in the tome. You can also put incomplete tome in crafting grid to get a full tome."
+        },
+        {
+            "type":"text",
+            "text":"Right-click to choose a book, left-click the air to cancel morphing, press SHIFT+Q to remove a book."  
+        },
+        {
+            "type":"crafting",
+            "recipe":"eccentrictome:tome",
+            "recipe2":"kubejs:crafting_shapeless/omniguide"
+        }
+    ]
+
+}

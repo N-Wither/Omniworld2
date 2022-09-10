@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = net.omniworld.pausemenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = closegui
+  x = 1
+  width = 128
+  actionid = e2b1cc0c-f937-47dd-81f4-f053e3ea19d81625132952233
+  action = addbutton
+  y = -59
+  label = 回到游戏
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = f8c04e63-f357-4473-94f4-bf1b346c92511625132248186
+  y = -71
+  scale = 1.0
+  alignment = left
+  value = 暂停菜单
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 1
+  width = 128
+  actionid = 62501f0a-766d-4e54-926e-7101cd041c151625132952245
+  action = addbutton
+  y = -38
+  label = 进度
+  value = betteradvancements.gui.BetterAdvancementsScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 1
+  width = 128
+  actionid = 7f4ac289-509b-415e-898b-69b1243bd0ae1625132980106
+  action = addbutton
+  y = -17
+  label = 统计
+  value = net.minecraft.client.gui.screen.StatsScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 1
+  width = 128
+  actionid = 67b322a7-023a-464b-93f0-ff881fe81f311625133124755
+  action = addbutton
+  y = 4
+  label = 选项
+  value = net.minecraft.client.gui.screen.OptionsScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = openlink
+  x = 1
+  width = 128
+  actionid = 0a888662-ee9b-499a-a8ca-cce3d4318b741625133220240
+  action = addbutton
+  y = 25
+  label = 开启局域网联机
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 1
+  width = 128
+  actionid = 6181ad7c-9c99-44de-ba43-7cb47cbb2a2a1625133276588
+  action = addbutton
+  y = 46
+  label = 保存并回到标题画面
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = quitgame
+  x = 1
+  width = 128
+  actionid = e10ea2f1-4c48-41bb-9b34-403e59bb22791625133312096
+  action = addbutton
+  y = 67
+  label = 退出游戏
+  value = 
+  height = 20
+}
+

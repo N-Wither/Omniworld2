@@ -1,0 +1,63 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.PackScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = a2dbb814-8469-4731-b115-63543a38b81d1636775543252
+  y = 13
+  scale = 1.0
+  alignment = left
+  value = 如果没有特殊需要，请不要加载Blue Skies Legacy, 
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 7370338c-f85b-4999-a0c8-76f355c91ad11636775627921
+  y = 22
+  scale = 1.0
+  alignment = left
+  value = Quark Programmer Art, Programmer Art 和 Twilight
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 58c372e1-667c-407c-ab85-c4c822ed14e81636775659841
+  y = 31
+  scale = 1.0
+  alignment = left
+  value = Classic 这4个资源包。
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = c20caf61-f33a-4489-b55a-f84a12e2f0cd1636775871104
+  y = 40
+  scale = 1.0
+  alignment = left
+  value = 除非你真的很喜欢旧版的材质。
+}
+

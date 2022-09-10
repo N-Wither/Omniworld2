@@ -1,0 +1,11 @@
+{
+    "name":"Prefab",
+    "icon":"prefab:item_start_house",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Prefab 是一个一键建筑模组，你第一次进入这个存档的时候就已经有一个此模组的物品了。$(br)在JEI搜索栏输入 @prefab 查看其他蓝图的合成方法。"
+        }
+    ]
+}

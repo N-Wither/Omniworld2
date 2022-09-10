@@ -1,0 +1,21 @@
+{
+    "name":"Forbidden & Arcanus",
+    "icon":"forbidden_arcanus:arcane_crystal",
+    "category":"patchouli:mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"虽然这个模组自带一本书，但是不知道为什么无法阅读，所以我在这里写点提示。"
+        },
+        {
+            "type":"spotlight",
+            "item":"forbidden_arcanus:xpetrified_orb",
+            "text":"可以通过挖矿获取，也可以通过黑洞获取。"
+        },
+        {
+            "type":"text",
+            "title":"黑洞",
+            "text":"将一块华贵木烧制成暗物质，将其和一撮腐化粉末一起丢在地上来制造一个黑洞。$(br)可以当作垃圾桶，如果吸收了足够的经验球，会吐出一个石化经验球。"
+        }
+    ]
+}

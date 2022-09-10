@@ -1,0 +1,16 @@
+{
+    "name":"地图传送",
+    "icon":"waystones:waystone",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"按ALT放大小地图，双击ALT恢复默认大小，按M打开世界地图。 $(br)$(br)    你可以使用地图自带的路径点功能，按B键在当前位置新增路径点，在地图上按+键快速创建路径点。$(br)$(br)    如果你没有启用作弊选项，可以制作一些传送石。传送石激活的时候会同步创建路径点，"
+        },
+        {
+            "type":"crafting",
+            "recipe":"waystones:waystone",
+            "text":"无成本传送，RPG风格。"
+        }
+    ]
+}

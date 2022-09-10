@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "undergarden:forgotten_guardian"
+    ]
+  },
+  "result": {
+    "fluid": "materialis:molten_forgotten_metal",
+    "amount": 5
+  },
+  "damage": 2
+}

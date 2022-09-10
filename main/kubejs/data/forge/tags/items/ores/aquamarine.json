@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:aquamarine_ore_block",
+        "gemsnjewels:aquamarine_deepslate_ore_block",
+        "gemsnjewels:aquamarine_nether_ore_block"
+    ]
+}

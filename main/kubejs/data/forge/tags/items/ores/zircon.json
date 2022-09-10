@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:zircon_ore_block",
+        "gemsnjewels:zircon_deepslate_ore_block",
+        "gemsnjewels:zircon_nether_ore_block"
+    ]
+}

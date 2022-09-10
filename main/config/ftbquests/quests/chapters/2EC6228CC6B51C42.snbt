@@ -1,0 +1,22 @@
+{
+	id: "2EC6228CC6B51C42"
+	group: "203B2C4C445B6C7D"
+	order_index: 0
+	filename: "2EC6228CC6B51C42"
+	title: "关于整合包"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/isles.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [ ]
+}

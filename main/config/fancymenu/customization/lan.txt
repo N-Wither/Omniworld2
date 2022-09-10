@@ -1,0 +1,75 @@
+type = menu
+
+customization-meta {
+  identifier = org.zeith.lan.BetterShareToLanScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -184
+  action = addtext
+  actionid = 8101c9d8-beb5-42f8-9ebd-cdacd266d3181639026618356
+  y = -46
+  scale = 1.0
+  alignment = left
+  value = 端口
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 158
+  action = addtext
+  actionid = cb99ab42-0031-42a9-8c0d-0d0134c401431639026648337
+  y = -46
+  scale = 1.0
+  alignment = left
+  value = 服务器名
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -197
+  action = addtext
+  actionid = fc7acced-3daf-43b9-9108-1d324063e8c81639026697046
+  y = 44
+  scale = 1.0
+  alignment = left
+  value = 当在线模式开启时，别的玩家需要正版登录才能加入
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 4
+  action = addtext
+  actionid = 5117d21b-efa6-40fb-8c2b-d95a124fcb1a1639026734503
+  y = 43
+  scale = 1.0
+  alignment = left
+  value = 开启/关闭玩家之间的伤害
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 154
+  action = addtext
+  actionid = f3584cf6-b696-45a5-840b-b2032a4af53d1639026818381
+  y = 12
+  scale = 1.0
+  alignment = left
+  value = 最大玩家数量
+}
+

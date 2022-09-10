@@ -1,0 +1,16 @@
+{
+    "name":"Morphing Tool",
+    "icon":"morphtool:tool",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Like the Akashic Tome, but for wrenches(including Wand of the Forest), you don't need to choose tools manually, the Morphing Tool is automatic."
+        },
+        {
+            "type":"crafting",
+            "recipe":"morphtool:tool",
+            "text":"$(#ff0000)R$(#00ff00)G$(#0000ff)B"
+        }
+    ]
+}

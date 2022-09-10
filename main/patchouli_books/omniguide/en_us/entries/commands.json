@@ -1,0 +1,11 @@
+{
+    "name":"Useful Commands",
+    "icon":"minecraft:command_block",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Something"
+        }
+    ]
+}

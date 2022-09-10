@@ -1,0 +1,183 @@
+type = menu
+
+customization-meta {
+  identifier = updateinfo
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = f0f5a034-da10-4f47-a533-0e5e450a3f5a1633841726425
+  y = -148
+  scale = 1.5
+  alignment = left
+  value = Ver 1.8.0
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 823d17e7-b17c-4f3e-8060-b459f520e4f71633841821574
+  y = -135
+  scale = 1.0
+  alignment = left
+  value = 添加了龙之进化模组（Draconic Evolution）；
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 52a44c23-1c77-4754-9870-b9c55a010d571633841926047
+  y = -126
+  scale = 1.0
+  alignment = left
+  value = 添加了更高级的种植盆（Botany Pots Tiers）；
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = c6958f85-d983-4356-a677-7be80a38c9791633841950238
+  y = -99
+  scale = 1.0
+  alignment = left
+  value = 移除了 FastFurnace，替换为 FastFurnace Minus Replacement；
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = be6db96b-478d-4299-aa10-447e7a679cd51633842938171
+  y = -90
+  scale = 1.0
+  alignment = left
+  value = 移除了 Inventory Sorter 和 Inventory Essentials，替换为 Inventory Profiles Next；
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 6c61955c-3e49-46e3-9b27-ef113165e4601633843036833
+  y = -117
+  scale = 1.0
+  alignment = left
+  value = 添加了物品收集器（Item Collectors）；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 47c23880-0c95-4b8e-9bf3-f6e9d7c70d521633919737836
+  y = 99
+  scale = 1.0
+  alignment = left
+  value = 移除了 Chocolate Fix；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 3369dd10-9bde-41e4-8d80-df0bdb17e2ca1633919789528
+  y = 135
+  scale = 1.0
+  alignment = left
+  value = 为凿子添加了更多兼容；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 1dd5710e-c859-49ad-9401-32fa8ccffb901633949576064
+  y = 126
+  scale = 1.0
+  alignment = left
+  value = 移除了 Kleeslabs，因为 Double Slabs 已经包含此功能；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 4fc2ff9a-9638-4c0a-bfca-6f353d157b041633949670905
+  y = 108
+  scale = 1.0
+  alignment = left
+  value = 移除了暗物质和红物质太阳能板的合成；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 166ffe3c-5253-44a2-b6cf-febc3b6f709a1633949714495
+  y = 117
+  scale = 1.0
+  alignment = left
+  value = 移除了 Structures Compass，替换为 Explorer's Compass；
+}
+
+customization {
+  orientation = mid-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 19b6be11-c1c7-4942-8b5c-1315abc39ff91633949951277
+  y = -108
+  scale = 1.0
+  alignment = left
+  value = 添加了等价交换升级（Project EX）；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 28145e75-7366-41e8-8603-632822b4117f1633961951638
+  y = 144
+  scale = 1.0
+  alignment = left
+  value = 进一步统一了所有的矿物，现在所有的主流矿物及制品均由 Emendatus Enigmatica 提供；
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 3c999a93-7b53-4c04-b071-c507d94803ea1634108236503
+  y = 153
+  scale = 1.0
+  alignment = left
+  value = 添加了星辉魔法的任务，修复了一些关于此模组的问题；
+}
+

@@ -1,0 +1,7 @@
+#
+#  Chain Quality
+#
+# Effects the visual quality of the chain.
+#Range: 1 ~ 9
+quality = 4
+

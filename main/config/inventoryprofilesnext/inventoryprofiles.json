@@ -1,0 +1,28 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "continuous_crafting_saved_value": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": false
+    },
+    "AutoRefillSettings": {
+        "ignore_locked_slots": false,
+        "refill_armor": false,
+        "refill_before_tool_break": false,
+        "audio_durability_notification": false,
+        "audio_replace_success_notification": false,
+        "audio_replace_failed_notification": false,
+        "type_visual_replace_failed_notification": "HOTBAR"
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "key.openNotes": {
+    "keyCode": 59,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.summon": {
+    "keyCode": 44,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  }
+}

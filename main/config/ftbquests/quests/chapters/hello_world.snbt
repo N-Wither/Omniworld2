@@ -1,0 +1,249 @@
+{
+	id: "073B8EC5B8F015CA"
+	group: ""
+	order_index: 0
+	filename: "hello_world"
+	title: "Hello World!"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 1.5d
+			y: -0.5d
+			width: 28.8d
+			height: 16.2d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/hello_world.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			width: 10.8d
+			height: 0.8d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/choose_path.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			width: 4.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/path_explorer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			width: 4.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/path_engineer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			width: 4.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/path_mage.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 5.8d
+			width: 4.0d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/text_explorer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 5.8d
+			width: 4.0d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/text_engineer.png"
+			hover: [
+				"工程师熟悉多种机械的原理和功能，你将利用不同的机器建设基地、生产资源，"
+				"随着技术的进步，你能实现完全的自动化吗？"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 5.8d
+			width: 2.2d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/text_mage.png"
+			hover: [
+				"法师探究并利用魔法的力量，你将通过研究不同的魔法分支来精进你的魔法技能，"
+				"一些魔法十分强大，但你能够驾驭它们吗？"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "欢迎来到世界！"
+			icon: "minecraft:oak_sapling"
+			x: -9.0d
+			y: -4.0d
+			subtitle: "你好！"
+			description: [
+				"感谢你选择了Omniworld，首先要明确一点，这个整合包没有通常意义上的目标，不过我确实设置了一些很难做的东西，你可以将它们作为你的目标。"
+				""
+				"如果你在游玩的时候遇到什么问题，可以先试试在游戏内或者网上查查资料，如果没有你想要的结果，可以在暂停菜单找到我的联系方式。"
+				""
+				"这个整合包仍处于制作中的状态，大量任务尚未加入，你可以随处看看有没有什么感兴趣的东西。"
+				""
+				"如果你有任何问题，请看看这个任务送给你的书！"
+			]
+			id: "720AEE60DA14748C"
+			tasks: [{
+				id: "75514FA02BDE90AE"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+			rewards: [
+				{
+					id: "0266DEAD421C7DAF"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+					count: 4
+				}
+				{
+					id: "299114AF297EFE4D"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:omniguide"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "选择成为探索者"
+			icon: "biomesoplenty:bop_icon"
+			x: -5.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["探索者将走遍这个世界和许多其他的世界，你会见到各种各样有趣的事物，也会遇见不少强力的敌人，你能走多远？"]
+			hide_dependency_lines: true
+			dependencies: ["4D884878FA19ADD0"]
+			id: "7322554D84075BF9"
+			tasks: [{
+				id: "0AE7D898148C162E"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			title: "选择成为魔法师"
+			icon: "ars_nouveau:archmage_spell_book"
+			x: 1.5d
+			y: 5.0d
+			shape: "diamond"
+			description: ["魔法师探究并利用魔法的力量，你将通过研究不同的魔法分支来精进你的魔法技能，一些魔法十分强大，但你能够驾驭它们吗？"]
+			hide_dependency_lines: true
+			dependencies: ["4D884878FA19ADD0"]
+			id: "0429F3CC27BED625"
+			tasks: [{
+				id: "5FCEE647D7E8C97B"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			title: "选择成为工程师"
+			icon: "avaritia:neutronium_gear"
+			x: 7.5d
+			y: 5.0d
+			shape: "diamond"
+			description: ["工程师熟悉多种机械的原理和功能，你将利用不同的机器建设基地、生产资源，随着技术的进步，你能实现完全的自动化吗？"]
+			hide_dependency_lines: true
+			dependencies: ["4D884878FA19ADD0"]
+			id: "32CB2054D750E015"
+			tasks: [{
+				id: "45F95D98F7B36743"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			title: "选择你的道路"
+			icon: "supplementaries:sign_post_oak"
+			x: 1.6d
+			y: -0.8d
+			shape: "square"
+			description: [
+				"选择你的游戏风格。三条道路都拥有自己的任务线，确认选择之后将会解锁。"
+				""
+				"不会对游戏玩法产生任何影响。"
+			]
+			size: 0.8d
+			id: "4D884878FA19ADD0"
+			tasks: [{
+				id: "56C89278C0BE7D0B"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			title: "工作台"
+			x: -7.0d
+			y: -4.0d
+			subtitle: "万恶之源工作台"
+			id: "03928519C970D5D6"
+			tasks: [{
+				id: "4AD2BDA422F77909"
+				type: "item"
+				title: "Any #forge:workbenches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FAD85DCC5126FE7"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 32
+			}]
+		}
+	]
+}

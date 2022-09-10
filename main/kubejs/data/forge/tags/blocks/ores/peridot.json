@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:peridot_ore_block",
+        "gemsnjewels:peridot_deepslate_ore_block",
+        "gemsnjewels:peridot_nether_ore_block"
+    ]
+}

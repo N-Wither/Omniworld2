@@ -1,0 +1,259 @@
+
+[spawncontrol]
+
+	[spawncontrol.overworld]
+		#Enable Aluminum Worldgen(Overworld)
+		aluminum = true
+		#Enable Iridium Worldgen(Overworld)
+		iridium = true
+		#Enable Lead Worldgen(Overworld)
+		lead = true
+		#Enable Nickel Worldgen(Overworld)
+		nickel = true
+		#Enable Osmium Worldgen(Overworld)
+		osmium = true
+		#Enable Platinum Worldgen(Overworld)
+		platinum = true
+		#Enable Silver Worldgen(Overworld)
+		silver = true
+		#Enable Tin Worldgen(Overworld)
+		tin = true
+		#Enable Uranium Worldgen(Overworld)
+		uranium = true
+		#Enable Zinc Worldgen(Overworld)
+		zinc = true
+		#Enable Ruby Worldgen(Overworld-Plains)
+		ruby = true
+		#Enable Sapphire Worldgen(Overworld-Ocean)
+		sapphire = true
+		#Enable Peridot Worldgen(Overworld-Desert)
+		peridot = true
+
+	[spawncontrol.nether]
+		#Enable Aluminum Worldgen(Nether)
+		aluminum_nether = true
+		#Enable Iridium Worldgen(Nether)
+		iridium_nether = true
+		#Enable Lead Worldgen(Nether)
+		lead_nether = true
+		#Enable Nickel Worldgen(Nether)
+		nickel_nether = true
+		#Enable Osmium Worldgen(Nether)
+		osmium_nether = true
+		#Enable Platinum Worldgen(Nether)
+		platinum_nether = true
+		#Enable Silver Worldgen(Nether)
+		silver_nether = true
+		#Enable Tin Worldgen(Nether)
+		tin_nether = true
+		#Enable Uranium Worldgen(Nether)
+		uranium_nether = true
+		#Enable Zinc Worldgen(Nether)
+		zinc_nether = true
+
+	[spawncontrol.end]
+		#Enable Aluminum Worldgen(The End)
+		aluminum_end = true
+		#Enable Iridium Worldgen(The End)
+		iridium_end = true
+		#Enable Lead Worldgen(The End)
+		lead_end = true
+		#Enable Nickel Worldgen(The End)
+		nickel_end = true
+		#Enable Osmium Worldgen(The End)
+		osmium_end = true
+		#Enable Platinum Worldgen(The End)
+		platinum_end = true
+		#Enable Silver Worldgen(The End)
+		silver_end = true
+		#Enable Tin Worldgen(The End)
+		tin_end = true
+		#Enable Uranium Worldgen(The End)
+		uranium_end = true
+		#Enable Zinc Worldgen(The End)
+		zinc_end = true
+
+[spawntuning]
+
+	[spawntuning.aluminum]
+		#Aluminum generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		aluminum_min_y = 50
+		#Aluminum generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		aluminum_max_y = 120
+		#Aluminum deposit size(number of ores)
+		#Range: 1 ~ 64
+		aluminum_deposit_size = 7
+		#Aluminum deposit count(number of veins)
+		#Range: 1 ~ 64
+		aluminum_deposit_count = 20
+
+	[spawntuning.iridium]
+		#Iridium generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		iridium_min_y = 5
+		#Iridium generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		iridium_max_y = 69
+		#Iridium deposit size(number of ores)
+		#Range: 1 ~ 64
+		iridium_deposit_size = 2
+		#Iridium rarity, lower = more common
+		#Range: 1 ~ 64
+		iridium_deposit_count = 1
+
+	[spawntuning.zinc]
+		#Zinc generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		zinc_min_y = 5
+		#Zinc generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		zinc_max_y = 100
+		#Zinc deposit size(number of ores)
+		#Range: 1 ~ 64
+		zinc_deposit_size = 7
+		#Zinc deposit count(number of veins)
+		#Range: 1 ~ 64
+		zinc_deposit_count = 20
+
+	[spawntuning.lead]
+		#Lead generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		lead_min_y = 5
+		#Lead generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		lead_max_y = 95
+		#Lead deposit size(number of ores)
+		#Range: 1 ~ 64
+		lead_deposit_size = 7
+		#Lead deposit count(number of veins)
+		#Range: 1 ~ 64
+		lead_deposit_count = 20
+
+	[spawntuning.nickel]
+		#Nickel generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		nickel_min_y = 1
+		#Nickel generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		nickel_max_y = 85
+		#Nickel deposit size(number of ores)
+		#Range: 1 ~ 64
+		nickel_deposit_size = 7
+		#Nickel deposit count(number of veins)
+		#Range: 1 ~ 64
+		nickel_deposit_count = 20
+
+	[spawntuning.osmium]
+		#Osmium generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		osmium_min_y = 10
+		#Osmium generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		osmium_max_y = 100
+		#Osmium deposit size(number of ores)
+		#Range: 1 ~ 64
+		osmium_deposit_size = 7
+		#Osmium deposit count(number of veins)
+		#Range: 1 ~ 64
+		osmium_deposit_count = 20
+
+	[spawntuning.platinum]
+		#Platinum generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		platinum_min_y = 1
+		#Platinum generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		platinum_max_y = 70
+		#Platinum deposit size(number of ores)
+		#Range: 1 ~ 64
+		platinum_deposit_size = 3
+		#Platinum deposit count(number of veins)
+		#Range: 1 ~ 64
+		platinum_deposit_count = 20
+
+	[spawntuning.silver]
+		#Silver generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		silver_min_y = 50
+		#Silver generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		silver_max_y = 120
+		#Silver deposit size(number of ores)
+		#Range: 1 ~ 64
+		silver_deposit_size = 5
+		#Silver deposit count(number of veins)
+		#Range: 1 ~ 64
+		silver_deposit_count = 20
+
+	[spawntuning.tin]
+		#Tin generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		tin_min_y = 55
+		#Tin generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		tin_max_y = 180
+		#Tin deposit size(number of ores)
+		#Range: 1 ~ 64
+		tin_deposit_size = 7
+		#Tin deposit count(number of veins)
+		#Range: 1 ~ 64
+		tin_deposit_count = 20
+
+	[spawntuning.ruby]
+		#Ruby generates no lower than
+		#Range: -64 ~ 320
+		ruby_min_y = -62
+		#Ruby generates no higher than
+		#Range: -64 ~ 320
+		ruby_max_y = 16
+		#Ruby deposit size(number of ores)
+		#Range: 1 ~ 64
+		ruby_deposit_size = 2
+		#Ruby deposit count(number of veins)
+		#Range: 1 ~ 64
+		ruby_deposit_count = 3
+
+	[spawntuning.sapphire]
+		#Sapphire generates no lower than
+		#Range: -64 ~ 320
+		sapphire_min_y = -62
+		#Sapphire generates no higher than
+		#Range: -64 ~ 320
+		sapphire_max_y = 16
+		#Sapphire deposit size(number of ores)
+		#Range: 1 ~ 64
+		sapphire_deposit_size = 2
+		#Sapphire deposit count(number of veins)
+		#Range: 1 ~ 64
+		sapphire_deposit_count = 3
+
+	[spawntuning.peridot]
+		#Peridot generates no lower than
+		#Range: -64 ~ 320
+		peridot_min_y = -62
+		#Peridot generates no higher than
+		#Range: -64 ~ 320
+		peridot_max_y = 16
+		#Peridot deposit size(number of ores)
+		#Range: 1 ~ 64
+		peridot_deposit_size = 2
+		#Peridot deposit count(number of veins)
+		#Range: 1 ~ 64
+		peridot_deposit_count = 3
+
+	[spawntuning.uranium]
+		#Uranium generates no lower than X blocks above world BOTTOM
+		#Range: -64 ~ 320
+		uranium_min_y = 1
+		#Uranium generates no higher than X blocks above world BOTTOM
+		#Range: 0 ~ 320
+		uranium_max_y = 70
+		#Uranium deposit size(number of ores)
+		#Range: 1 ~ 64
+		uranium_deposit_size = 4
+		#Uranium deposit count(number of veins)
+		#Range: 1 ~ 64
+		uranium_deposit_count = 20
+

@@ -1,0 +1,15 @@
+{
+    "name":"实用指令",
+    "icon":"minecraft:command_block",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"这个整合包添加了一些实用指令，与原版指令不同的是，这些指令以“-”开头而不是“/”。"
+        },
+        {
+            "type":"text",
+            "text":"-purge $(br)清理所有掉落物。 $(br2)-book $(br)获得一本阿卡什宝典。 $(br2)-suicide $(br)自杀。"
+        }
+    ]
+}

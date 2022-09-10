@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:pale_diamond",
+        "gemsnjewels:emerald",
+        "gemsnjewels:ruby",
+        "gemsnjewels:sapphire",
+        "gemsnjewels:amethyst",
+        "gemsnjewels:opal",
+        "gemsnjewels:garnet",
+        "gemsnjewels:topaz",
+        "gemsnjewels:peridot",
+        "gemsnjewels:aquamarine",
+        "gemsnjewels:zircon",
+        "gemsnjewels:alexandrite",
+        "gemsnjewels:tanzanite",
+        "gemsnjewels:tourmaline",
+        "gemsnjewels:spinel",
+        "gemsnjewels:black_opal",
+        "gemsnjewels:citrine",
+        "gemsnjewels:morganite",
+        "gemsnjewels:ametrine",
+        "gemsnjewels:kunzite",
+        "gemsnjewels:iolite",
+        "nourished_end:malachite"
+    ]
+}

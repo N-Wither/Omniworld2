@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "types": [
+      "undergarden:rotling",
+      "undergarden:rotwalker",
+      "undergarden:rotbeast"
+    ]
+  },
+  "result": {
+    "fluid": "materialis:molten_utherium",
+    "amount": 20
+  },
+  "damage": 2
+}

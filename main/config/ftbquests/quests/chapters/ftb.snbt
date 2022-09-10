@@ -1,0 +1,290 @@
+{
+	id: "6BEB76EE62924E1D"
+	group: "0C7049A86898E462"
+	order_index: 4
+	filename: "ftb"
+	title: "工业奇械"
+	icon: "ftbic:advanced_machine_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/ftbic.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "还记得大明湖畔的工业时代2吗？"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "经典！"
+			description: [
+				"工业时代2（IC2）可谓是最经典的模组之一了，不知道有多少人第一次接触的科技模组就是它。然而，在相当长的一段时间里，IC2一直停留在1.12.2，即使目前IC2的1.18版本正在开发，但直到现在也没有发布一个公开的版本。"
+				""
+				"在此介绍FTB工业奇械（FTBIC），这是FTB团队制作的适用于高版本的IC2精神续作。"
+				""
+				"本模组使用的能量单位是⚡，这是一个emoji，在这个模组里面念作Zap(s)，1⚡=4FE。"
+			]
+			dependencies: ["32CB2054D750E015"]
+			hide: true
+			id: "50C625CF03C6D6CF"
+			tasks: [{
+				id: "405418A167DAAB56"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+		}
+		{
+			title: "橡胶树"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "软软黏黏"
+			description: [
+				"首先你需要一些橡胶...在野外找到一棵橡胶树或者买一株树苗，然后把龙头和小木桶插在树干上，就跟现实中一样，然后等着收获生橡胶吧。"
+				""
+				"实际上你可以直接用热力系列的硫化橡胶...但我还是建议你做一下这个任务..."
+			]
+			dependencies: ["50C625CF03C6D6CF"]
+			id: "3C0A5CC10850A85F"
+			tasks: [
+				{
+					id: "659DAD6EEC9A2443"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "52B9700305AF795B"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+				{
+					id: "2FAC22DD19E0EAC0"
+					type: "item"
+					item: "myrtrees:latex"
+				}
+				{
+					id: "2A114013D4442617"
+					type: "observation"
+					title: "搞到一棵橡胶树"
+					icon: "myrtrees:rubberwood_log"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:dirt"
+				}
+			]
+			rewards: [{
+				id: "200D84CD3B07F40A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "安全用电"
+			description: [
+				"嗯，你可能用FE（或者RF）用习惯了，这里介绍一下电压的概念。在这个模组中，线缆和机器都有自己的承压上限，一旦接受到的电压超过这个上限，导线会烧毁，机器的保险丝会烧断（抱歉在这里空气开关还没有发明出来，不过总比机器爆炸要好得多）。"
+				""
+				"另外这个模组的导线可以给使用FE的机器供电，但是反过来不行。"
+			]
+			dependencies: ["50C625CF03C6D6CF"]
+			id: "6ED632FAFB7C8E5F"
+			tasks: [{
+				id: "29B62F5C9B79D87D"
+				type: "item"
+				item: "ftbic:lv_cable"
+			}]
+			rewards: [{
+				id: "0DA6E7B42594F8A7"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["6ED632FAFB7C8E5F"]
+			id: "7CA9D79BA34FE39D"
+			tasks: [{
+				id: "78CB8716AE9E1AA3"
+				type: "item"
+				item: "ftbic:mv_cable"
+			}]
+			rewards: [{
+				id: "4A1139E98B1753E1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["7CA9D79BA34FE39D"]
+			id: "2DDDD8807410E136"
+			tasks: [{
+				id: "47142C0FAEE5E63C"
+				type: "item"
+				item: "ftbic:hv_cable"
+			}]
+			rewards: [{
+				id: "106A98B321DE6673"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["7CA9D79BA34FE39D"]
+			id: "4EB4684B5C89814B"
+			tasks: [{
+				id: "071CA451BD9048AF"
+				type: "item"
+				item: "ftbic:mv_transformer"
+			}]
+			rewards: [{
+				id: "26668D58010EFC9F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["2DDDD8807410E136"]
+			id: "51713FC70DB297B6"
+			tasks: [{
+				id: "3F124ACC1CB869CF"
+				type: "item"
+				item: "ftbic:hv_transformer"
+			}]
+			rewards: [{
+				id: "72778A910B5B9A99"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["2DDDD8807410E136"]
+			id: "2F61451BF6FC6421"
+			tasks: [{
+				id: "62B4ECBBBFB2B35A"
+				type: "item"
+				item: "ftbic:ev_cable"
+			}]
+			rewards: [{
+				id: "6737EF680888FD7A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["2F61451BF6FC6421"]
+			id: "640C68501F79C7CD"
+			tasks: [{
+				id: "07704E3DFDC399B3"
+				type: "item"
+				item: "ftbic:ev_transformer"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["50C625CF03C6D6CF"]
+			id: "5DE435C58DA4EDB3"
+			tasks: [{
+				id: "6FF0134523338D01"
+				type: "item"
+				item: "ftbic:industrial_grade_metal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["5DE435C58DA4EDB3"]
+			id: "63CB2726F25CE0AD"
+			tasks: [{
+				id: "1FF776D03D2C49AA"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["63CB2726F25CE0AD"]
+			id: "56B83782DCD92F7F"
+			tasks: [{
+				id: "5FDD60D59A929618"
+				type: "item"
+				item: "ftbic:macerator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["63CB2726F25CE0AD"]
+			id: "7311EFD9EBE31854"
+			tasks: [{
+				id: "3EF84D04BA0BCCEE"
+				type: "item"
+				item: "ftbic:powered_furnace"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["63CB2726F25CE0AD"]
+			id: "0E159EAD1EB46B97"
+			tasks: [{
+				id: "6EA17929974D254A"
+				type: "item"
+				item: "ftbic:basic_generator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["56B83782DCD92F7F"]
+			id: "379658F46D282218"
+			tasks: [{
+				id: "3E74138ADAF86AFF"
+				type: "item"
+				item: "ftbic:advanced_alloy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["379658F46D282218"]
+			id: "13EF91F308C02ECA"
+			tasks: [{
+				id: "453F47AF1E8A7C7A"
+				type: "item"
+				item: "ftbic:advanced_machine_block"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["13EF91F308C02ECA"]
+			id: "39630ECD7C709275"
+			tasks: [{
+				id: "779136348F02AEE0"
+				type: "item"
+				item: "ftbic:nuclear_reactor"
+			}]
+		}
+	]
+}

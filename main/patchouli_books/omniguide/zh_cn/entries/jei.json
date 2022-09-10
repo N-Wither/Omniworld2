@@ -1,0 +1,15 @@
+{
+    "name":"JEI",
+    "icon":"chiselsandbits:magnifying_glass",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"你可以在物品栏右侧的JEI菜单里查看（几乎）所有的物品，点击一个物品（或者按R）查看合成方式，对物品按U查看用途。$(br)    可以直接用拼音搜索物品，也可以按模组/标签/颜色搜索。"
+        },
+        {
+            "type":"text",
+            "text":"例如，输入 @create 可以查看所有ID包含“create”的模组的物品；输入 $ingots/copper 查看所有标签含有“ingots/copper”的物品。更多方式可点击JEI菜单右下角的设置按钮查看。"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+#Beach Update
+[beach]
+	#How often (in percentage) should Coconut Crabs spawn when a coconut breaks? Set it to 0.0 to disable this.
+	#Range: 0.0 ~ 1.0
+	coconutCrabSpawnChance = 0.2
+	#Generate coconut trees on beaches
+	generateCoconutTrees = true
+	#How often (in percentage) should coconut trees spawn per chunk?
+	#Range: 0.0 ~ 1.0
+	coconutTreeSpawnChance = 0.5
+	#Generate seashells on beaches
+	generateSeashells = true
+
+#Desert Update
+[desert]
+	#Camel spawn weight. Set to 0 to disable.
+	#Range: 0 ~ 1000
+	camelSpawnWeight = 1
+	#Generate prickly pears on top of cacti in the desert
+	generatePricklyPears = true
+	#How often (in percentage) should prickly pears grow when a cactus reaches full height? Set it to 0.0 to disable this.
+	#Range: 0.0 ~ 1.0
+	pricklyPearGrowthChance = 1.0
+	#Generate ruins in deserts
+	generateDesertRuins = true
+
+#Snowy Update
+[snowy]
+	#Penguin spawn weight. Set to 0 to disable.
+	#Range: 0 ~ 1000
+	penguinSpawnWeight = 2
+	#Generate thin ice patches in icy biomes
+	generateThinIcePatches = true
+	#Thin ice patch count. Higher number = more frequent.
+	#Range: 0 ~ 256
+	thinIcePatchCount = 15
+
+#Plains Update
+[plains]
+	#Squirrel spawn weight. Set to 0 to disable.
+	#Range: 0 ~ 1000
+	squirrelSpawnWeight = 10
+	#Generate walnut trees in plains biomes
+	generateWalnutTrees = true
+	#Remove the oak trees in plains biomes so only walnut trees generate
+	removePlainsOakTrees = true
+
+#Lush Caves Update
+[lush_caves]
+	#Vanilla Azalea trees will have azalea logs instead of oak logs
+	replaceAzaleaTree = true
+	#Generate surface moss in lush cave biomes
+	generateSurfaceMoss = true
+

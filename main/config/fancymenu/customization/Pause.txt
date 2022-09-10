@@ -1,0 +1,211 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -78
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = setbuttondescription
+  description = I'm back!
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 69
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttondescription
+  description = Bye!
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-left
+  x = 132
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=374306%
+  action = setbuttondescription
+  description = Config screen of Create.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = setbuttondescription
+  description = See what you've got.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = setbuttondescription
+  description = Change game settings.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = setbuttondescription
+  description = See what you've done.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = setbuttondescription
+  description = Play with friends! %n%Or just for cheating...
+}
+
+customization {
+  identifier = %id=374330%
+  orientation = mid-left
+  x = 132
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=374330%
+  action = setbuttondescription
+  description = Config screen of Quark.
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = Some changed config files need a restart to apply.
+  label = Mods
+  loopbackgroundanimations = true
+  x = 1
+  width = 130
+  actionid = a3b46678-4cba-4bb4-9dcc-6d839078cf7d1626537165698
+  action = addbutton
+  y = 27
+  value = net.minecraftforge.client.gui.ModListScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Our Discord server!
+  label = Discord
+  loopbackgroundanimations = true
+  x = 1
+  width = 130
+  actionid = 4ff934ce-754a-484e-9b2f-1c6113c56d4d1634385486725
+  action = addbutton
+  y = -15
+  value = https://discord.gg/Vn5qGAWWxj
+  height = 20
+}
+

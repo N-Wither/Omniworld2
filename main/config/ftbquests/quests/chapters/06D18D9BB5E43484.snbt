@@ -1,0 +1,244 @@
+{
+	id: "06D18D9BB5E43484"
+	group: ""
+	order_index: 2
+	filename: "06D18D9BB5E43484"
+	title: "挑战"
+	icon: "gobber2:dragon_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/challenges.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "屠龙勇者"
+			x: -9.0d
+			y: -4.0d
+			subtitle: "解放末地"
+			description: [
+				"杀死末影龙。"
+				""
+				"如果你从传送门回来的话可能会卡住，退出重进就行了。"
+			]
+			id: "1B440B70D786AB46"
+			tasks: [{
+				id: "3C747C5D7F29A3F3"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "36BB2060AABA0E15"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 3
+				}
+				{
+					id: "25CEA7BF1E407B65"
+					type: "item"
+					item: "supplementaries:faucet"
+				}
+				{
+					id: "7F3B3DF9F7631049"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "屠龙勇者二代"
+			x: -7.0d
+			y: -4.0d
+			subtitle: "这才刚刚开始"
+			description: ["或许你在上一次杀末影龙的时候忘了带玻璃瓶，但是没关系，你可以无限次地复活它。只需要在返回传送门的4条边的中间分别放置一个末影水晶就能让它复活了。"]
+			dependencies: ["1B440B70D786AB46"]
+			id: "7AAFC699E2EF2915"
+			tasks: [{
+				id: "58FA4B2A88ADFEA7"
+				type: "kill"
+				title: "再击杀一只末影龙"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			title: "宝石之国"
+			x: -9.0d
+			y: 5.0d
+			subtitle: "美丽/脆弱/沉重"
+			description: ["获得所有的宝石。"]
+			id: "50D5A421253B68C8"
+			tasks: [
+				{
+					id: "43A974D76189E824"
+					type: "item"
+					item: "gemsnjewels:pale_diamond"
+				}
+				{
+					id: "4277DE94D8527C68"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "534884F1EC7A7478"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "244441E9AF9ABF96"
+					type: "item"
+					item: "gemsnjewels:emerald"
+				}
+				{
+					id: "6416C52B0916D522"
+					type: "item"
+					title: "Any #forge:gems/amethyst"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/amethyst"
+						}
+					}
+				}
+				{
+					id: "0F97660035F3C0EE"
+					type: "item"
+					title: "Any #forge:gems/ruby"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/ruby"
+						}
+					}
+				}
+				{
+					id: "267F8CA0D4AB7875"
+					type: "item"
+					title: "Any #forge:gems/sapphire"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/sapphire"
+						}
+					}
+				}
+				{
+					id: "0A206607610843F1"
+					type: "item"
+					item: "gemsnjewels:opal"
+				}
+				{
+					id: "7BA56A7260FECC42"
+					type: "item"
+					item: "gemsnjewels:garnet"
+				}
+				{
+					id: "2B5809C125DE6562"
+					type: "item"
+					item: "gemsnjewels:topaz"
+				}
+				{
+					id: "6AC5E2E00E5BFEE8"
+					type: "item"
+					item: "gemsnjewels:peridot"
+				}
+				{
+					id: "798B007488FA076C"
+					type: "item"
+					item: "gemsnjewels:aquamarine"
+				}
+				{
+					id: "3FACBBC591144B19"
+					type: "item"
+					item: "gemsnjewels:zircon"
+				}
+				{
+					id: "3890A8FB443C5CDD"
+					type: "item"
+					item: "gemsnjewels:alexandrite"
+				}
+				{
+					id: "5CDE5CF9DEEDBE83"
+					type: "item"
+					item: "gemsnjewels:tanzanite"
+				}
+				{
+					id: "73C289E481C8A374"
+					type: "item"
+					item: "gemsnjewels:tourmaline"
+				}
+				{
+					id: "1B5B50592E374DDA"
+					type: "item"
+					item: "gemsnjewels:spinel"
+				}
+				{
+					id: "0AD3F562FC1A02DC"
+					type: "item"
+					item: "gemsnjewels:black_opal"
+				}
+				{
+					id: "4DD18DF53C9F8639"
+					type: "item"
+					item: "gemsnjewels:citrine"
+				}
+				{
+					id: "15927E1CF8DD6E27"
+					type: "item"
+					item: "gemsnjewels:morganite"
+				}
+				{
+					id: "4277610AA431CF1F"
+					type: "item"
+					item: "gemsnjewels:ametrine"
+				}
+				{
+					id: "4E00441CCA634711"
+					type: "item"
+					item: "gemsnjewels:kunzite"
+				}
+				{
+					id: "368CF3E5AB10B658"
+					type: "item"
+					item: "gemsnjewels:iolite"
+				}
+				{
+					id: "436E66698F5F6C2C"
+					type: "item"
+					item: "blue_skies:pyrope_gem"
+				}
+				{
+					id: "75B44A3E7393B9C8"
+					type: "item"
+					item: "blue_skies:aquite"
+				}
+				{
+					id: "49D2F3C215B9826A"
+					type: "item"
+					item: "blue_skies:diopside_gem"
+				}
+				{
+					id: "1160AFA178180DCE"
+					type: "item"
+					item: "blue_skies:charoite"
+				}
+			]
+		}
+	]
+}

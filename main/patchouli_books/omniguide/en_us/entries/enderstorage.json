@@ -1,0 +1,20 @@
+{
+    "name":"Ender Storage",
+    "icon":"enderstorage:ender_chest",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Set channels by dyeing, those containers with 3 same colors will be recognized as connected."
+        },
+        {
+            "type":"crafting",
+            "recipe":"enderstorage:ender_chest",
+            "recipe2":"enderstorage:ender_tank"
+        },
+        {
+            "type":"crafting",
+            "recipe":"enderstorage:ender_pouch"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name":"The Mighty Architect",
+    "icon":"create:empty_schematic",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Open the menu, choose your pattern and size. You can print the structure directly in Creative Mode, in Survival Mode, you can save the structure as nbt file and load with Create's schematics."
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name":"JEI",
+    "icon":"chiselsandbits:magnifying_glass",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"You can see (almost) all items in the JEI menu. Click an item (or press R) to inquire its reciple, press U to see its usage.$(br)    You can search items by modID/tags/color."
+        },
+        {
+            "type":"text",
+            "text":"For example, enter @create to check all items whose modID contain \"create\". Enter $ingots/tin to see all items with tag \"ingots/tin\" (technically all Tin Ingots). You can see more search methods in JEI config menu."
+        }
+    ]
+}

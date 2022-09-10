@@ -1,0 +1,207 @@
+{
+    "name":"通用机械",
+    "icon":"mekanism:alloy_atomic",
+    "category":"patchouli:mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"通用机械这样一个庞大的模组居然没有自带文档！但我也实在不想写一个，所以这里只有几个多方块结构的建造演示。"
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "FFF"],
+                    [ "F F"], 
+                    [ "F F"], 
+                    [ "F0F"]
+                ],
+                "mapping": {
+                    "F": "mekanism:teleporter_frame",
+                    "0": "mekanism:teleporter"
+                },
+                "symmetrical": true
+            },
+            "name":"传送机",
+            "text":"想在两个传送机之间旅行，只需要将两个传送机设定同一个频道。"
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["ECEE","V  V","E  E","EEEE"],
+                    ["EEEE","EEEE","E0EE","EEEE"]
+                ],
+                "mapping":{
+                    "E":"mekanism:thermal_evaporation_block",
+                    "V":"mekanism:thermal_evaporation_valve",
+                    "C":"mekanism:thermal_evaporation_controller",
+                    "0":"mekanism:thermal_evaporation_block"
+                },
+                "symmetrical":true
+            },
+            "name":"热力蒸馏塔",
+            "text":"蒸馏使用的热源可以是电阻加热器或者高级太阳能发电机。更高的塔可以容纳更多流体。"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$() $(br)热力蒸馏控制器$(br)热力蒸馏方块$(br)热力蒸馏阀门"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCC","CCCCC","CCCCC","CCCCC","CCCCC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CCCCC","CDDDC","CDDDC","CDDDC","CCCCC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CVGVC","G   G","G S G","G   G","CGGGC"],
+                    ["CCCCC","CCCCC","CC0CC","CCCCC","CCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanism:boiler_casing",
+                    "G":"mekanism:structural_glass",
+                    "D":"mekanism:pressure_disperser",
+                    "V":"mekanism:boiler_valve",
+                    "S":"mekanism:superheating_element",
+                    "0":"mekanism:boiler_casing"
+                }
+            },
+            "name":"热力锅炉",
+            "text":"最小为5*5*5，结构玻璃可替换成锅炉外壳。"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$() $(br)锅炉外壳$(br)锅炉阀门$(br)分压元件$(br)发热元件$(br)结构玻璃（可选）$(br2)$(l)注意事项：$()$(br)阀门可使用配置器改变输入/输出模式；$(br)上下两层的大小决定蒸汽和水的容量；$(br)发热元件的数量决定热转换效率"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCCCC","CTTTTTC","CTTTTTC","CTTTTTC","CTTTTTC","CTTTTTC","CCCCCCC"],
+                    ["CGGGGGC","GSSSSSG","GSSSSSG","GSEEESG","GSSSSSG","GSSSSSG","CGGGGGC"],
+                    ["CGGGGGC","GDDDDDG","GDDDDDG","GDDRDDG","GDDDDDG","GDDDDDG","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CVGGGVC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CCCCCCC","CCCCCCC","CCCCCCC","CCC0CCC","CCCCCCC","CCCCCCC","CCCCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:turbine_casing",
+                    "T":"mekanismgenerators:turbine_vent",
+                    "G":"mekanism:structural_glass",
+                    "E":"mekanismgenerators:electromagnetic_coil",
+                    "D":"mekanism:pressure_disperser",
+                    "R":"mekanismgenerators:rotational_complex",
+                    "S":"mekanismgenerators:saturating_condenser",
+                    "P":"mekanismgenerators:turbine_rotor",
+                    "V":"mekanismgenerators:turbine_valve",
+                    "0":"mekanismgenerators:turbine_casing"
+                }
+            },
+            "text":"蒸汽涡轮"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$() $(br)涡轮外壳$(br)涡轮阀门$(br)分压元件$(br)涡轮转子$(br)复杂旋钮装置$(br)涡轮排气口$(br)电磁线圈$(br)涡轮叶片$(br)结构玻璃（可选）$(br)饱和冷凝器（可选）"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 注意事项：$() $(br)涡轮最大体积为17*17*18，最小为5*5*5；$(br)要在转子上安装叶片，涡轮才会工作；$(br)每个电磁线圈对应两个转子；$(br)电磁线圈要挨着复杂旋钮，多个电磁线圈要互相连接；$(br)应及时从排气口抽出冷凝水（只需要连接一个就能抽出所有）；$(br)处于分压元件的那一层及其上的结构玻璃可替换为排气口，其余的玻璃可替换成外壳或阀门。"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCC","CGGGC","CGGGC","CGGGC","CCCCC"],
+                    ["CGGGC","GR RG","G R G","GR RG","CGGGC"],
+                    ["CGGGC","GF FG","G F G","GF FG","CGGGC"],
+                    ["CGGGC","VF FV","G F G","VF FV","CGGGC"],
+                    ["CCCCC","CGGGC","CG0GC","CGGGC","CCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:fission_reactor_casing",
+                    "G":"mekanismgenerators:reactor_glass",
+                    "R":"mekanismgenerators:control_rod_assembly",
+                    "F":"mekanismgenerators:fission_fuel_assembly",
+                    "V":"mekanismgenerators:fission_reactor_port",
+                    "0":"mekanismgenerators:reactor_glass"
+                }
+            },
+            "name":"裂变反应堆"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$()$(br)裂变反应堆外壳$(br)裂变反应堆端口$(br)裂变燃料组件$(br)控制棒组件$(br)强化玻璃（可选）$(br)裂变反应堆逻辑适配器（可选）"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 注意事项：$()$(br)最大体积为18*18*18，最小体积为3*3*4；$(br)示例中的强化玻璃可替换为外壳、端口和逻辑适配器；$(br)逻辑适配器可以根据反应堆的状况输出红石信号；$(br)燃料组件可任意竖向堆叠，但顶部必须是控制棒；$(br)燃料组件柱挨得越近，效率越低；$(br)使用配置器改变端口的输入输出模式；$(br)冷却剂可使用水或钠蒸汽；$(br)请保证足够的冷却剂输入，同时尽快抽出产物；"
+        },
+        {
+            "type":"text",
+            "text":"反应堆中存在核废料的时候请勿破坏反应堆，否则将导致核泄漏！$(br)紧急停机是安全的。"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["  CCC  "," CGGGC ","CGGGGGC","CGGGGGC","CGGGGGC"," CGGGC ","  CCC  "],
+                    [" CGGGC ","C     C","G     G","G     G","G     G","C     C"," CGGGC "],
+                    ["CGGGGGC","G     G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    ["CGGPGGC","G  S  G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    ["CPGGGPC","G     G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    [" CGGGC ","C     C","G     G","G     G","G     G","C     C"," CGGGC "],
+                    ["  CCC  "," CGGGC ","CGGGGGC","CGG0GGC","CGGGGGC"," CGGGC ","  CCC  "]
+                ],
+                "mapping":{
+                    "C":"mekanism:sps_casing",
+                    "G":"mekanism:structural_glass",
+                    "S":"mekanism:supercharged_coil",
+                    "P":"mekanism:sps_port",
+                    "0":"mekanism:structural_glass"
+                }
+            },
+            "name":"超临界移相器"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$()$(br)超临界移相器外壳$(br)超临界移相器端口$(br)增压线圈$(br)结构玻璃（建议） $(br2)$(l)注意事项：$()$(br)至少需要3个端口，一个用于供电，一个用于输入，一个用于输出，使用配置器调整；$(br)可以多放几个线圈增加生产速度，但要有足够的电量供应；$(br)最大产量就是2mb/t。"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["  C  "," CGC ","CGFGC"," CGC ","  C  "],
+                    [" CGC ","C   C","G   G","C   C"," CGC "],
+                    ["CGLGC","G   G","P   P","G   G","CGGGC"],
+                    [" CGC ","C   C","G   G","C   C"," CGC "],
+                    ["  C  "," CGC ","CG0GC"," CGC ","  C  "]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:fusion_reactor_frame",
+                    "G":"mekanismgenerators:reactor_glass",
+                    "F":"mekanismgenerators:fusion_reactor_controller",
+                    "L":"mekanismgenerators:laser_focus_matrix",
+                    "P":"mekanismgenerators:fusion_reactor_port",
+                    "0":"mekanismgenerators:reactor_glass"
+                }
+            },
+            "name":"聚变反应堆"
+        },
+        {
+            "type":"text",
+            "text":"$(l) 需要的材料：$()$(br)聚变堆外壳$(br)聚变堆端口$(br)聚变堆控制器$(br)聚变堆逻辑适配器（可选）$(br)强化玻璃（建议）$(br2)$(l)注意事项：$()$(br)在启动之前请在聚变堆的界面里放置一个装满燃料的黑体辐射腔，并设定好燃料消耗速率；$(br)启动方法是，使用激光充能一个设置了红石启动的激光增幅器，增幅器的发射面（红色）对准激光聚焦矩阵，待增幅器的储能达到2GFE时，"
+        },
+        {
+            "type":"text",
+            "text":"启动增幅器，激光射进聚焦矩阵，引发反应。$(br)在没有水通入时，聚变堆的产能为400,000FE/t，水供应充足时，产能为100,000FE/t，以及300,000mb/t的蒸汽。因此在使用水冷的情况下，你至少需要3个端口，一个输入燃料和水，一个输出蒸汽，一个输出能量。$(br)你可以分别输入氘和氚，也可以直接输入氘-氚燃料，后者发电量更大，但会被瞬间消耗。$(br2)想停止聚变，只需停止提供燃料即可。"
+        }
+    ]
+}

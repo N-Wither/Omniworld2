@@ -1,0 +1,362 @@
+{
+    "org.zeith.solarflux.client.screen.SolarPanelScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 44
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 23
+            },
+            "SORT": {
+                "horizontalOffset": 23
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 23
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 23
+            }
+        }
+    },
+    "cofh.thermal.core.client.gui.TinkerBenchScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 23
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 47
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 32
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 46
+            },
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 31
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenPartReader": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -20
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenPartSettings": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -12,
+                "bottom": -4
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenPartWriter": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 19
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "org.cyclops.integratedtunnels.core.part.ContainerScreenInterfaceSettings": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "com.github.tartaricacid.touhoulittlemaid.client.gui.entity.MaidMainContainerGui": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -11
+            },
+            "SORT": {
+                "top": -11
+            },
+            "SORT_COLUMNS": {
+                "top": -11
+            },
+            "SORT_ROWS": {
+                "top": -11
+            }
+        }
+    },
+    "de.maxhenkel.pipez.gui.ExtractScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            }
+        }
+    },
+    "dev.ftb.mods.ftbic.screen.MachineScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 21,
+                "bottom": 1
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "owmii.powah.client.screen.container.ReactorScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -19
+            },
+            "SORT": {
+                "top": -19
+            },
+            "SORT_COLUMNS": {
+                "top": -19
+            },
+            "SORT_ROWS": {
+                "top": -19
+            }
+        }
+    },
+    "net.joefoxe.hexerei.screen.BroomScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -2,
+                "bottom": -21
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -29,
+                "top": -6
+            },
+            "SORT": {
+                "horizontalOffset": -26,
+                "top": -6
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -27,
+                "top": -6
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -28,
+                "top": -6
+            }
+        }
+    },
+    "com.direwolf20.laserio.client.screens.LaserNodeScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 21,
+                "bottom": 2
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 14
+            },
+            "SORT": {
+                "top": 14
+            },
+            "SORT_COLUMNS": {
+                "top": 14
+            },
+            "SORT_ROWS": {
+                "top": 14
+            }
+        }
+    },
+    "com.direwolf20.laserio.client.screens.CardItemScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "com.direwolf20.laserio.client.screens.CardFluidScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -17
+            },
+            "SORT": {
+                "top": -17
+            },
+            "SORT_COLUMNS": {
+                "top": -17
+            },
+            "SORT_ROWS": {
+                "top": -17
+            }
+        }
+    },
+    "com.direwolf20.laserio.client.screens.CardEnergyScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -18
+            },
+            "SORT": {
+                "top": -18
+            },
+            "SORT_COLUMNS": {
+                "top": -18
+            },
+            "SORT_ROWS": {
+                "top": -18
+            }
+        }
+    },
+    "com.direwolf20.laserio.client.screens.FilterTagScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            }
+        }
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -11,
+                "bottom": 2
+            }
+        }
+    },
+    "onelemonyboi.miniutilities.blocks.complexblocks.quantumquarry.QuantumQuarryScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            }
+        }
+    }
+}

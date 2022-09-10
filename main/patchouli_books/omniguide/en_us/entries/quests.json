@@ -1,0 +1,11 @@
+{
+    "name":"Quests",
+    "icon":"ftbquests:book",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Find the \"quest\" icon at the topleft corner. Quests will help you make progress and you can get rewards."
+        }
+    ]
+}

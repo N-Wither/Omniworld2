@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:ruby_ore_block",
+        "gemsnjewels:ruby_deepslate_ore_block",
+        "gemsnjewels:ruby_nether_ore_block"
+    ]
+}

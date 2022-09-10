@@ -1,0 +1,15 @@
+{
+    "name":"Home Improvements",
+    "icon":"adorn:white_sofa",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Omniworld have these furniture mods:$(br) $(br)Adorn $(br)Mr Crayfish's Furniture $(br)Builders Crafts & Additions $(br)Macaw's Lights & Lamps $(br)"
+        },
+        {
+            "type":"text",
+            "text":"Omniworld have these building mod:$(br) $(br)Fairy Light $(br)Neon Craft $(br)Macaw's Roofs $(br)Macaw's Windows $(br)Macaw's Doors $(br)Macaw's Trapdoors $(br)Macaw's Fences&Walls $(br)Macaw's Bridges $(br)Absent by Design $(br)Structurize"
+        }
+    ]
+}

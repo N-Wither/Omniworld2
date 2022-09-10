@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:alexandrite_ore_block",
+        "gemsnjewels:alexandrite_deepslate_ore_block",
+        "gemsnjewels:alexandrite_nether_ore_block"
+    ]
+}

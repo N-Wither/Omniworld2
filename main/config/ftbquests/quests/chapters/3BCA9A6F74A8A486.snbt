@@ -1,0 +1,123 @@
+{
+	id: "3BCA9A6F74A8A486"
+	group: ""
+	order_index: 1
+	filename: "3BCA9A6F74A8A486"
+	title: "杂七杂八的东西"
+	icon: "supplementaries:globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/random_small_things.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "嗖！"
+			description: [
+				"当你的基地初具规模的时候，你会不会觉得在不同的区域之间走来走去实在是浪费时间？"
+				""
+				"隆重介绍旅行锚，这是从EnderIO模组那边扒过来的，不过他们也不会更新1.18的版本了，所以就这样。"
+				""
+				"另外旅行锚还能在一定程度上像ElevatorMod的电梯那样用。"
+			]
+			id: "0A081C6B36AD60BF"
+			tasks: [
+				{
+					id: "6BC954234D37407C"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+				{
+					id: "044F68DFCEE711A0"
+					type: "item"
+					item: "travel_anchors:travel_staff"
+				}
+			]
+			rewards: [{
+				id: "56F905A12565AE18"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "WIP"
+			x: -7.5d
+			y: -3.5d
+			description: ["此章节仍在制作中"]
+			id: "4EA533E63CD2D9CA"
+			tasks: [{
+				id: "2EDA3D992F28EDDB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "抽屉"
+			x: -3.5d
+			y: -3.5d
+			subtitle: "你的抽屉墙👍"
+			description: [
+				"你可能挖出了大量的圆石，你可能需要一个抽屉来存储这类物品。"
+				""
+				"这个整合包使用的是FunctionalStorage，在JEI中查看此模组提供的更多内容。"
+			]
+			id: "4B53416FDFD21292"
+			tasks: [{
+				id: "5BC9E6B64336B989"
+				type: "item"
+				title: "Any #functionalstorage:drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "24DA6893C26EF374"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "精妙存储"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "不只是超大的箱子！"
+			description: [
+				"简单来说，这是一个融合了IronChest,IronShulkerBox和MetalBarrels的功能的模组。"
+				""
+				"在JEI中搜索“@sophisticatedstorage”查看更多此模组提供的内容。"
+			]
+			id: "11E49A6398C27A19"
+			tasks: [{
+				id: "7D1BFE4984EAF9ED"
+				type: "item"
+				title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B16B40D3050DC9E"
+				type: "item"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}]
+		}
+	]
+}

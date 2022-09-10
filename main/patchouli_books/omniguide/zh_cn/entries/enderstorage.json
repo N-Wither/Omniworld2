@@ -1,0 +1,20 @@
+{
+    "name":"末影存储",
+    "icon":"enderstorage:ender_chest",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"通过染色设置频道，只有三个颜色都完全匹配的容器才会互相连通。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"enderstorage:ender_chest",
+            "recipe2":"enderstorage:ender_tank"
+        },
+        {
+            "type":"crafting",
+            "recipe":"enderstorage:ender_pouch"
+        }
+    ]
+}

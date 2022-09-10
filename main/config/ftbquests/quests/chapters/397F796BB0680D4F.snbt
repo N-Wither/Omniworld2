@@ -1,0 +1,96 @@
+{
+	id: "397F796BB0680D4F"
+	group: "0C7049A86898E462"
+	order_index: 1
+	filename: "397F796BB0680D4F"
+	title: "沉浸工程"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/immersive_engineering.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["346124A4C69A6E4A"]
+			id: "4BD54942F2BCC340"
+			tasks: [
+				{
+					id: "747223D1CE9C94C3"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "0E4D08FF9C428A9D"
+					type: "observation"
+					icon: "immersiveengineering:coke_oven"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["32CB2054D750E015"]
+			hide: true
+			id: "346124A4C69A6E4A"
+			tasks: [{
+				id: "26824F7021AF236C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["4BD54942F2BCC340"]
+			id: "7F6B92E3CE473CDD"
+			tasks: [
+				{
+					id: "7AE8D097093FDC4E"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "6F3884751AE5E28B"
+					type: "observation"
+					icon: "immersiveengineering:blast_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:blast_furnace"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["7F6B92E3CE473CDD"]
+			id: "38633E7A69B5FC2A"
+			tasks: [{
+				id: "1123485DE7D92371"
+				type: "item"
+				item: "omniores:steel_ingot"
+			}]
+		}
+	]
+}

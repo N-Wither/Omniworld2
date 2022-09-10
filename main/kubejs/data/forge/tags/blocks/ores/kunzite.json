@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:kunzite_ore_block",
+        "gemsnjewels:kunzite_deepslate_ore_block",
+        "gemsnjewels:kunzite_nether_ore_block"
+    ]
+}

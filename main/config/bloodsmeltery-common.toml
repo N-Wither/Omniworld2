@@ -1,0 +1,11 @@
+
+["fluid will"]
+	#Should demonic will fluids be added to the game? (Default is true)
+	enableFluidWill = true
+	#Should all demonic will fluids be replaced with a single unified fluid? (Default is false)
+	unifiedWill = false
+	#How much mb per will quality does fluid will have? (Default is 100)
+	willFluidAmount = 100
+	#How many ticks does it take to melt will items per will quality? (Default is 20)
+	willMeltingTime = 20
+

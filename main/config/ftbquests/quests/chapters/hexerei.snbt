@@ -1,0 +1,125 @@
+{
+	id: "3E0C0C61FA8D1617"
+	group: "7B447FB054196556"
+	order_index: 2
+	filename: "hexerei"
+	title: "魔法巫师"
+	icon: "hexerei:mixing_cauldron"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/hexerei.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["58D69B77F1B3D67F"]
+			id: "357B167E8A99F54D"
+			tasks: [{
+				id: "683B5793B3D6F2AD"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+		}
+		{
+			title: "Hexerei"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "来当巫师吧！"
+			description: [
+				"Hexerei是一个正在制作中的魔法模组，你将使用你的大锅和各种草药制作各种物品，你还可以训练一些乌鸦（不是AlexsMobs的那些）帮你做事。"
+				""
+				"这本书需要放在暗影书坛上才能阅读。"
+			]
+			dependencies: ["0429F3CC27BED625"]
+			hide: true
+			id: "58D69B77F1B3D67F"
+			tasks: [{
+				id: "345F5D53A122BE31"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+			rewards: [
+				{
+					id: "418C36FD1983AFE9"
+					type: "item"
+					item: {
+						id: "hexerei:book_of_shadows"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5F94F1F4A8B0F9F8"
+					type: "item"
+					item: "hexerei:book_of_shadows_altar"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["357B167E8A99F54D"]
+			id: "0D24659FF3476A24"
+			tasks: [{
+				id: "7DE83D892FEF8155"
+				type: "item"
+				item: "hexerei:candle_dipper"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["357B167E8A99F54D"]
+			id: "4EA2854FD05E11B8"
+			tasks: [{
+				id: "5969B029B6C6097A"
+				type: "item"
+				item: "hexerei:pestle_and_mortar"
+			}]
+		}
+		{
+			title: "扫帚"
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["357B167E8A99F54D"]
+			id: "60D2E976C72ED05C"
+			tasks: [{
+				id: "21AD659F0CEAEA1D"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:mahogany_broom"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "hexerei:willow_broom"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "majobroom:broom_item"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "name":"实用信息",
+    "description":"关于各种小型模组的知识",
+    "icon":"supplementaries:globe",
+    "advancement":"minecraft:story/root"
+}

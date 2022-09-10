@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:tanzanite_ore_block",
+        "gemsnjewels:tanzanite_deepslate_ore_block",
+        "gemsnjewels:tanzanite_nether_ore_block"
+    ]
+}

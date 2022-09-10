@@ -1,0 +1,35 @@
+#Disable wool drops to force the player to get shears.
+disableWoolDrops = true
+#Use skill fragments as the way of leveling up skills instead of XP levels.
+useSkillFragments = false
+#This makes it so that when you level up from a higher level, no more XP points will be consumed than when leveling up from a lower level
+useXpPoints = false
+#The minimum amount of skill levels lost on death.
+#Range: 0 ~ 100
+deathLevelLossMin = 0
+#The maximum amount of skill levels lost on death.
+#Range: 0 ~ 100
+deathLevelLossMax = 0
+#Amount of skill fragments obtained by completing task advancements.
+#Range: 0 ~ 64
+skillFragmentsFromTasks = 1
+#Amount of skill fragments obtained by completing goal advancements.
+#Range: 0 ~ 64
+skillFragmentsFromGoals = 2
+#Amount of skill fragments obtained by completing challenge advancements.
+#Range: 0 ~ 64
+skillFragmentsFromChallenges = 3
+#Starting cost of upgrading to level 2, in levels.
+#Range: 0 ~ 10
+startingCost = 2
+#Amount of levels added to the cost with each upgrade (use 0 for constant cost).
+#Range: 0 ~ 10
+costIncrease = 1
+#Maximum level each skill can be upgraded to.
+#Range: 2 ~ 100
+maximumLevel = 32
+#List of item and block skill requirements.
+#Format: mod:id skill:level
+#Valid skills: attack, defence/defense, mining, gathering, farming, building, agility, magic
+skillLocks = ["minecraft:iron_sword attack:5", "minecraft:iron_shovel gathering:5", "minecraft:iron_pickaxe mining:5", "minecraft:iron_axe gathering:5", "minecraft:iron_hoe farming:5", "minecraft:iron_helmet defence:5", "minecraft:iron_chestplate defence:5", "minecraft:iron_leggings defence:5", "minecraft:iron_boots defence:5", "minecraft:diamond_sword attack:15", "minecraft:diamond_shovel gathering:15", "minecraft:diamond_pickaxe mining:15", "minecraft:diamond_axe gathering:15", "minecraft:diamond_hoe farming:15", "minecraft:diamond_helmet defence:15", "minecraft:diamond_chestplate defence:15", "minecraft:diamond_leggings defence:15", "minecraft:diamond_boots defence:15", "minecraft:netherite_sword attack:30", "minecraft:netherite_shovel gathering:30", "minecraft:netherite_pickaxe mining:30", "minecraft:netherite_axe gathering:30", "minecraft:netherite_hoe farming:30", "minecraft:netherite_helmet defence:30", "minecraft:netherite_chestplate defence:30", "minecraft:netherite_leggings defence:30", "minecraft:netherite_boots defence:30", "minecraft:fishing_rod gathering:5", "minecraft:shears gathering:5", "minecraft:lead farming:5", "minecraft:bow attack:5 agility:3", "minecraft:turtle_helmet defence:10", "minecraft:shield defence:5", "minecraft:crossbow attack:5 agility:5", "minecraft:trident attack:15 agility:10", "minecraft:golden_apple magic:5", "minecraft:enchanted_golden_apple magic:10", "minecraft:ender_pearl magic:5", "minecraft:ender_eye magic:10", "minecraft:piston building:5", "minecraft:sticky_piston building:10", "minecraft:tnt building:5", "minecraft:ender_chest magic:15", "minecraft:enchanting_table magic:10", "minecraft:anvil building:5", "minecraft:chipped_anvil building:5", "minecraft:damaged_anvil building:5", "minecraft:smithing_table building:10", "minecraft:end_crystal magic:20", "minecraft:boat agility:5", "minecraft:minecart agility:10", "minecraft:elytra agility:20", "minecraft:horse agility:10", "minecraft:donkey agility:10", "minecraft:mule agility:10", "minecraft:strider agility:15"]
+

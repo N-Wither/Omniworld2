@@ -1,0 +1,198 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.inventory.AnvilScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=90115%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = -89
+}
+
+customization {
+  identifier = %id=901135%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=86115%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = -89
+}
+
+customization {
+  identifier = %id=861135%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=901195%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=861195%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=90155%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=86155%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=901155%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=861155%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=90195%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = -89
+}
+
+customization {
+  identifier = %id=901215%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=86195%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=861215%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = 51
+}
+
+customization {
+  identifier = %id=861215%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=90135%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=901115%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=86135%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=861115%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=901175%
+  orientation = mid-left
+  x = 212
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=861175%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=90175%
+  orientation = mid-left
+  x = 192
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=86175%
+  orientation = mid-left
+  x = 172
+  action = movebutton
+  y = -29
+}
+

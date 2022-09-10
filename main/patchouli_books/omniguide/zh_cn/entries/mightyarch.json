@@ -1,0 +1,11 @@
+{
+    "name":"The Mighty Architect",
+    "icon":"create:empty_schematic",
+    "category":"patchouli:smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"打开菜单，选择你想要的建筑样式，确认大小。创造模式下可以直接建造，生存模式下可以把结构保存为nbt格式，用机械动力的蓝图加载。"
+        }
+    ]
+}

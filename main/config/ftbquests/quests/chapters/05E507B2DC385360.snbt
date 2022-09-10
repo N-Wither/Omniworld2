@@ -1,0 +1,51 @@
+{
+	id: "05E507B2DC385360"
+	group: "2280F0CCB7AA3F71"
+	order_index: 1
+	filename: "05E507B2DC385360"
+	title: "地球之外"
+	icon: {
+		id: "beyond_earth:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/beyond_earth.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["7322554D84075BF9"]
+			hide: true
+			id: "35EB31C9C9037172"
+			tasks: [{
+				id: "156B47E53CC77581"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["35EB31C9C9037172"]
+			id: "4E748FD8E9F94597"
+			tasks: [{
+				id: "13EA82B2E8732A91"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+	]
+}

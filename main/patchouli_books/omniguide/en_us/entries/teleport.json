@@ -1,0 +1,16 @@
+{
+    "name":"Map Teleporting",
+    "icon":"waystones:waystone",
+    "category":"patchouli:101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Press ALT to zoom in, double-press ALT to zoom out, press M to open the worldmap. $(br)$(br)You can use waypoints, press B to set new waypoint at your location, press + on worldmap to set a quick waypoint. $(br)$(br)    If you disabled cheating, you can make some waystones. Actived waystones will create a waypoint."
+        },
+        {
+            "type":"crafting",
+            "recipe":"waystones:waystone",
+            "text":"No cost, RPG style."
+        }
+    ]
+}

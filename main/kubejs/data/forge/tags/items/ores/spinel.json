@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "gemsnjewels:spinel_ore_block",
+        "gemsnjewels:spinel_deepslate_ore_block",
+        "gemsnjewels:spinel_nether_ore_block"
+    ]
+}

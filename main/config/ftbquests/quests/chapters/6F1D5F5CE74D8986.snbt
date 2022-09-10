@@ -1,0 +1,288 @@
+{
+	id: "6F1D5F5CE74D8986"
+	group: "0C7049A86898E462"
+	order_index: 5
+	filename: "6F1D5F5CE74D8986"
+	title: "通用机械"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/mekanism.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["5C7652AF035CA4B6"]
+			id: "5B669590F1499365"
+			tasks: [{
+				id: "0290DF10C9C45548"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [{
+				id: "0D35E7B27C354E6D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "通用机械"
+			x: -7.0d
+			y: -0.5d
+			subtitle: "最好用的科技模组！"
+			description: [
+				"欢迎使用通用机械（Mekanism）v10！通用机械是一个颇受欢迎的科技模组，有着各种实用强大又酷炫的设备。"
+				""
+				"但也正是因为它太强大了，以至于各种各样的整合包不约而同地将它放在游戏中后期，而且大大提高制作难度。"
+				""
+				"幸运的是，我（NWitherKawaii）是一个非常やさしい的人，所以没有把难度提高太多，你一定能接受的。"
+				""
+				"另外这个模组没有自带教程，所以如果你遇到什么问题，记得来看看这里的任务或者在网上查查资料（网上有些资料不适用于这个版本，所以你得有鉴别能力）！"
+			]
+			dependencies: ["32CB2054D750E015"]
+			hide: true
+			id: "5C7652AF035CA4B6"
+			tasks: [{
+				id: "664C1D5B9DCAFD3C"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["5B669590F1499365"]
+			id: "35FE3F36DC6E56D2"
+			tasks: [{
+				id: "715219DFE6D4237F"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["35FE3F36DC6E56D2"]
+			id: "4D6CAB3EEA828FBB"
+			tasks: [{
+				id: "438792D74AFF8199"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["4D6CAB3EEA828FBB"]
+			id: "09AF7F874A68890A"
+			tasks: [{
+				id: "055A8212AB836BAC"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["09AF7F874A68890A"]
+			id: "182D384E91DD31A7"
+			tasks: [{
+				id: "6872E12E8644E890"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["182D384E91DD31A7"]
+			id: "2886B6AB66CCC15F"
+			tasks: [{
+				id: "381A446569D63115"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["4D6CAB3EEA828FBB"]
+			id: "407073A3A27F332F"
+			tasks: [{
+				id: "661F2E5284B19160"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["09AF7F874A68890A"]
+			id: "19CC81ED14CBD8EB"
+			tasks: [{
+				id: "1B7519F54AEEE58B"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["182D384E91DD31A7"]
+			id: "23409E31C46553BA"
+			tasks: [{
+				id: "0ECE245F51BFD565"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["2886B6AB66CCC15F"]
+			id: "4D74C8BD65053595"
+			tasks: [{
+				id: "3EE14B9324AD67E9"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["4D6CAB3EEA828FBB"]
+			id: "2D240507292DAB5F"
+			tasks: [{
+				id: "26BCB7CD072F3ED9"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["2D240507292DAB5F"]
+			id: "4208AD0967534EB0"
+			tasks: [{
+				id: "6677677FC6064127"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["4208AD0967534EB0"]
+			id: "4915E8193FA08CBF"
+			tasks: [{
+				id: "570AA9AD27ECF805"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["4915E8193FA08CBF"]
+			id: "324427D4BDD9002A"
+			tasks: [{
+				id: "3E3082B85837663C"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["324427D4BDD9002A"]
+			id: "2F4DBAB812E017A1"
+			tasks: [
+				{
+					id: "440AEF4675DBCA22"
+					type: "item"
+					item: "mekanism:chemical_dissolution_chamber"
+				}
+				{
+					id: "7175CA51F3469C04"
+					type: "item"
+					item: "mekanism:chemical_washer"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["5B669590F1499365"]
+			id: "1D1DE13E99B5E5FB"
+			tasks: [{
+				id: "1212E47F8740C7F5"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["5B669590F1499365"]
+			id: "7354B59458E5F479"
+			tasks: [{
+				id: "0DAA0D62D305FAEE"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: [
+				"7354B59458E5F479"
+				"1D1DE13E99B5E5FB"
+			]
+			id: "6C6B33B58209B867"
+			tasks: [{
+				id: "05A5731BE22C8A73"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["6C6B33B58209B867"]
+			id: "2F704A7B4D2902BD"
+			tasks: [
+				{
+					id: "6916EEFEECB93353"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "590299D916D7ABBE"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "1AC19941A462F87B"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "56758429B2E5F71B"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+		}
+	]
+}
