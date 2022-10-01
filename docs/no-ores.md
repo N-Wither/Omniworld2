@@ -23,9 +23,9 @@ If you still can't find ores, try this.
 
 如果你还是找不到矿物，试试这个。
 
-First download [this](https://../../rhino/rhino.zip), then unzip it to your game folder.
+First download [this](https://github.com/N-Wither/Omniworld2/blob/main/rhino/rhino.zip?raw=true), then unzip it to your game folder.
 
-首先下载[这个](https://../../rhino/rhino.zip)，然后解压到你的游戏文件夹。
+首先下载[这个](https://github.com/N-Wither/Omniworld2/blob/main/rhino/rhino.zip?raw=true)，然后解压到你的游戏文件夹。
 
 Add `-Djava.io.tmpdir=` to your JVM arguments, then launch your game.
 
