@@ -40,7 +40,7 @@
 - Shimmer: Incompatibility
 - Ars Arsenal: Incompability with newest Ars Nouveau
 - Just Enough Calculation: Incompability with ItemZoom, Equipment Compare and Legendary Tooltips; No recipes
-- Tinker Leveling: Make some items unstackable and make Refined Storage 
+- Tinker Leveling: Make some items unstackable and make Refined Storage not work correctly
 - Avaritia Reforged: Replaced by Avaritia official edition
 - Armor Points ++: Replaced by Classic Bars
 
