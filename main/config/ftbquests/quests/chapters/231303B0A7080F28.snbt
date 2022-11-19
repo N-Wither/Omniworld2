@@ -268,5 +268,23 @@
 				table_id: 5332197433974249914L
 			}]
 		}
+		{
+			x: 12.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0871E5963B6D034F"]
+			size: 2.0d
+			id: "75AEAC42A46F091D"
+			tasks: [{
+				id: "3C66E20899D7FA2D"
+				type: "item"
+				item: {
+					id: "arsomega:magic_clay"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 }

@@ -3,9 +3,9 @@
 onEvent('item.tooltip', tooltip => {
     function flavor(target,text){
         var content = text;
-        var sepLine = '※';
-        var sep = [sepLine];
-        tooltip.add(target, sep.concat(content,sep));
+        var startLine = ['==  COMMENT  =='];
+        var endLine = ['=============='];
+        tooltip.add(target, startLine.concat(content, endLine));
     }
 
     function kpf(key) {return 'tooltip.kubejs.flavor.' + key};
@@ -182,12 +182,12 @@ onEvent('item.tooltip', tooltip => {
     ]);
 
     // Neapolitan
-    /*
+    
     flavor(/neapolitan:.*banana_frond/, [
-        textNeko('怎么种出一棵香蕉树呢？'),
-        textWither('把香蕉树叶插在沙砾上，它会在下雨的时候长大。')
+        textNeko(kpf('banana_1')),
+        textWither(kpf('banana_2'))
     ]);
-    */
+   
 
     // Twilight Forest
     flavor('twilightforest:magic_beans', [
@@ -242,6 +242,11 @@ onEvent('item.tooltip', tooltip => {
         textWither(kpf('nwither_plush_2')),
         textWither(kpf('nwither_plush_3'))
     ]);
+
+    flavor('kubejs:rhythm_gamers_glove', [
+        textNeko(kpf('gamers_glove_1')),
+        textWither(kpf('gamers_glove_2'))
+    ])
     
     // Supplementaries
     flavor(/supplementaries:present.*/, [
@@ -343,6 +348,9 @@ onEvent('item.tooltip', tooltip => {
     flavor("gemsnjewels:iolite", [
         'Mg₂Al₃(AlSi₅O₁₈)',
         textNeko(kpf('iolite'))
-    ])
+    ]);
+    flavor("forbidden_arcanus:bat_soup", [
+        textWither(kpf('bat_soup'))
+    ]);
 
 });

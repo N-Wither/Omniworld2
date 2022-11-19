@@ -216,10 +216,10 @@
 			#Minimum distance apart in chunks between spawn attempts
 			#Range: 0 ~ 1000
 			minimum_distance = 10
-			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = true
 			#Entirely disables them from spawning
 			enabled = true
+			#With this option road signs will display the distance to the structure that they are pointing to
+			show_distance_text = true
 
 		[spawns.structures.wild_flax]
 			enabled = true
@@ -259,6 +259,12 @@
 
 #Vanilla tweaks
 [tweaks]
+
+	[tweaks.dispenser_tweaks]
+		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
+		axe_strip = true
+		#Enables shooting ender pearls with dispensers
+		shoot_ender_pearls = true
 
 	[tweaks.cake_tweaks]
 		#Allows you to place a cake on top of another
@@ -376,13 +382,17 @@
 		#Allows zombie horses to be ridden underwater
 		rideable_underwater = true
 
-	[tweaks.dispenser_tweaks]
-		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
-		axe_strip = true
-		#Enables shooting ender pearls with dispensers
-		shoot_ender_pearls = true
-
 [items]
+
+	[items.quiver]
+		#Allows using a quiver without being slowed down
+		use_without_slow = true
+		#Arrow stacks that can fit inside a quiver. Requires reboot
+		#Range: 1 ~ 9
+		slots = 6
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		#Range: 0.0 ~ 1.0
+		quiver_skeleton_chance = 0.2
 
 	[items.bubble_blower]
 		#Amount of soap consumed per bubble block placed

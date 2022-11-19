@@ -27,8 +27,15 @@
 	}]
 	quests: [
 		{
+			title: "焦炉"
 			x: -4.0d
 			y: 0.0d
+			subtitle: "高温裂解"
+			description: [
+				"将煤炭加工成焦煤，或者将原木加工成木炭，产出杂酚油。"
+				""
+				"提示：可以在 JEI 中查看本模组多方块机器的构建材料。"
+			]
 			dependencies: ["346124A4C69A6E4A"]
 			id: "4BD54942F2BCC340"
 			tasks: [
@@ -41,16 +48,28 @@
 				{
 					id: "0E4D08FF9C428A9D"
 					type: "observation"
+					title: "观察焦炉"
 					icon: "immersiveengineering:coke_oven"
 					timer: 0L
 					observe_type: 0
 					to_observe: "immersiveengineering:coke_oven"
 				}
 			]
+			rewards: [{
+				id: "65CF8C141FBDCA88"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
+			title: "介绍"
 			x: -5.5d
 			y: 0.0d
+			description: [
+				"Immersive Engineering 是一个复古未来风格的科技模组，主打大型多方块机械。"
+				""
+				"如果你有任何疑问，请查阅工程师手册！"
+			]
 			dependencies: ["32CB2054D750E015"]
 			hide: true
 			id: "346124A4C69A6E4A"
@@ -58,10 +77,28 @@
 				id: "26824F7021AF236C"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "65FC579DE02278AC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
+			title: "高炉"
 			x: -2.5d
 			y: 0.0d
+			subtitle: "大炼钢铁"
+			description: [
+				"炼钢。燃料为焦煤或木炭。"
+				""
+				"不能自动输入输出物品。"
+			]
 			dependencies: ["4BD54942F2BCC340"]
 			id: "7F6B92E3CE473CDD"
 			tasks: [
@@ -74,22 +111,146 @@
 				{
 					id: "6F3884751AE5E28B"
 					type: "observation"
+					title: "观察高炉"
 					icon: "immersiveengineering:blast_furnace"
 					timer: 0L
 					observe_type: 0
 					to_observe: "immersiveengineering:blast_furnace"
 				}
 			]
+			rewards: [{
+				id: "72CDDDD9381AD374"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -1.0d
 			y: 0.0d
+			subtitle: "工业的骨架"
+			description: ["好耶！我们造出钢了！"]
 			dependencies: ["7F6B92E3CE473CDD"]
 			id: "38633E7A69B5FC2A"
 			tasks: [{
 				id: "1123485DE7D92371"
 				type: "item"
 				item: "omniores:steel_ingot"
+			}]
+			rewards: [{
+				id: "3162AFFCE3FF4E4F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["346124A4C69A6E4A"]
+			size: 2.0d
+			id: "3FA04A5FFC79D84E"
+			tasks: [{
+				id: "65D429F50130852B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:component_electronic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "强化高炉"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "跃进"
+			description: ["可以进行自动化，原料从顶部投入，钢从前面输出，矿渣从后面输出。"]
+			dependencies: ["38633E7A69B5FC2A"]
+			id: "40FCFE4FDC3B6B76"
+			tasks: [
+				{
+					id: "0ED4EE42E6A9FFC7"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blastbrick_reinforced"
+						Count: 1b
+						tag: { }
+					}
+					count: 27L
+				}
+				{
+					id: "113088D9AD7A7D6D"
+					type: "item"
+					item: {
+						id: "minecraft:hopper"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "64C9FE547B453B5B"
+					type: "observation"
+					icon: {
+						id: "immersiveengineering:advanced_blast_furnace"
+						Count: 1b
+						tag: { }
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:advanced_blast_furnace"
+				}
+			]
+			rewards: [{
+				id: "7345961A4351CFAF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "预热"
+			description: ["放在强化高炉两边，消耗能量以提高冶炼速度。"]
+			hide_dependency_lines: true
+			dependencies: ["346124A4C69A6E4A"]
+			id: "481196F041DBF486"
+			tasks: [{
+				id: "04912AC08A9D49E5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blastfurnace_preheater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6E593C2C7A35A4F6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "不如说是技术工的工作台"
+			description: ["在这里制作一些东西。"]
+			dependencies: ["4BD54942F2BCC340"]
+			id: "44B846DB9669FDC1"
+			tasks: [{
+				id: "524AA0E362AE3FDB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:workbench"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "34E0646A8D9E2750"
+				type: "random"
+				table_id: 5332197433974249914L
 			}]
 		}
 	]

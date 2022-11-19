@@ -1,0 +1,33 @@
+{
+  "tooltip.tinkerleveling.level": "等级",
+  "tooltip.tinkerleveling.xp": "经验",
+
+  "tooltip.tinkerleveling.level.0": "崭新",
+  "tooltip.tinkerleveling.level.1": "笨拙",
+  "tooltip.tinkerleveling.level.2": "称手",
+  "tooltip.tinkerleveling.level.3": "适应",
+  "tooltip.tinkerleveling.level.4": "熟练",
+  "tooltip.tinkerleveling.level.5": "专家",
+  "tooltip.tinkerleveling.level.6": "大师",
+  "tooltip.tinkerleveling.level.7": "巨匠",
+  "tooltip.tinkerleveling.level.8": "史诗",
+  "tooltip.tinkerleveling.level.9": "传奇",
+  "tooltip.tinkerleveling.level.10": "神级",
+  "tooltip.tinkerleveling.level.11": "出色",
+  "tooltip.tinkerleveling.level.19": "MoxieGrrl",
+  "tooltip.tinkerleveling.level.42": "boni",
+  "tooltip.tinkerleveling.level.66": "Jadedcat",
+  "tooltip.tinkerleveling.level.99": "作弊",
+
+  "message.levelup.2": "你开始觉得使用 %s 有点舒服了",
+  "message.levelup.3": "你已经习惯了 %s 的重量",
+  "message.levelup.4": "你已经能熟练使用 %s",
+  "message.levelup.5": "你已是使用 %s 的专家！",
+  "message.levelup.6": "你已经掌握了 %s！",
+  "message.levelup.7": "你已极好地掌握了 %s！",
+  "message.levelup.8": "你觉得你和你的 %s 能干出一番大事业！",
+  "message.levelup.9": "你和你的 %s 就是活着的传奇！",
+  "message.levelup.10": "哪怕神也不能阻挡你和你的 %s 了！",
+  "message.levelup.11": "你的 %s 太出色了。",
+  "message.levelup.generic": "你的 %s 达到了等级 "
+}

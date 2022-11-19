@@ -69,6 +69,12 @@
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
+			rewards: [{
+				id: "0D916EE12D29E781"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -1.0d
@@ -79,6 +85,15 @@
 				id: "438792D74AFF8199"
 				type: "item"
 				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "1C0A2F3224AB0AEF"
+				type: "item"
+				item: {
+					id: "mekanism:basic_control_circuit"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -91,6 +106,15 @@
 				type: "item"
 				item: "mekanism:advanced_control_circuit"
 			}]
+			rewards: [{
+				id: "23B65A0F80FCE986"
+				type: "item"
+				item: {
+					id: "mekanism:advanced_control_circuit"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -101,6 +125,15 @@
 				id: "6872E12E8644E890"
 				type: "item"
 				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "262690B04AF91652"
+				type: "item"
+				item: {
+					id: "mekanism:elite_control_circuit"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -113,6 +146,15 @@
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
 			}]
+			rewards: [{
+				id: "2C312AD74A85DB00"
+				type: "item"
+				item: {
+					id: "mekanism:ultimate_control_circuit"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: -1.0d
@@ -123,6 +165,12 @@
 				id: "661F2E5284B19160"
 				type: "item"
 				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "66BC8F9F63BE0285"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -135,6 +183,12 @@
 				type: "item"
 				item: "mekanism:advanced_tier_installer"
 			}]
+			rewards: [{
+				id: "5550F35AA764C48D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: 3.0d
@@ -145,6 +199,12 @@
 				id: "0ECE245F51BFD565"
 				type: "item"
 				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "16F383DEBA3A747D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -157,10 +217,18 @@
 				type: "item"
 				item: "mekanism:ultimate_tier_installer"
 			}]
+			rewards: [{
+				id: "6B7017300D74E7D6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
+			title: "2x"
 			x: 1.0d
 			y: -1.5d
+			description: ["富集仓可以从一个矿石中提取两个矿粉。"]
 			dependencies: ["4D6CAB3EEA828FBB"]
 			id: "2D240507292DAB5F"
 			tasks: [{
@@ -168,32 +236,36 @@
 				type: "item"
 				item: "mekanism:enrichment_chamber"
 			}]
-		}
-		{
-			x: 3.0d
-			y: -1.5d
-			dependencies: ["2D240507292DAB5F"]
-			id: "4208AD0967534EB0"
-			tasks: [{
-				id: "6677677FC6064127"
-				type: "item"
-				item: "mekanism:crusher"
+			rewards: [{
+				id: "764B6DA8F192CFAB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
-			x: 5.0d
+			title: "3x"
+			x: 3.0d
 			y: -1.5d
-			dependencies: ["4208AD0967534EB0"]
+			description: ["提纯仓可以从一个矿石中提取3个矿物碎块。"]
+			dependencies: ["2D240507292DAB5F"]
 			id: "4915E8193FA08CBF"
 			tasks: [{
 				id: "570AA9AD27ECF805"
 				type: "item"
 				item: "mekanism:purification_chamber"
 			}]
+			rewards: [{
+				id: "60A50EBD5D22DD84"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
-			x: 7.0d
+			x: 5.0d
 			y: -1.5d
+			description: ["化学压射室可以将一个矿石加工成4个矿物碎片。"]
 			dependencies: ["4915E8193FA08CBF"]
 			id: "324427D4BDD9002A"
 			tasks: [{
@@ -201,10 +273,18 @@
 				type: "item"
 				item: "mekanism:chemical_injection_chamber"
 			}]
+			rewards: [{
+				id: "60B9C388221879A2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
-			x: 9.0d
+			title: "5x"
+			x: 7.0d
 			y: -1.5d
+			description: ["化学溶解室可以将一个矿石溶解为 1000mB 浆液，而化学结晶器可以将 200mB 浆液结晶成一个矿物晶体。"]
 			dependencies: ["324427D4BDD9002A"]
 			id: "2F4DBAB812E017A1"
 			tasks: [
@@ -218,7 +298,22 @@
 					type: "item"
 					item: "mekanism:chemical_washer"
 				}
+				{
+					id: "1290996EC494961C"
+					type: "item"
+					item: {
+						id: "mekanism:chemical_crystallizer"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
+			rewards: [{
+				id: "5633DA14478AC284"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -3.0d
@@ -230,6 +325,12 @@
 				type: "item"
 				item: "mekanism:chemical_oxidizer"
 			}]
+			rewards: [{
+				id: "5DBCFD189DD4D16D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -3.0d
@@ -240,6 +341,12 @@
 				id: "0DAA0D62D305FAEE"
 				type: "item"
 				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "09BA97C6078C67CF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -255,10 +362,18 @@
 				type: "item"
 				item: "mekanism:isotopic_centrifuge"
 			}]
+			rewards: [{
+				id: "500C87A63E1D5A14"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
+			title: "裂变反应堆"
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
+			description: ["裂变反应堆是一种高效的蒸汽发生装置，搭建方法请查阅 Omniworld 指导手册。"]
 			dependencies: ["6C6B33B58209B867"]
 			id: "2F704A7B4D2902BD"
 			tasks: [
@@ -283,6 +398,184 @@
 					item: "mekanismgenerators:control_rod_assembly"
 				}
 			]
+			rewards: [{
+				id: "2B06FD5F02BF80EA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5C7652AF035CA4B6"]
+			size: 2.0d
+			id: "76C15C9D5604F12C"
+			tasks: [{
+				id: "3634568D34BDE5C6"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2F704A7B4D2902BD"]
+			id: "354152D33390369E"
+			tasks: [{
+				id: "624A2D9AB1B8F4D4"
+				type: "item"
+				item: {
+					id: "mekanism:pellet_polonium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "514F10C0A336FDDC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["2F704A7B4D2902BD"]
+			id: "57F0D3315FCE33BB"
+			tasks: [{
+				id: "4BD71639E6C298C8"
+				type: "item"
+				item: {
+					id: "mekanism:pellet_plutonium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "168A2E317C4A41D5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "超临界移相器"
+			x: 5.0d
+			y: 2.0d
+			description: [
+				"超临界移相器是一个需要庞大能量支撑的多方块结构，用于生产反物质。"
+				""
+				"搭建方法详见 Omniworld 指导手册。"
+			]
+			dependencies: [
+				"354152D33390369E"
+				"57F0D3315FCE33BB"
+			]
+			id: "7252A9F70E3CC117"
+			tasks: [
+				{
+					id: "6B6BB4BE7D5DD8B3"
+					type: "item"
+					item: {
+						id: "mekanism:sps_casing"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "04F2387856EC4A5B"
+					type: "item"
+					item: {
+						id: "mekanism:sps_port"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7C4DA598E112B7C2"
+					type: "item"
+					item: {
+						id: "mekanism:supercharged_coil"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "0D8594C0D48A9B2C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["7252A9F70E3CC117"]
+			id: "496B1C7004F1AC29"
+			tasks: [{
+				id: "32C66C485568BFC0"
+				type: "item"
+				item: {
+					id: "mekanism:pellet_antimatter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76708957A537FA44"
+				type: "item"
+				item: {
+					id: "mekanism:pellet_antimatter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "聚变反应堆"
+			x: 5.0d
+			y: 0.0d
+			description: ["聚变反应堆不仅能直接发电（最高 400MFE），还能极其高效地生产蒸汽（如果通入水的话）。"]
+			dependencies: ["354152D33390369E"]
+			id: "789C4967980CC2AB"
+			tasks: [
+				{
+					id: "1526E431CBA132D8"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fusion_reactor_controller"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "518802F277BD6390"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fusion_reactor_frame"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3D0A2B419D39435B"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fusion_reactor_port"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "0571441401DFC796"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
 		}
 	]
 }

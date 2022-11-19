@@ -44,4 +44,6 @@ onEvent('recipes', event => {
     event.replaceInput('thermal:raw_tin', '#forge:raw_materials/tin');
     event.replaceInput({type: 'thermal:smelter'}, 'create:zinc_ingot', ['#forge:ingots/zinc', '#forge:dusts/zinc']);
     event.replaceInput("immersiveengineering:slag", '#forge:slag');
+    event.replaceInput("immersiveengineering:ingot_steel", '#forge:ingots/steel');
+    event.replaceInput("neapolitan:dried_vanilla_pods", "#forge:vanilla")
 })

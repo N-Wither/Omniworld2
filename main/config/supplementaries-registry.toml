@@ -77,14 +77,15 @@
 	blackstone_tile = true
 	globe_sepia = true
 	present = true
-	silver_trapdoor = true
-	silver_door = true
-	lead_trapdoor = true
-	lead_door = true
 	sugar_cube = true
 	lapis_bricks = true
 	relayer = true
 	crystal_display = true
+	candle_holder = true
+	silver_trapdoor = true
+	silver_door = true
+	lead_trapdoor = true
+	lead_door = true
 
 [items]
 	flute = true
@@ -100,4 +101,5 @@
 	rope_arrow = true
 	bomb = true
 	pancake = true
+	quiver = true
 

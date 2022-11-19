@@ -1,0 +1,165 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 10,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/infinity"
+      }
+    },
+    "name": {
+      "translate": "material.silentgear.infinity"
+    },
+    "stats": {
+      "main": {
+        "durability": 65535.0,
+        "armor_durability": 65535.0,
+        "enchantability": 127.0,
+        "harvest_level": 15.0,
+        "harvest_speed": 15.0,
+        "melee_damage": 32767.0,
+        "magic_damage": 2047.0,
+        "attack_speed": 0.0,
+        "attack_speed/axe": -0.1,
+        "armor": 512.0,
+        "armor/helmet": 512.0,
+        "armor/chestplate": 1024.0,
+        "armor/leggings": 1024.0,
+        "armor/boots": 512.0,
+        "magic_armor": 127.0,
+        "ranged_damage": 1024.0,
+        "ranged_speed": 0.1,
+        "projectile_speed": 8.0,
+        "projectile_accuracy": 1.1,
+        "rarity": 1024.0,
+        "chargeability": 8.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.15
+        },
+        "enchantability": [
+          {
+            "add": -2.0
+          },
+          {
+            "mul2": -0.1
+          }
+        ],
+        "melee_damage": {
+          "mul2": 0.1
+        },
+        "rarity": 20.0
+      },
+      "tip": {
+        "durability": {
+          "add": 128.0
+        },
+        "armor_durability": {
+          "add": 4.0
+        },
+        "harvest_level": {
+          "max": 2.0
+        },
+        "harvest_speed": {
+          "add": 1.0
+        },
+        "melee_damage": {
+          "add": 1.0
+        },
+        "ranged_speed": {
+          "add": 0.2
+        },
+        "rarity": {
+          "add": 8.0
+        }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 3
+        },
+        {
+          "name": "silentgear:magnetic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:magnetic",
+          "level": 3,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "tip": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#D8D8D8"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#D8D8D8"
+        }
+      ],
+      "tip/all": [
+        {
+          "texture": "silentgear:tip_sharp"
+        }
+      ],
+      "tip/part": [
+        {
+          "texture": "silentgear:tip_base"
+        },
+        {
+          "texture": "silentgear:tip"
+        },
+        {
+          "texture": "silentgear:tip_shine"
+        }
+      ]
+    }
+  }

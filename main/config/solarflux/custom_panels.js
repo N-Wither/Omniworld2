@@ -33,7 +33,7 @@
 
 // let english = "en_us"
 
-var ourMaterial = false;
+// var ourMaterial = false;
 
 /** This function is called when mod is being constructed */
 function init()
@@ -44,11 +44,6 @@ function init()
 
     // You might need to use CraftTweaker or something else to make the material obtainable!
     */
-	ourMaterial = newMaterial("example")
-	    .langBuilder()
-            .put('en_us', "Example Material")
-        .build();
-
 	panel()
 		.name("neutronium")
 		.height(6 / 16.0)
@@ -57,9 +52,10 @@ function init()
 		.transfer("32768000")
 	.buildAndRegister()
 		.langBuilder()
-			    .put('en_us', "Neutronium Solar Panel")
-                .put('zh_cn', '中子太阳能板')
-			.build()
+			.put('en_us', "Neutronium Solar Panel")
+            .put('zh_cn', '中子太阳能板')
+	    .build()
+
 
     panel()
 		.name("infinity")
@@ -69,9 +65,9 @@ function init()
 		.transfer("65536000")
 	.buildAndRegister()
 		.langBuilder()
-			    .put('en_us', "Solar Panel of Infinity")
-                .put('zh_cn', '无尽太阳能板')
-			.build()
+			.put('en_us', "Solar Panel of Infinity")
+            .put('zh_cn', '无尽太阳能板')
+	    .build()
 	
 
     //Comment end
@@ -82,7 +78,7 @@ function init()
 * Below listed all vanilla options for adding recipes.
 */
 
-function registerRecipes($)
+/* function registerRecipes($)
 {
     // IF you have a mod with custom recipe type, register them with the following:
     // $.add(IRecipe<?>)
@@ -123,4 +119,4 @@ function registerRecipes($)
             .xp(10.0)
             .register();
     }
-}
+} */

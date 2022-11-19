@@ -4,8 +4,13 @@
     "item.kubejs.nwither_plush": "NWitherKawaii 毛绒玩偶",
     "item.kubejs.affix_gem": "词缀宝石",
     "item.kubejs.affix_gem_with_affix": "词缀宝石",
+    "item.kubejs.rhythm_gamers_glove": "音游人手套",
 
     "block.kubejs.torcherino": "加速火把",
+    "block.kubejs.molten_infinity_fluid": "熔融无尽",
+
+    "fluid.kubejs.molten_infinity": "熔融无尽",
+    "fluid.kubejs.flowing_molten_infinity": "流动熔融无尽",
 
     "tooltip.kubejs.flavor.log_1": "木头是很重要的！",
     "tooltip.kubejs.flavor.log_2": "什么时候都会用到，所以多收集一些吧！",
@@ -102,6 +107,11 @@
     "tooltip.kubejs.flavor.ametrine": "实际上真的就是紫水晶和黄水晶的合体。很稀有。",
     "tooltip.kubejs.flavor.kunzite": "含有微量的镁而呈现粉色。",
     "tooltip.kubejs.flavor.iolite": "是九月的诞辰石。",
+    "tooltip.kubejs.flavor.bat_soup": "德克士堡生物实验室荣誉出品，不含新冠病毒。",
+    "tooltip.kubejs.flavor.banana_1": "怎样种出一棵香蕉树呢？",
+    "tooltip.kubejs.flavor.banana_2": "把一片香蕉树叶种下去，它会在雨中生长。",
+    "tooltip.kubejs.flavor.gamers_glove_1": "音游玩家的好朋友，让你的手速迅捷如风！",
+    "tooltip.kubejs.flavor.gamers_glove_2": "您有一个好。",
 
     "tooltip.kubejs.infinity_ingot_1": "由于这个整合包还处在早期开发阶段，你还不能制作这个物品。",
     "tooltip.kubejs.infinity_ingot_2": "但你可以早做准备！",
@@ -123,6 +133,9 @@
     "tooltip.kubejs.sophisticatedstorage_shulker": "也可像制作原版潜影盒那样使用对应的箱子制作。",
     "tooltip.kubejs.affix_gem_1": "主手持宝石，副手持带词缀的物品，右键以转移词缀到宝石。",
     "tooltip.kubejs.affix_gem_2": "主手持宝石，副手持物品，右键以转移词缀到物品。",
+    "tooltip.kubejs.ender_tank": "不要在 JEI 里查看它的用途，会损坏存档！",
+    "tooltip.kubejs.compost": "在批量堆肥器中分解有机物。",
+    "tooltip.kubejs.hephaestus_forge": "需要建造多方块结构，查看 Omniworld 指导手册获取更多信息。",
 
     "kubejs.server_events.purge": "正在清理掉落物！",
     "kubejs.server_events.book": "给，这次别弄丢了！",
@@ -132,5 +145,13 @@
     "patchouli.book.omniguide.name": "Omniworld 指导手册",
     "patchouli.book.omniguide.landing_text": "欢迎游玩 Omniworld！这本书将帮助你上手这个整合包。$(br)这本书的内容是从以前的版本搬运过来的，所以一些内容可能不准确！",
 
-    "singularity.extendedcrafting.antimatter": "反物质"
+    "singularity.extendedcrafting.antimatter": "反物质",
+    "singularity.extendedcrafting.alloy_atomic": "原子合金",
+    "singularity.extendedcrafting.component_electronic": "电子元件",
+    "singularity.extendedcrafting.dragonstone": "龙石",
+    "singularity.extendedcrafting.magic_clay": "魔法黏土",
+    "singularity.extendedcrafting.precision_mechanism": "精密构件",
+    "singularity.extendedcrafting.transistor": "晶体管",
+
+    "material.silentgear.infinity": "无尽"
 }

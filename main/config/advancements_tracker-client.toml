@@ -35,5 +35,5 @@
 
 [cache]
 	trackedAdvancementsRemote = [""]
-	trackedAdvancementsLocal = []
+	trackedAdvancementsLocal = ["naturesaura:wood_stand"]
 

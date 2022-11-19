@@ -46,4 +46,6 @@ onEvent('recipes', event => {
     grinding(['omniores:charcoal_dust'], 'minecraft:charcoal', 'charcoal_dust', ['mekanism']);
     grinding(['omniores:obsidian_dust', Item.of('minecraft:obsidian').withChance(0.75)], '#forge:obsidian', 'obsidian_dust', ['mekanism', 'create']);
     grinding(["2x sakura:surimi", Item.of('sakura:surimi').withChance(0.2)], '#forge:fishes', 'surimi', [""]);
+    grinding(["omniores:quartz_dust"], "#forge:gems/quartz", 'quartz_dust', ['mekanism', 'thermal', 'immersive']);
+    grinding(["omniores:ender_dust"], "minecraft:ender_pearl", 'ender_dust', ['thermal', 'ftbic']);
 })

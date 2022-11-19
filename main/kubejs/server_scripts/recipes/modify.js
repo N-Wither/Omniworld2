@@ -23,5 +23,6 @@ onEvent("recipes", e => {
     e.replaceInput({id: 'scannable:scanner'}, '#forge:dusts/redstone', '#forge:circuits/basic');
     e.replaceInput({}, "pneumaticcraft:printed_circuit_board", '#forge:circuits/basic');
     e.replaceInput("pneumaticcraft:plastic", '#forge:plastic');
-
+    e.replaceInput('hexerei:animal_fat', '#forge:tallow');
+    e.replaceInput('delightful:animal_fat', '#forge:tallow');
 })

@@ -32,7 +32,7 @@
 	MaidFairyPowerPoint = 0.16
 	#Maid fairy's spawn probability (zombie is 100, enderman is 10)
 	#Range: > 0
-	MaidFairySpawnProbability = 20
+	MaidFairySpawnProbability = 15
 	#Loss power point after player death
 	#Range: 0.0 ~ 5.0
 	PlayerDeathLossPowerPoint = 1.0

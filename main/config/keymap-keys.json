@@ -12,5 +12,12 @@
     "alt": false,
     "shift": false,
     "ctrl": true
+  },
+  "key.toolbelt.slot": {
+    "keyCode": 86,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
   }
 }

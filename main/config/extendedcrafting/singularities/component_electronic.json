@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.component_electronic",
+    "colors": [
+      "f4f2ef",
+      "542817"
+    ],
+    "ingredient": {
+      "item": "immersiveengineering:component_electronic"
+    }
+  }

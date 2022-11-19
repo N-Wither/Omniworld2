@@ -28,5 +28,6 @@ onEvent('block.right_click', event => {
         event.server.runCommandSilent(`setblock ${event.block.x} ${event.block.y + 1} ${event.block.z} minecraft:potatoes`);
         event.item.count--;
         event.player.swingArm(event.hand);
+        event.player.playSound('minecraft:item.crop.plant');
     }
 })

@@ -1,0 +1,8 @@
+#A list of modid:entity_name entries that will be blocked from spawning.
+entityBlockList = ["minecraft:wandering_trader", "rats:plague_doctor"]
+#Entity spawn prevention radius (in chunks)
+#Range: 1 ~ 12
+radius = 6
+#Disable all spawns of entities in entityBlockList? Ignores radius.
+disableSpawns = false
+

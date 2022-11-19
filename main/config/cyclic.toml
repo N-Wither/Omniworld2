@@ -26,7 +26,7 @@
 			enabled = true
 
 		[cyclic.enchantment.launch]
-			#Set false to disable Multi Jump enchantment
+			#(Multi-Jump) Set false to disable Multi Jump enchantment
 			enabled = true
 
 		[cyclic.enchantment.ender]
@@ -46,12 +46,12 @@
 			enabled = true
 
 		[cyclic.enchantment.multishot]
-			#Set false to disable enchantment
+			#(Multi-bow) Set false to disable enchantment
 			enabled = true
 
 		[cyclic.enchantment.beheading]
 			#Set false to disable enchantment
-			enabled = true
+			enabled = false
 			#Beheading enchant add player skin head drop, add any mob id and any skin
 			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 			#Base perecentage chance to drop a head on kill
@@ -74,7 +74,7 @@
 			enabled = true
 
 		[cyclic.enchantment.curse]
-			#Set false to disable enchantment
+			#(Gloom) Set false to disable enchantment
 			enabled = true
 
 		[cyclic.enchantment.auto_smelt]
@@ -84,6 +84,9 @@
 		[cyclic.enchantment.growth]
 			#Set false to disable enchantment
 			enabled = true
+			#Radius per level.  size around player to perform growth logic
+			#Range: 1 ~ 16
+			radius = 2
 
 		[cyclic.enchantment.step]
 			#Set false to disable enchantment
@@ -128,10 +131,10 @@
 
 		[cyclic.blocks.peace_candle]
 			#Reach of the candle for spawn prevention
-			#Range: 1 ~ 128
+			#Range: 0 ~ 64
 			radius = 32
 			#Height reach of the candle for spawn prevention
-			#Range: 1 ~ 128
+			#Range: 0 ~ 512
 			height = 8
 
 		[cyclic.blocks.altar_destruction]
@@ -139,7 +142,7 @@
 			#Range: 1 ~ 128
 			radius = 32
 			#Height for explosion prevention
-			#Range: 1 ~ 128
+			#Range: 1 ~ 512
 			height = 8
 
 		#Ender Anchor settings
@@ -257,13 +260,16 @@
 			#Water consumption
 			#Range: 0 ~ 1000
 			water = 5
+			#Radius
+			#Range: 1 ~ 32
+			radius = 4
 
 		[cyclic.blocks.no_soliciting]
 			#Reach of the no_soliciting for spawn prevention
-			#Range: 1 ~ 128
+			#Range: 0 ~ 64
 			radius = 32
 			#Height reach of the no_soliciting for spawn prevention
-			#Range: 1 ~ 128
+			#Range: 0 ~ 512
 			height = 32
 
 		[cyclic.blocks.cables]
@@ -317,7 +323,7 @@
 			#Range: 1 ~ 256
 			controller_distance = 64
 			#Each shelf has five rows.  Set the number of books stored per row here
-			#Range: 1 ~ 64
+			#Range: 1 ~ 1024
 			books_per_row = 64
 
 		[cyclic.blocks.uncraft]
@@ -382,6 +388,27 @@
 			#List of extra effects to clear. supports wildcard such as 'cyclic:*'. (This list is is used even if harmful_potions=false or true both)
 			potion_list = ["minecraft:poison", "minecraft:*_poison", "minecraft:wither", "cyclic:gravity", "minecraft:weakness", "minecraft:slowness"]
 
+		#battery settings
+		[cyclic.blocks.battery]
+			#RF/t charging rate for the battery item slot
+			#Range: 1 ~ 6400000
+			charge = 8000
+
+		#experience_pylon settings
+		[cyclic.blocks.experience_pylon]
+			#Radius to pickup xp orbs
+			#Range: 1 ~ 64
+			radius = 16
+
+		#fisher settings
+		[cyclic.blocks.fisher]
+			#Radius to Fish from nearby water
+			#Range: 1 ~ 32
+			radius = 12
+			#Chance to Fish from nearby water.  Smaller values is slower fish
+			#Range: 1.0E-6 ~ 0.999
+			chance = 0.06
+
 	#####################################################################################
 	# Logging related configs
 	#####################################################################################
@@ -436,6 +463,9 @@
 			#Ore Prospector radius around player to search for ores
 			#Range: 1 ~ 256
 			range = 32
+			#Ore Prospector height around player to search for ores
+			#Range: 1 ~ 128
+			height = 8
 
 		[cyclic.items.chorus_flight]
 			#Seconds of flight per chorus_flight
@@ -553,6 +583,50 @@
 			#Damage Reduction
 			#Range: 1 ~ 99
 			leg = 7
+
+		# scythe_brush settings. note radius is halved while player is sneaking
+		[cyclic.items.scythe_brush]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_forage settings. note radius is halved while player is sneaking
+		[cyclic.items.scythe_forage]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_leaves settings.  radius is halved while player is sneaking
+		[cyclic.items.scythe_leaves]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_harvest settings. radius is halved while player is sneaking
+		[cyclic.items.scythe_harvest]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# spell_water settings
+		[cyclic.items.spell_water]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		# spell_ice settings
+		[cyclic.items.spell_ice]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		#apple_ender settings
+		[cyclic.items.apple_ender]
+			#Ignored Structures
+			ignore = ["minecraft:shipwreck", "minecraft:mineshaft", "minecraft:stronghold", "minecraft:buried_treasure", "minecraft:pillager_outpost", "minecraft:village", "minecraft:nether_fossil"]
+			#How many results the client will see
+			#Range: 1 ~ 60
+			printed = 5
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  

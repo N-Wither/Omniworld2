@@ -1,0 +1,77 @@
+{
+  "itemGroup.energymeter": "Energy Meter",
+
+  "block.energymeter.meter": "电表",
+  "container.energymeter.meter": "电表",
+
+  "label.energymeter.meter": "电表",
+  "label.energymeter.transfer_rate": "传输速率",
+  "label.energymeter.number": "数字",
+  "label.energymeter.status": "状态",
+  "label.energymeter.mode": "模式",
+  "label.energymeter.accuracy": "精度",
+  "label.energymeter.interval": "I",
+  "label.energymeter.threshold": "T",
+
+  "tooltip.energymeter.side_config": "I/O配置",
+  "tooltip.energymeter.io_side": "面",
+  "tooltip.energymeter.io_mode": "模式",
+  "tooltip.energymeter.current": "当前",
+
+  "tooltip.energymeter.number": "数字设置",
+  "tooltip.energymeter.number_desc_1": "数字格式，有短和长两种",
+  "tooltip.energymeter.number_desc_2": "只影响大于 1.000FE/t 的数字",
+
+  "tooltip.energymeter.mode": "模式设置",
+  "tooltip.energymeter.mode_desc_1": "改变电表的工作模式",
+  "tooltip.energymeter.mode_desc_2": "类似于普通线缆，能量将无损通过电表，只受输入输出速率限制",
+  "tooltip.energymeter.mode_desc_3": "类似于垃圾桶，输入的能量会被销毁，可用于测试最大输入能力",
+
+  "tooltip.energymeter.accuracy": "精度设置",
+  "tooltip.energymeter.accuracy_desc_1": "改变电表的精度",
+  "tooltip.energymeter.accuracy_desc_2": "显示最近5个游戏刻的平均速率，每个周期都会忽略之前的值并仅显示当前周期的速率，如果能量输入不稳定将产生峰值",
+  "tooltip.energymeter.accuracy_desc_3": "接受一个自定义的时间间隔并计算此周期内的平均值，另外，它将考虑上一周期的速率，平滑峰值并提高多个周期的准确性",
+
+  "tooltip.energymeter.interval": "更新间隔",
+  "tooltip.energymeter.interval_desc_1": "决定每次速率计算之间的游戏刻数 (1秒 = 20游戏刻)",
+  "tooltip.energymeter.interval_desc_2": "更高的值可以减少峰值的影响，但数据更新时间也会更长",
+
+  "tooltip.energymeter.threshold": "零点阈值",
+  "tooltip.energymeter.threshold_desc_1": "以游戏刻为单位定义重置阈值 (1秒 = 20游戏刻)。 如果在此期间未接收到能量，电表数值将重置为零。",
+  "tooltip.energymeter.threshold_desc_2": "较低的值将更快地检测到能量损失。 该值不能高于间隔，因为这没有实际意义",
+
+  "tooltip.energymeter.action_click": "点击",
+  "tooltip.energymeter.action_hold": "按住",
+  "tooltip.energymeter.action_1": "以切换",
+  "tooltip.energymeter.action_2": "以重置",
+  "tooltip.energymeter.action_3": "以切换",
+  "tooltip.energymeter.action_4": "显示更多信息",
+  "tooltip.energymeter.action_5": "改变间隔",
+  "tooltip.energymeter.action_6": "应用间隔",
+
+  "block_side.energymeter.bottom": "底面",
+  "block_side.energymeter.top": "顶面",
+  "block_side.energymeter.front": "正面",
+  "block_side.energymeter.back": "背面",
+  "block_side.energymeter.left": "左面",
+  "block_side.energymeter.right": "右面",
+
+  "io_setting.energymeter.off": "关闭",
+  "io_setting.energymeter.in": "输入",
+  "io_setting.energymeter.out": "输出",
+  "io_setting.energymeter.screen": "屏幕",
+
+  "number.energymeter.long": "长",
+  "number.energymeter.short": "短",
+
+  "status.energymeter.disconnected": "未连接",
+  "status.energymeter.connected": "已连接",
+  "status.energymeter.transferring": "传输",
+  "status.energymeter.consuming": "消耗",
+
+  "mode.energymeter.transfer": "传输",
+  "mode.energymeter.consumer": "消耗",
+
+  "accuracy.energymeter.exact": "实时",
+  "accuracy.energymeter.interval": "平均"
+}

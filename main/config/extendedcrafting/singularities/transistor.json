@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.transistor",
+    "colors": [
+      "65615d",
+      "b06311"
+    ],
+    "ingredient": {
+      "item": "pneumaticcraft:transistor"
+    }
+  }

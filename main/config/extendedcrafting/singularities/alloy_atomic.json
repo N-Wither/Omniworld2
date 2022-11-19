@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.alloy_atomic",
+    "colors": [
+      "ba3fc8",
+      "393939"
+    ],
+    "ingredient": {
+      "item": "mekanism:alloy_atomic"
+    }
+  }

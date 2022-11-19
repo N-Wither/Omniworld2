@@ -1,0 +1,189 @@
+{
+	id: "4AEECDA6CA1DDEFD"
+	group: "7B447FB054196556"
+	order_index: 6
+	filename: "4AEECDA6CA1DDEFD"
+	title: "魔灵召唤"
+	icon: {
+		id: "occultism:ritual_dummy/custom_ritual"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 28.8d
+		height: 16.2d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/occultism.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "介绍"
+			x: -5.5d
+			y: 0.0d
+			description: [
+				"Occultism 是一个关于魔灵的模组。"
+				""
+				"当前本模组的教程正在从 Patchouli 迁移到 Modonomicon， 新的魔灵全典的内容仍不全面，一些缺失的内容请查阅旧版！"
+			]
+			dependencies: ["0429F3CC27BED625"]
+			hide: true
+			id: "272ED3F53021C9EE"
+			tasks: [{
+				id: "676410872895523B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "不含易上瘾成分"
+			description: ["通过打草获得这种植物的种子，吃下这种果子后，你将能够看到异界的物质。"]
+			dependencies: ["272ED3F53021C9EE"]
+			id: "1AC184B17D2021FC"
+			tasks: [{
+				id: "233B15AA686DA0CA"
+				type: "item"
+				item: {
+					id: "occultism:datura"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "526829CE54EB5835"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "灵火"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "不伤人！"
+			description: [
+				"在地上丢一个魔鬼之梦果，然后点燃它。"
+				""
+				"用来将常规物品转化为它们的异界版本，也用来制作一些其他东西。"
+			]
+			dependencies: ["1AC184B17D2021FC"]
+			id: "39A20385A91794C1"
+			tasks: [{
+				id: "07866923CA666247"
+				type: "observation"
+				title: "看向一团灵火"
+				icon: {
+					id: "occultism:spirit_fire"
+					Count: 1b
+					tag: { }
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "occultism:spirit_fire"
+			}]
+			rewards: [{
+				id: "277B32BFE3349B23"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "异界物资"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "藏于隐秘之处"
+			description: [
+				"在地下你可能会发现一个长了草和树木、带有荧石照明的小洞穴，在你吃下魔鬼之梦果后，你会发现这里的树和石头不一般。"
+				""
+				"当然你也可以直接用灵火制作它们..."
+			]
+			dependencies: ["1AC184B17D2021FC"]
+			id: "15ADB708903EA9DF"
+			tasks: [
+				{
+					id: "1F58DF76F7C7B4D7"
+					type: "item"
+					item: {
+						id: "occultism:otherstone"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7581D19DD51839E8"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_log"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "471AC6DE57F735A7"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "第一个仪式"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "异界之力，听从我的召唤吧！"
+			description: [
+				"那么，是时候做点正事了！"
+				""
+				"粉笔用来在地面上绘制图案以形成“五芒星”，这里的“五芒星”并不是指我们熟悉的那个几何图形，而是一系列具有功能的魔法图案的总称。"
+				""
+				"献祭之碗用来放置材料，黄金献祭之碗则要摆放在五芒星的中央，一切准备就绪后，用相应的物品右键黄金献祭之碗来开始仪式。"
+				""
+				"献祭之碗的摆放没有特殊要求，只要在范围内即可。"
+			]
+			dependencies: ["39A20385A91794C1"]
+			id: "7EF80BDDAF7230FD"
+			tasks: [
+				{
+					id: "1E89F71BF1452CA2"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BE0640C9F352836"
+					type: "item"
+					item: {
+						id: "occultism:golden_sacrificial_bowl"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "54BD9C48F29E0714"
+					type: "item"
+					item: {
+						id: "occultism:sacrificial_bowl"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "6460E48DB918C763"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

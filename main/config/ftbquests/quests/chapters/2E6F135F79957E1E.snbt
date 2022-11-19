@@ -23,7 +23,9 @@
 		{
 			x: -5.5d
 			y: -1.5d
+			shape: "diamond"
 			dependencies: ["5C79C37DE146CBE1"]
+			size: 1.2d
 			id: "1516822CA2A1AC5B"
 			tasks: [{
 				id: "15D3C1663E0DA749"
@@ -38,8 +40,10 @@
 			}]
 		}
 		{
+			title: "机械动力"
 			x: -7.5d
 			y: -1.5d
+			description: ["这是一个利用旋转动力的模组。"]
 			dependencies: ["32CB2054D750E015"]
 			hide: true
 			id: "5C79C37DE146CBE1"
@@ -191,7 +195,9 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			shape: "diamond"
 			dependencies: ["7E7B2BFC37C02930"]
+			size: 1.2d
 			id: "3FEDDFE21612E6AA"
 			tasks: [{
 				id: "53D05C2E4CD47878"
@@ -241,7 +247,9 @@
 		{
 			x: -7.5d
 			y: 3.0d
+			shape: "diamond"
 			dependencies: ["5C79C37DE146CBE1"]
+			size: 1.2d
 			id: "1A57C8BB4B7D430E"
 			tasks: [{
 				id: "5CEDC78E84B3B5EF"
@@ -555,7 +563,9 @@
 		{
 			x: 0.5d
 			y: 2.5d
+			shape: "diamond"
 			dependencies: ["55FEE8C82CF6A9A2"]
+			size: 1.2d
 			id: "05AF0C6347BB129B"
 			tasks: [{
 				id: "678C9CECADF5750D"
@@ -637,6 +647,7 @@
 		{
 			x: 12.5d
 			y: -4.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "0C48A061FE6F0BCA"
@@ -654,7 +665,8 @@
 		}
 		{
 			x: 12.5d
-			y: -2.5d
+			y: -3.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "6A60A2CE0986C0B2"
@@ -672,7 +684,8 @@
 		}
 		{
 			x: 12.5d
-			y: -1.0d
+			y: -2.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "037D36D7A2D7BC8E"
@@ -689,7 +702,8 @@
 		}
 		{
 			x: 12.5d
-			y: 0.5d
+			y: -1.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "75EAE4E3F08A22A5"
@@ -706,7 +720,8 @@
 		}
 		{
 			x: 12.5d
-			y: 2.0d
+			y: 0.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "05522D803AB4DDDD"
@@ -730,7 +745,8 @@
 		}
 		{
 			x: 12.5d
-			y: 3.5d
+			y: 1.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["5C79C37DE146CBE1"]
 			id: "433D0CD2E198C541"
@@ -781,6 +797,42 @@
 				id: "3CA3BD3A5789ED50"
 				type: "random"
 				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5C79C37DE146CBE1"
+				"3D6AC6B0EC5A5A95"
+			]
+			id: "2834157E6C6D07E9"
+			tasks: [{
+				id: "735EE8BE045BC367"
+				type: "item"
+				item: "compressedcreativity:compressed_air_engine"
+			}]
+			rewards: [{
+				id: "4E759B98F1E093D4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5C79C37DE146CBE1"]
+			size: 2.0d
+			id: "192AFC4233142136"
+			tasks: [{
+				id: "4B5A78D757FBFE3F"
+				type: "item"
+				item: "create:precision_mechanism"
 			}]
 		}
 	]

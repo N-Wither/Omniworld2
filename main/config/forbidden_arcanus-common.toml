@@ -103,14 +103,14 @@
 		generate = true
 
 	[world_gen.nipa]
-		#Generate Nipas? [default: true]
-		generate = true
 		#Nipa Structure Spacing [default: 35]
 		#Range: > 0
 		spacing = 35
 		#Nipa Structure Separation [default: 8]
 		#Range: > 0
 		separation = 8
+		#Generate Nipas? [default: true]
+		generate = true
 
 [items]
 

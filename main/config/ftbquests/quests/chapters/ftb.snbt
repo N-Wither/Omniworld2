@@ -197,6 +197,11 @@
 				type: "item"
 				item: "ftbic:ev_transformer"
 			}]
+			rewards: [{
+				id: "5AE63B4DB72C5E92"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -4.5d
@@ -207,6 +212,11 @@
 				id: "6FF0134523338D01"
 				type: "item"
 				item: "ftbic:industrial_grade_metal"
+			}]
+			rewards: [{
+				id: "4DFA9767CAFF33D6"
+				type: "random"
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -219,6 +229,27 @@
 				type: "item"
 				item: "ftbic:machine_block"
 			}]
+			rewards: [
+				{
+					id: "4D81D8BA8C106F61"
+					type: "item"
+					item: {
+						id: "ftbic:machine_block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6132B1A2C0CEB31C"
+					type: "item"
+					item: {
+						id: "ftbic:fuse"
+						Count: 1b
+						tag: { }
+					}
+					count: 8
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -229,6 +260,11 @@
 				id: "5FDD60D59A929618"
 				type: "item"
 				item: "ftbic:macerator"
+			}]
+			rewards: [{
+				id: "760A17C444189F80"
+				type: "random"
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -241,6 +277,11 @@
 				type: "item"
 				item: "ftbic:powered_furnace"
 			}]
+			rewards: [{
+				id: "32CE121C1297C2F6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: -1.5d
@@ -251,6 +292,11 @@
 				id: "6EA17929974D254A"
 				type: "item"
 				item: "ftbic:basic_generator"
+			}]
+			rewards: [{
+				id: "4269D68A94F07DA1"
+				type: "random"
+				table_id: 5332197433974249914L
 			}]
 		}
 		{
@@ -274,6 +320,11 @@
 				type: "item"
 				item: "ftbic:advanced_machine_block"
 			}]
+			rewards: [{
+				id: "598BB90A17A368A3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: 3.5d
@@ -284,6 +335,153 @@
 				id: "779136348F02AEE0"
 				type: "item"
 				item: "ftbic:nuclear_reactor"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["50C625CF03C6D6CF"]
+			size: 2.0d
+			id: "60A9366D18B244E1"
+			tasks: [{
+				id: "79431730506C8C22"
+				type: "item"
+				item: "ftbic:antimatter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["63CB2726F25CE0AD"]
+			id: "0F2E3855BE09F01B"
+			tasks: [{
+				id: "7222D0EDE3914EFD"
+				type: "item"
+				item: {
+					id: "ftbic:compressor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70AB8EDFC5E23467"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: [
+				"消耗任意物品产生废料。"
+				""
+				"把你所有垃圾都扔给它吧。"
+			]
+			dependencies: ["0F2E3855BE09F01B"]
+			id: "2F3A5D1EE48F3660"
+			tasks: [{
+				id: "3B7B23E8BE9AA1D8"
+				type: "item"
+				item: {
+					id: "ftbic:reprocessor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "46014AB45CB128F5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: [
+				"消耗⚡产生反物质。"
+				""
+				"使用废料可以加速生产。"
+			]
+			dependencies: ["13EF91F308C02ECA"]
+			id: "4AE63BB18AF201FA"
+			tasks: [{
+				id: "69EFFF438E722137"
+				type: "item"
+				item: {
+					id: "ftbic:antimatter_constructor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6F8C242BD31BE981"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["4AE63BB18AF201FA"]
+			id: "1D12A421861476A3"
+			tasks: [{
+				id: "1C07CEBD19A4AE8E"
+				type: "item"
+				item: {
+					id: "ftbic:antimatter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "71B5938C990FEE99"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["6ED632FAFB7C8E5F"]
+			id: "373BE726E6FE6AC0"
+			tasks: [{
+				id: "60FF7D2BD3607310"
+				type: "item"
+				item: {
+					id: "ftbic:lv_transformer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "151AC783396F768A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: ["将 FE 转换为 ⚡ 并输出到相邻的变压器或电池箱。"]
+			dependencies: ["640C68501F79C7CD"]
+			id: "2B0D677930FEF15B"
+			tasks: [{
+				id: "306618C8EB74D17A"
+				type: "item"
+				item: {
+					id: "fe_transformer:fe_transformer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "224D7518304D5F7C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
 			}]
 		}
 	]

@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.precision_mechanism",
+    "colors": [
+      "fce892",
+      "75452c"
+    ],
+    "ingredient": {
+      "item": "create:precision_mechanism"
+    }
+  }

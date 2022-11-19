@@ -16,13 +16,13 @@
 		maxLength = 16
 		#The transfer rate of copper wire in IF/t
 		#Range: > 0
-		transferRate = 2048
+		transferRate = 4096
 		#The percentage of power lost every 16 blocks of distance in copper wire
 		#Range: 0.0 ~ 1.0
 		loss = 0.05
 		#In- and output rates of copper wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 256
+		wireConnectorInput = 512
 
 	[wires.electrum]
 		#The maximum length of electrum wires
@@ -30,13 +30,13 @@
 		maxLength = 16
 		#The transfer rate of electrum wire in IF/t
 		#Range: > 0
-		transferRate = 8192
+		transferRate = 16384
 		#The percentage of power lost every 16 blocks of distance in electrum wire
 		#Range: 0.0 ~ 1.0
 		loss = 0.025
 		#In- and output rates of electrum wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 1024
+		wireConnectorInput = 2048
 
 	[wires.hv]
 		#The maximum length of hv wires
@@ -44,13 +44,13 @@
 		maxLength = 32
 		#The transfer rate of hv wire in IF/t
 		#Range: > 0
-		transferRate = 32768
+		transferRate = 65536
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
 		loss = 0.025
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 4096
+		wireConnectorInput = 8192
 
 	[wires.rope]
 		#The maximum length of rope wires
@@ -89,7 +89,7 @@
 	lightning_output = 16000000
 	#The Flux per tick that the Diesel Generator will output. The burn time of the fuel determines the total output
 	#Range: > 0
-	dieselGen_output = 4096
+	dieselGen_output = 65536
 	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
 	#Range: > 1
 	preheater_consumption = 32
@@ -491,31 +491,31 @@
 	[tools.bullet_damage]
 		#The amount of base damage a Casull Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		casull = 10.0
+		casull = 15.0
 		#The amount of base damage a armor piercing Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		ap = 10.0
+		ap = 15.0
 		#The amount of base damage a single part of buckshot inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		buck = 2.0
+		buck = 3.0
 		#The amount of base damage a dragon breath cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		dragon = 3.0
+		dragon = 4.5
 		#The amount of base damage a homing cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		homing = 10.0
+		homing = 15.0
 		#The amount of base damage a wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack = 4.0
+		wolfpack = 6.0
 		#The amount of base damage the sub-projectiles of a  wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack_part = 8.0
+		wolfpack_part = 12.0
 		#The amount of damage a silver bullet inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		silver = 10.0
+		silver = 15.0
 		#The amount of base damage a phial cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		phial = 1.0
+		phial = 1.5
 
 	[tools.chemthrower]
 		#The mb of fluid the Chemical Thrower will consume per tick of usage
@@ -530,5 +530,5 @@
 		consumption = 800
 		#A modifier for the damage of all projectiles fired by the Railgun
 		#Range: 0.0 ~ 1.7976931348623157E308
-		damage_modifier = 1.0
+		damage_modifier = 5.0
 

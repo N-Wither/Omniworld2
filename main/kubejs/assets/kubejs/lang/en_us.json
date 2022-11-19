@@ -4,8 +4,13 @@
     "item.kubejs.nwither_plush": "NWitherKawaii Plushie",
     "item.kubejs.affix_gem": "Affix Gem",
     "item.kubejs.affix_gem_with_affix": "Affix Gem",
+    "item.kubejs.rhythm_gamers_glove": "Rhythm Gamer's Glove",
 
     "block.kubejs.torcherino": "Torcherino",
+    "block.kubejs.molten_infinity_fluid": "Molten Infinity",
+
+    "fluid.kubejs.molten_infinity": "Molten Infinity",
+    "fluid.kubejs.flowing_molten_infinity": "Flowing Molten Infinity",
 
     "tooltip.kubejs.flavor.log_1": "Logs are very important!",
     "tooltip.kubejs.flavor.log_2": "You will need them almost any time, so gather more!",
@@ -102,6 +107,11 @@
     "tooltip.kubejs.flavor.ametrine": "Literally the combination of amethyst and citrine, very rare.",
     "tooltip.kubejs.flavor.kunzite": "Magnesium caused its pink color.",
     "tooltip.kubejs.flavor.iolite": "The birthstone of September.",
+    "tooltip.kubejs.flavor.bat_soup": "COVID-19 free.",
+    "tooltip.kubejs.flavor.banana_1": "How to grow a banana tree?",
+    "tooltip.kubejs.flavor.banana_2": "Plant a piece of banana leaf, it will grow in rain.",
+    "tooltip.kubejs.flavor.gamers_glove_1": "Rhythm game players' best choice! Makes your hand moves light-speed!",
+    "tooltip.kubejs.flavor.gamers_glove_2": "You've got a \"GOOD\"",
 
     "tooltip.kubejs.infinity_ingot_1": "As this modpack is still in very early development, you may not be able to craft this yet.",
     "tooltip.kubejs.infinity_ingot_2": "But you can prepare for it now!",
@@ -123,6 +133,9 @@
     "tooltip.kubejs.sophisticatedstorage_shulker": "Can also be crafted like vanilla shulker boxes.",
     "tooltip.kubejs.affix_gem_1": "Gem in your main hand, the item with affix in your offhand, rightclick to move the affix to the gem.",
     "tooltip.kubejs.affix_gem_2": "Gem in your main hand, the item in your offhand, rightclick to move the affix to the item.",
+    "tooltip.kubejs.ender_tank": "DON'T check its usage via JEI, may damage your game!",
+    "tooltip.kubejs.compost": "Acquired by composting organic wastes in Batch Composter.",
+    "tooltip.kubejs.hephaestus_forge": "Build a multiblock structure to use Hephaestus Forge, see Omniguide for more info.",
 
     "kubejs.server_events.purge": "Cleaning item entities!",
     "kubejs.server_events.book": "Here! Don't lose it this time!",
@@ -134,5 +147,13 @@
     "patchouli.book.omniguide.name": "Omniguide",
     "patchouli.book.omniguide.landing_text": "Welcome to Omniworld! This book will help you play this modpack. $(br)As the content of this book is ported from an older version, some content may be wrong!",
 
-    "singularity.extendedcrafting.antimatter": "Antimatter"
+    "singularity.extendedcrafting.antimatter": "Antimatter",
+    "singularity.extendedcrafting.alloy_atomic": "Atomic Alloy",
+    "singularity.extendedcrafting.component_electronic": "Electronic Component",
+    "singularity.extendedcrafting.dragonstone": "Dragonstone",
+    "singularity.extendedcrafting.magic_clay": "Magic Clay",
+    "singularity.extendedcrafting.precision_mechanism": "Precision Mechanism",
+    "singularity.extendedcrafting.transistor": "Transistor",
+
+    "material.silentgear.infinity": "Infinity"
 }

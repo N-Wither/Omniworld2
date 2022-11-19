@@ -10,4 +10,10 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "crystal"
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 

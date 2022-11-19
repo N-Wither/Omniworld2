@@ -47,6 +47,14 @@ onEvent("tags.items", event => {
     event.add('forge:cheeses', ["beyond_earth:cheese", "sakura:cheese"]);
     event.add('forge:cheese', 'croptopia:cheese');
     event.add("materialis:plastic_material", "immersiveengineering:plate_duroplast");
+    event.add('forge:tallow', ['hexerei:animal_fat', 'delightful:animal_fat']);
+    event.add('forge:flour', "pneumaticcraft:wheat_flour");
+    event.add("minecraft:music_discs", ['wildbackport:music_disc_5', /*"arsomega:demon_dance_music_disc", "arsomega:blocky_hills_music_disc"*/]);
+    event.add('forge:rope', "druidcraftrg:rope");
+    event.add("tinker_rapier:casts/multi_use/slender_blade", "tinker_rapier:slender_blade_cast");
+    event.add("tinker_rapier:casts/single_use/slender_blade", ["tinker_rapier:slender_blade_red_sand_cast", "tinker_rapier:slender_blade_sand_cast"]);
+    event.add("forge:crops/vanilla", "neapolitan:dried_vanilla_pods");
+    event.add("forge:vanilla", "neapolitan:dried_vanilla_pods");
 
     event.add("diet:fruits", ["culturaldelights:avocado"]);
     event.add("diet:vegetables", ["culturaldelights:cucumber", "culturaldelights:eggplant", "culturaldelights:white_eggplant", "nethersdelight:propelpearl", "nethersdelight:plate_of_stuffed_hoglin_ham", "nethersdelight:plate_of_stuffed_hoglin_roast", "nethersdelight:plate_of_stuffed_hoglin_snout"]);
@@ -57,6 +65,8 @@ onEvent("tags.items", event => {
     event.add('forge:affix_appliable', ['#tconstruct:modifiable', '#forge:tools/axes']);
     event.add('forge:affix_appliable', /mekanism:mekasuit.*/);
     event.add('forge:affix_appliable', 'kubejs:engulfing_lightning');
+
+    event.add("curios:hands", 'kubejs:rhythm_gamers_glove')
 
     /*========REMOVALS========*/
     function removeType(type, material, item){

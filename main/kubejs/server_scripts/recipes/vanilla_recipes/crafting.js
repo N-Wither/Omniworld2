@@ -38,12 +38,11 @@ onEvent('recipes', event => {
     shapeless("ftbic:enderium_wire", ["#forge:plates/enderium", "#immersiveengineering:tools/wirecutters"], "enderium_wire");
 
     // Avaritia
-    shapeless('9x avaritia:infinity_ingot', '#forge:storage_blocks/infinity', 'infinity_ingot_from_block');
     shapeless('9x avaritia:neutronium_ingot', '#forge:storage_blocks/neutronium', 'neutronium_ingot_from_block');
     shapeless('9x avaritia:crystal_matrix_ingot', '#forge:storage_blocks/crystal_matrix', 'crystal_matrix_ingot_from_block');
 
     // Guidebooks
-    shapeless(akashicTome, "eccentrictome:tome", 'full_akashic_tome');
+    shapeless(akashicTome, "eccentrictome:tome", 'full_eccentric_tome');
     shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:omniguide"}'), ['3x #forge:rods/wooden', 'minecraft:dirt'], 'omniguide')
 
     // PipeZ
@@ -91,4 +90,33 @@ onEvent('recipes', event => {
     shapeless('2x omniores:brass_dust', ['#forge:dusts/copper', '#forge:dusts/zinc'], 'brass_dust');
     shapeless('4x omniores:bronze_dust', ['3x #forge:dusts/copper', '#forge:dusts/tin'], 'bronze_dust');
 
+    // KubeJS
+    shapeless('kubejs:taiyaki', ['#forge:flour', '#forge:flour', 'neapolitan:roasted_adzuki_beans'], 'taiyaki');
+
+    // Reborn Storage
+    shaped("rebornstorage:super_wireless_crafting_grid", ['ICI', 'WFW', 'IMI'], {
+        I: 'refinedstorage:quartz_enriched_iron',
+        C: 'refinedstorageaddons:wireless_crafting_grid',
+        W: 'extradisks:withering_processor',
+        F: 'refinedstorage:wireless_fluid_grid',
+        M: 'refinedstorage:wireless_crafting_monitor'
+    }, 'super_grid');
+
+    // Antimatter to other items
+    let antimatter = (item, pattern, id) => {
+        if(id == undefined) id = item.split(':')[1];
+        event.recipes.cucumber.shaped_no_mirror(item, pattern, {a: "ftbic:antimatter"}).id('kubejs:antimatter/'+ id);
+    }
+    antimatter("64x minecraft:dirt", ['a  ', '   ', '   ']);
+    antimatter("64x minecraft:stone", [' a ', '   ', '   ']);
+    antimatter('64x minecraft:cobblestone', ['  a', '   ', '   ']);
+    antimatter("32x minecraft:oak_log", ['   ', 'a  ', '   ']);
+    antimatter("64x minecraft:sand", ['   ', ' a ', '   ']);
+    antimatter("64x minecraft:gravel", ['   ', '  a', '   ']);
+    antimatter("32x minecraft:obsidian", ['aa ', 'aa ', '   ']);
+    antimatter("4x minecraft:diamond", ['aaa', 'a a', 'aaa']);
+    antimatter('48x minecraft:iron_ingot', ['aaa', '   ', '   ']);
+    antimatter('32x minecraft:gold_ingot', ['   ', 'aaa', '   ']);
+    antimatter("48x minecraft:amethyst_shard", ['  a', ' a ', 'a  ']);
+    antimatter("minecraft:ancient_debris", ['aaa', 'aaa', 'aaa'])
 })

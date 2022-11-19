@@ -2,6 +2,7 @@ onEvent("fluid.tags", event => {
     event.add("tconstruct:blood", ["biomesoplenty:blood", "hexerei:blood_fluid"]);
     event.add("forge:crude_oil", "beyond_earth:oil");
     event.add("forge:molten_plastic", "pneumaticcraft:plastic");
+    event.add("forge:molten_infinity", 'kubejs:molten_infinity');
 
     event.remove("minecraft:water", [
         "cyclic:biomass",

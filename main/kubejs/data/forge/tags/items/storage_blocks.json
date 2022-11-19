@@ -1,9 +1,9 @@
 {
     "replace": false,
     "values": [
-      "avaritia:crystal_matrix",
-      "avaritia:neutronium",
-      "avaritia:infinity",
+      "avaritia:crystal_matrix_block",
+      "avaritia:neutronium_block",
+      "avaritia:infinity_block",
       "gemsnjewels:pale_diamond_block",
       "gemsnjewels:emerald_block",
       "gemsnjewels:ruby_block",
@@ -58,6 +58,7 @@
       "nourished_end:bismuth_block",
       "nourished_end:starsteel_block",
       "nourished_end:raw_bismuth_block",
-      "forbidden_arcanus:processed_obsidian_block"
+      "forbidden_arcanus:processed_obsidian_block",
+      "phantasm:stellium_block"
     ]
 }

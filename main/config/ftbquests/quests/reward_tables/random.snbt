@@ -366,5 +366,398 @@
 				}
 			}
 		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{ item: "gobber2:gobber2_globette_nether", count: 4 }
+		{ item: "scannable:blank_module", count: 2 }
+		{ item: "xnet:netcable_blue", count: 16 }
+		{ item: "integrateddynamics:cable", count: 16 }
+		{ item: "integratedtunnels:part_interface_item", count: 2 }
+		{ item: "forbidden_arcanus:mysterywood_sapling" }
+		{ item: "forbidden_arcanus:orb_of_temporary_flight" }
+		{ item: "mekanism:hdpe_sheet", count: 4 }
+		{
+			item: {
+				id: "immersiveengineering:treated_wood_horizontal"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "ftbic:antimatter"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "omniores:enderium_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "silentgear:crimson_iron_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "xnet:netcable_blue"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "sakura:dansansyoku"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:potion_bucket"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				id: "malum:hallowed_gold_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "archers_paradox:lightning_arrow"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "thermal:enderium_glass"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:aureal_bottle"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:ametrine"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "tconstruct:pig_iron_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "cyclic:gem_amber"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "miniutilities:iron_opinium_core"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "miniutilities:reinforced_large_drum"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "laserio:laser_node"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "powah:steel_energized"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "powah:crystal_blazing"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "industrialforegoing:machine_frame_simple"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "industrialforegoing:machine_frame_advanced"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "malum:sacred_spirit"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "redstone_arsenal:flux_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "modularrouters:modular_router"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "malum:soul_stained_steel_ingot"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "pipez:ultimate_upgrade"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:mattock_nether"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagradditions:imperium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "italian_delight:pizza_margehrita"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "scannable:blank_module"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "powah:dielectric_casing"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "kubejs:rhythm_gamers_glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gag:escape_rope"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gag:hearthstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gag:sacred_salve"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "croptopia:lemon_chicken"
+				Count: 1b
+				tag: { }
+			}
+			count: 6
+		}
+		{
+			item: {
+				id: "culturaldelights:egg_roll"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "supplementaries:bamboo_spikes"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "pipez:ultimate_upgrade"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "integrateddynamics:variable_transformer_output"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "integrateddynamics:variable_transformer_input"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alexsmobs:rainbow_jelly"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "functionalstorage:diamond_upgrade"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "malum:wicked_spirit"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "cyclic:ender_torch"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "wstweaks:lava_blade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cacao:golden_chocolate" }
+		{ item: "cacao:white_chocolate" }
+		{ item: "neapolitan:vanilla_pudding" }
+		{
+			item: {
+				id: "cyclic:crafting_bag"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "create:steam_whistle" }
 	]
 }

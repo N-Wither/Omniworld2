@@ -1,6 +1,5 @@
 global.disabledItems = [
     /(rebornstorage):.*(disk|processor)/,
-    /avaritia:singularity/,
     'avaritia:extreme_crafting_table',
     'avaritia:neutronium_compressor',
     /thermal:(iron|gold)_gear/,

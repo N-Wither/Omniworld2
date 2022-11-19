@@ -103,5 +103,5 @@
 	#3) Resource location for those loaded with resource packs, for instance: modernui:font/biliw.otf
 	#Using bitmap fonts should consider other text settings, default glyph size should be 16x.
 	#This list is only read once when the game is loaded. A game restart is required to reload
-	fontFamily = ["kubejs:font/readexpro.ttf", "modernui:font/biliw.otf", "Calibri", "Microsoft YaHei UI", "SimHei", "SansSerif"]
+	fontFamily = ["modernui:font/kawaii.ttf", "kubejs:font/readexpro.ttf", "modernui:font/biliw.otf", "Calibri", "Microsoft YaHei UI", "SimHei", "SansSerif"]
 

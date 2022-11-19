@@ -12,4 +12,14 @@ onEvent('item.modification', event => {
       item.maxStackSize = 64
     })
   );
+
+  let redRarity = Rarity.create('Red', ChatFormatting.color(0xff6055))
+  let redRarityItems = [
+    "avaritia:infinity_block"
+  ]
+  for(let item in redRarityItems){
+    event.modify(item, item => {
+      item.setRarity(redRarity);
+    })
+  }
 })

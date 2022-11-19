@@ -21,8 +21,10 @@
 	}]
 	quests: [
 		{
-			x: -5.0d
+			title: "介绍"
+			x: -6.5d
 			y: 0.0d
+			description: ["这模组还需要介绍？"]
 			dependencies: ["7322554D84075BF9"]
 			hide: true
 			id: "0D4680FD75960165"
@@ -33,8 +35,9 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.5d
 			y: 0.0d
+			description: ["进入暮色森林。"]
 			dependencies: ["0D4680FD75960165"]
 			id: "76830DE727FF33E3"
 			tasks: [{
@@ -49,7 +52,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.5d
 			y: -2.0d
 			dependencies: ["76830DE727FF33E3"]
 			id: "03FBE7B422B925FA"
@@ -65,8 +68,10 @@
 			}]
 		}
 		{
-			x: -1.0d
+			title: "娜迦"
+			x: -2.5d
 			y: 0.0d
+			description: ["一条生活在高墙围绕的庭院内的巨蛇。"]
 			dependencies: ["76830DE727FF33E3"]
 			id: "4459197A12C9935C"
 			tasks: [{
@@ -74,16 +79,25 @@
 				type: "item"
 				item: "twilightforest:naga_trophy"
 			}]
-			rewards: [{
-				id: "64A3D531E144D228"
-				type: "item"
-				item: "twilightforest:naga_scale"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "64A3D531E144D228"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 6
+				}
+				{
+					id: "62F5E844F7CAB726"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			x: 1.0d
+			title: "巫妖"
+			x: -0.5d
 			y: 0.0d
+			description: ["在巫妖高塔的顶层击败巫妖。"]
 			dependencies: ["4459197A12C9935C"]
 			id: "4B03ADA530EF05C4"
 			tasks: [{
@@ -91,16 +105,25 @@
 				type: "item"
 				item: "twilightforest:lich_trophy"
 			}]
-			rewards: [{
-				id: "1727DBCB855B7629"
-				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "1727DBCB855B7629"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 16
+				}
+				{
+					id: "365C85E6BE01CACA"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
-			x: 3.0d
+			title: "米诺菇"
+			x: 1.5d
 			y: -2.0d
+			description: ["沼泽地下迷宫中的牛头人首领。"]
 			dependencies: ["4B03ADA530EF05C4"]
 			id: "5BD531BDCF77F860"
 			tasks: [{
@@ -119,11 +142,21 @@
 					type: "item"
 					item: "twilightforest:meef_stroganoff"
 				}
+				{
+					id: "22941B4541703D94"
+					type: "xp"
+					xp: 300
+				}
 			]
 		}
 		{
-			x: 3.0d
+			x: 1.5d
 			y: 0.0d
+			description: [
+				"黑暗森林地下阴魂不散的骑士们。"
+				""
+				"&b提示：如果你找不到幻影骑士的房间，试试迷宫地图！"
+			]
 			dependencies: ["4B03ADA530EF05C4"]
 			id: "4E93AB7512C042B8"
 			tasks: [{
@@ -131,16 +164,25 @@
 				type: "item"
 				item: "twilightforest:knight_phantom_trophy"
 			}]
-			rewards: [{
-				id: "32D833DD98A965DB"
-				type: "item"
-				item: "twilightforest:knightmetal_ingot"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "32D833DD98A965DB"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+					count: 4
+				}
+				{
+					id: "6B57EF1A610451B2"
+					type: "xp"
+					xp: 300
+				}
+			]
 		}
 		{
-			x: 3.0d
+			title: "雪怪首领"
+			x: 1.5d
 			y: 2.0d
+			description: ["冰雪洞窟中的巨兽。"]
 			dependencies: ["4B03ADA530EF05C4"]
 			id: "24D3A0FA87204DC2"
 			tasks: [{
@@ -148,16 +190,25 @@
 				type: "item"
 				item: "twilightforest:alpha_yeti_trophy"
 			}]
-			rewards: [{
-				id: "61CB95BBFBA27F69"
-				type: "item"
-				item: "twilightforest:alpha_yeti_fur"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "61CB95BBFBA27F69"
+					type: "item"
+					item: "twilightforest:alpha_yeti_fur"
+					count: 4
+				}
+				{
+					id: "5E6206AE1272C5B6"
+					type: "xp"
+					xp: 300
+				}
+			]
 		}
 		{
-			x: 5.0d
+			title: "九头蛇"
+			x: 3.5d
 			y: -2.0d
+			description: ["沼泽中央的喷火怪物。"]
 			dependencies: ["5BD531BDCF77F860"]
 			id: "77CB59886518C919"
 			tasks: [{
@@ -165,10 +216,31 @@
 				type: "item"
 				item: "twilightforest:hydra_trophy"
 			}]
+			rewards: [
+				{
+					id: "1D8B9DB75BBE780D"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 8
+				}
+				{
+					id: "0FBA18B2FF87E684"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1948B8627C534380"
+					type: "item"
+					item: "twilightforest:fiery_blood"
+					count: 3
+				}
+			]
 		}
 		{
-			x: 5.0d
+			title: "暮初恶魂"
+			x: 3.5d
 			y: 0.0d
+			description: ["盘旋在高塔顶端的恐怖。"]
 			dependencies: ["4E93AB7512C042B8"]
 			id: "7C3D714F6FDE914E"
 			tasks: [{
@@ -176,10 +248,31 @@
 				type: "item"
 				item: "twilightforest:ur_ghast_trophy"
 			}]
+			rewards: [
+				{
+					id: "1CF18F3D0B953F80"
+					type: "item"
+					item: "twilightforest:carminite"
+					count: 10
+				}
+				{
+					id: "1DA9592716B1E1EF"
+					type: "item"
+					item: "twilightforest:fiery_tears"
+					count: 3
+				}
+				{
+					id: "580D4C777E9D8E31"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
-			x: 5.0d
+			title: "冰雪女王"
+			x: 3.5d
 			y: 2.0d
+			description: ["极光城堡的主人。"]
 			dependencies: ["24D3A0FA87204DC2"]
 			id: "165D579E92CDD74B"
 			tasks: [{
@@ -187,10 +280,30 @@
 				type: "item"
 				item: "twilightforest:snow_queen_trophy"
 			}]
+			rewards: [
+				{
+					id: "3EA98AA7F22BC632"
+					type: "item"
+					item: "minecraft:blue_ice"
+					count: 8
+				}
+				{
+					id: "4C2BD325257DD4F4"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					count: 8
+				}
+				{
+					id: "55A5F7FA9A1417F1"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
-			x: -1.0d
+			x: -2.5d
 			y: -2.0d
+			description: ["在魔法森林中找到谜题羊，给他 16 种颜色的羊毛。"]
 			dependencies: ["76830DE727FF33E3"]
 			id: "726D9FEB2E04FFF0"
 			tasks: [{
@@ -198,10 +311,18 @@
 				type: "item"
 				item: "twilightforest:quest_ram_trophy"
 			}]
+			rewards: [{
+				id: "0D1AC6202201042A"
+				type: "item"
+				item: "mysticalagriculture:dye_essence"
+				count: 16
+			}]
 		}
 		{
-			x: 7.0d
+			title: "巨人"
+			x: 5.5d
 			y: -1.0d
+			description: ["云上的战士和矿工。"]
 			dependencies: [
 				"77CB59886518C919"
 				"7C3D714F6FDE914E"
@@ -232,10 +353,23 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "71DC0A5655979E92"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "1D335BDFBB648C1C"
+					type: "item"
+					item: "quark:bottled_cloud"
+				}
+			]
 		}
 		{
-			x: 7.0d
+			x: 5.5d
 			y: 1.0d
+			description: ["高原洞穴中的奇异种子。"]
 			dependencies: [
 				"77CB59886518C919"
 				"7C3D714F6FDE914E"
@@ -247,10 +381,16 @@
 				type: "item"
 				item: "twilightforest:magic_beans"
 			}]
+			rewards: [{
+				id: "08E0BA3A3D5D59F5"
+				type: "item"
+				item: "twilightforest:uberous_soil"
+			}]
 		}
 		{
-			x: 9.0d
+			x: 7.5d
 			y: 0.0d
+			description: ["巨型黑曜石守护的宝藏，环绕高原中央的荆棘在它的火焰下纷纷化为灰烬。"]
 			dependencies: [
 				"5EB6342394B670D5"
 				"2E300F50259F572D"
@@ -266,6 +406,24 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "48BAD9C08495C83C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "终焉城堡"
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["715158918028DA39"]
+			id: "2D70D95D7F7F783C"
+			tasks: [{
+				id: "78ADFCCED683AA79"
+				type: "structure"
+				structure: "twilightforest:final_castle"
 			}]
 		}
 	]

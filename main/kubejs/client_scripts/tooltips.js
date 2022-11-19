@@ -26,7 +26,8 @@ onEvent('item.tooltip', tooltip => {
         'kubejs:taiyaki',
         'kubejs:engulfing_lightning',
         'kubejs:nwither_plush',
-        'kubejs:torcherino'
+        'kubejs:torcherino',
+        'kubejs:rhythm_gamers_glove'
     ]
 
     sponsorItems.forEach(item => {
@@ -43,4 +44,6 @@ onEvent('item.tooltip', tooltip => {
 
     tooltip.add('kubejs:affix_gem', textHelp(kpf('affix_gem_1')));
     tooltip.add('kubejs:affix_gem_with_affix', textHelp(kpf('affix_gem_2')));
+    tooltip.add("enderstorage:ender_tank", textWarn(kpf('ender_tank')));
+    tooltip.add("thermal:compost", textHelp(kpf('compost')));
 })

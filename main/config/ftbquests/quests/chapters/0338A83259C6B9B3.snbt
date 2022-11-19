@@ -29,7 +29,7 @@
 			description: [
 				"你大概会疑惑为什么没有在挖矿的时候看到赛特斯石英矿石，答案是这里没有应用能源2（AE2）。"
 				""
-				"实际上，目前的精致储存已经能够与应用能源2分庭抗礼，特别是应用能源2在1.17自废武功地去掉了ME接口的模板功能之后。"
+				"&bRefined Storage&f 的用法和 AE2 相似，不过没有烦人的频道设定和一个存储元件只能装 63 种物品的限制。"
 			]
 			dependencies: ["32CB2054D750E015"]
 			hide: true
@@ -65,6 +65,23 @@
 					item: "refinedstorage:advanced_processor"
 				}
 			]
+			rewards: [
+				{
+					id: "1B185AA0CEAEFFDC"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "5A7F91D7E0D13F55"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "59B3F884E76F7320"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -94,7 +111,7 @@
 			x: -4.0d
 			y: -1.5d
 			subtitle: "基础材料"
-			description: ["RS和AE2的一个相同点：都需要很多石英。"]
+			description: ["RS 和 AE2 的一个相同点：都需要很多石英。"]
 			dependencies: ["25BB8BC5B3DDC1BB"]
 			id: "548F3303B2876037"
 			tasks: [{
@@ -243,7 +260,7 @@
 			x: 2.0d
 			y: -1.5d
 			subtitle: "志不在此！"
-			description: ["看来你没那么容易满足。"]
+			description: ["看来你没那么容易满足呢。"]
 			dependencies: ["36098EC8E3A71ACF"]
 			id: "2E165F2ACDF19357"
 			tasks: [{
@@ -397,6 +414,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			description: ["浏览网络中的物品。"]
 			dependencies: ["792D7A9D86A3083E"]
 			id: "7A5C9FEF60EF2619"
 			tasks: [{
@@ -413,6 +431,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			description: ["查看网络中的流体。"]
 			dependencies: ["7A5C9FEF60EF2619"]
 			id: "1F12E33F798527C1"
 			tasks: [{
@@ -429,6 +448,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
+			description: ["附带工作台的终端。"]
 			dependencies: ["7A5C9FEF60EF2619"]
 			id: "177200D1482476E3"
 			tasks: [{
@@ -445,6 +465,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			description: ["编写自动合成需要的样板。"]
 			dependencies: ["7A5C9FEF60EF2619"]
 			id: "1BA9EA09BDAAFACA"
 			tasks: [{
@@ -461,6 +482,11 @@
 		{
 			x: -2.0d
 			y: 3.0d
+			description: [
+				"合成仓用于自动合成。"
+				""
+				"放入编写好的样板以让它工作，它本身可以处理工作台合成，如果想让它将原料发配给机器，请将它有九宫格的一面对准机器。"
+			]
 			dependencies: ["792D7A9D86A3083E"]
 			id: "02AAABB6ADED03BD"
 			tasks: [{
@@ -477,6 +503,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
+			description: ["我就不明白为啥非得把这么个小东西单独放在一个附属模组里面？隔壁 AE2 都有无线合成终端了。"]
 			dependencies: ["177200D1482476E3"]
 			id: "389E7AAE94322205"
 			tasks: [{
@@ -493,6 +520,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			subtitle: "WiFi"
+			description: ["给你的无线终端提供无线网络。"]
 			dependencies: ["792D7A9D86A3083E"]
 			id: "5FD335E57EE6A950"
 			tasks: [{
@@ -509,10 +538,11 @@
 		{
 			x: 6.0d
 			y: 1.5d
+			description: ["结合了无线合成终端，无线流体终端和无线合成监控器的功能。Shift + 右键切换功能。"]
 			dependencies: ["389E7AAE94322205"]
 			id: "3AE1042908010380"
 			tasks: [{
-				id: "5C75FD2FEA7F007C"
+				id: "3371438292C2E81D"
 				type: "item"
 				item: {
 					id: "rebornstorage:super_wireless_crafting_grid"
@@ -528,7 +558,8 @@
 		}
 		{
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
+			description: ["将你的无线网络范围扩展到 2147483648 米。虽然不是真正的无限，但你应该也去不了那么远的地方吧。"]
 			dependencies: ["5FD335E57EE6A950"]
 			id: "03EB4CACFFDABA31"
 			tasks: [{
@@ -544,7 +575,12 @@
 		}
 		{
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
+			description: [
+				"这下是真正的无限范围了，甚至可以跨维度！"
+				""
+				"如果你发现没有作用，请保持网络所在的区块被加载！"
+			]
 			dependencies: ["03EB4CACFFDABA31"]
 			id: "5F735013FC99E009"
 			tasks: [{
@@ -555,6 +591,80 @@
 			rewards: [{
 				id: "3DB0D11AED87B44B"
 				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["更快，能存放的样板也更多。"]
+			dependencies: ["02AAABB6ADED03BD"]
+			id: "5649799F27B0CC7D"
+			tasks: [{
+				id: "612C1227A6D7A6FB"
+				type: "item"
+				item: {
+					id: "extrastorage:iron_crafter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "616F8F1133B6E200"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: [
+				"默认拥有 1000 米的范围，加装 4 个范围升级可以达到 3000 米。"
+				""
+				"但你要是已经有了一个下界之星做这东西，干嘛不做下面的无限范围增幅卡呢？"
+			]
+			dependencies: ["5FD335E57EE6A950"]
+			id: "0097B3144B594447"
+			tasks: [{
+				id: "051C8710319BD09E"
+				type: "item"
+				item: {
+					id: "rebornstorage:advanced_wireless_transmitter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "31BA204220981CB6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			description: [
+				"当你想要把你的存储控制器连接到网络中时，你会需要这个的。"
+				""
+				"可以在物品/流体模式之间切换。"
+			]
+			dependencies: ["19BA52F36EBD6781"]
+			id: "413472B7160E3028"
+			tasks: [{
+				id: "2738CC2CA9332C62"
+				type: "item"
+				item: {
+					id: "refinedstorage:external_storage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57D0DF487958C0E4"
+				type: "random"
+				exclude_from_claim_all: true
 				table_id: 5332197433974249914L
 			}]
 		}

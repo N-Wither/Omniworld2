@@ -48,11 +48,26 @@ onEvent('recipes', event => {
         'mekanism:processing/uranium/ingot/from_dust_blasting',
 
         'mekanism:infusion_conversion/carbon/from_coal',
-        'mekanism:infusion_conversion/carbon/from_coal_block'
+        'mekanism:infusion_conversion/carbon/from_coal_block',
+
+        'gemsnjewels:amethyst_to_shards'
     ]
 
     idToRemove.forEach(item => {
         event.remove({id: item});
+    })
+
+    let itemToRemove = [
+        "enchantinginfuser:enchanting_infuser",
+        "enchantinginfuser:advanced_enchanting_infuser",
+        "avaritia:infinity_catalyst",
+        "avaritia:compressed_crafting_table",
+        "avaritia:double_compressed_crafting_table",
+        /botanypotstiers:creative.*/
+    ]
+
+    itemToRemove.forEach(item => {
+        event.remove({output: item});
     })
 
     event.remove({type: 'avaritia:shaped_extreme_craft'});
@@ -75,4 +90,5 @@ onEvent('recipes', event => {
     event.remove({id: "beyond_earth:steel_ingot_blasting"});
     event.remove({id: 'mekanism:metallurgic_infuser'});
     event.remove({id: /thermal:fire_charge.*glass/});
+    event.remove({output: "rebornstorage:super_wireless_crafting_grid"});
 })

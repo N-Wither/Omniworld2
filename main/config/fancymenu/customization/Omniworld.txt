@@ -19,6 +19,20 @@ customization {
 }
 
 customization {
+  identifier = %id=604346%
+  orientation = mid-left
+  x = 142
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=604346%
+  action = setbuttondescription
+  description = Config screen of Supplementaries.
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 1
@@ -31,12 +45,6 @@ customization {
   width = 140
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = setbuttondescription
-  description = Play with your friends!
 }
 
 customization {
@@ -74,12 +82,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttondescription
-  description = Change game settings.
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 1
@@ -92,12 +94,6 @@ customization {
   width = 140
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttondescription
-  description = You're leaving? See you next time!
 }
 
 customization {
@@ -130,12 +126,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttondescription
-  description = Play with yourself!
-}
-
-customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 1
@@ -148,12 +138,6 @@ customization {
   width = 140
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttondescription
-  description = What the 300+ mods actually are?
 }
 
 customization {
@@ -178,8 +162,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 218
-  width = 205
+  x = 217
+  width = 207
   action = deep_customization_element:title_screen_forge_top
   actionid = 4d602181-a5e3-421b-82b4-bb9c66e4bec61656409880726
   y = 4
@@ -190,7 +174,7 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 90
+  width = 98
   action = deep_customization_element:title_screen_branding
   actionid = 1986d8e3-6a4e-4660-82f9-32860ad2305c1656409880729
   y = 318
@@ -200,8 +184,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 460
-  width = 179
+  x = 458
+  width = 181
   action = deep_customization_element:title_screen_forge_copyright
   actionid = e84f477d-07d4-4fb4-8ea8-ee202002b3b31656409880729
   y = 340
@@ -263,21 +247,20 @@ customization {
   y = 61
   scale = 1.0
   alignment = left
-  value = Ver 2.0.1
+  value = Ver 2.2.0 Malachite
 }
 
 customization {
   orientation = mid-left
+  loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  description = Our Discord server!
-  label = Discord
-  loopbackgroundanimations = true
   x = 1
   width = 140
   actionid = 9c423c03-e3d2-4907-bb85-79fd84e1eb7c1652874879617
   action = addbutton
   y = 13
+  label = Discord
   value = https://discord.gg/Vn5qGAWWxj
   height = 20
 }

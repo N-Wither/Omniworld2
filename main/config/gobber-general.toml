@@ -222,22 +222,22 @@
 	#Range: 1 ~ 200
 	gobberArmorDurabilityMultiplier = 71
 	#Gobber armor toughness [default: 2.5]
-	#Range: 0.0 ~ 5.0
+	#Range: 0.0 ~ 20.0
 	gobberArmorToughness = 2.5
 	#Gobber armor head protection [default: 6]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	gobberHeadProtection = 6
 	#Gobber armor chest protection [default: 11]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	gobberChestProtection = 11
 	#Gobber armor boots protection [default: 6]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	gobberBootsProtection = 6
 	#Gobber armor knockback [default: 0.1]
 	#Range: 0.0 ~ 5.0
 	gobberArmorKnockback = 0.1
 	#Gobber armor leggings protection [default: 9]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	gobberLeggingsProtection = 9
 
 #Gobber Lucky Block and Deepslate Generation
@@ -275,16 +275,16 @@
 #End Gobber Armor Material Values
 [end_gobber_armor_material]
 	#End armor head protection [default: 8]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	endHeadProtection = 8
 	#End armor leggings protection [default: 11]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	endLeggingsProtection = 11
 	#End Gobber armor enchantability [default: 30]
 	#Range: 1 ~ 50
 	endGobberArmorEnchantability = 30
 	#End Gobber armor toughness [default: 3.0]
-	#Range: 0.0 ~ 5.0
+	#Range: 0.0 ~ 20.0
 	endGobberArmorToughness = 3.0
 	#End Gobber armor knockback [default: 0.2]
 	#Range: 0.0 ~ 5.0
@@ -293,12 +293,12 @@
 	#Range: 1 ~ 200
 	endGobberArmorDurabilityMultiplier = 100
 	#End armor boots protection [default: 8]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	endBootsProtection = 8
 	#Should Armor be unbreakable when crafted? [true / false, default: true]
 	endGobberArmorUnbreakable = true
 	#End armor chest protection [default: 13]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	endChestProtection = 13
 
 #Gobber and Deepslate Ore Generation
@@ -343,25 +343,25 @@
 #Nether Gobber Armor Material Values
 [nether_gobber_armor_material]
 	#Nether armor chest protection [default: 12]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	netherChestProtection = 12
 	#Nether armor boots protection [default: 7]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	netherBootsProtection = 7
 	#Nether Gobber armor knockback [default: 0.1]
 	#Range: 0.0 ~ 5.0
 	netherGobberArmorKnockback = 0.1
 	#Nether armor leggings protection [default: 10]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	netherLeggingsProtection = 10
 	#Nether Gobber armor toughness [default: 2.75]
-	#Range: 0.0 ~ 5.0
+	#Range: 0.0 ~ 20.0
 	netherGobberArmorToughness = 2.75
 	#Nether Gobber armor enchantability [default: 30]
 	#Range: 1 ~ 50
 	netherGobberArmorEnchantability = 30
 	#Nether armor head protection [default: 7]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	netherHeadProtection = 7
 	#Nether Gobber armor durability multiplier [default: 83]
 	#Range: 1 ~ 200
@@ -453,22 +453,22 @@
 	#Range: 1 ~ 50
 	dragonArmorEnchantability = 30
 	#Dragon armor toughness [default: 3.0]
-	#Range: 0.0 ~ 5.0
+	#Range: 0.0 ~ 20.0
 	dragonArmorToughness = 3.0
 	#Dragon armor leggings protection [default: 11]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	dragonLeggingsProtection = 11
 	#Dragon armor knockback [default: 0.3]
 	#Range: 0.0 ~ 5.0
 	dragonArmorKnockback = 0.3
 	#Dragon armor head protection [default: 8]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	dragonHeadProtection = 8
 	#Dragon armor chest protection [default: 13]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	dragonChestProtection = 13
 	#Dragon armor boots protection [default: 8]
-	#Range: 1 ~ 20
+	#Range: 1 ~ 30
 	dragonBootsProtection = 8
 	#Dragon armor durability multiplier [default: 100]
 	#Range: 1 ~ 200

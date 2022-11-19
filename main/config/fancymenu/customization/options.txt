@@ -98,12 +98,6 @@ customization {
 }
 
 customization {
-  identifier = %id=345232%
-  action = setbuttonlabel
-  value = 视频设置...
-}
-
-customization {
   identifier = %id=505232%
   orientation = mid-left
   x = 152

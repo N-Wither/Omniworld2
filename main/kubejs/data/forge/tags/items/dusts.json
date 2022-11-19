@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-      "minecraft:blaze_powder"
+      "minecraft:blaze_powder",
+      "cacao:silicon_dust"
     ]
 }

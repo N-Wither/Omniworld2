@@ -84,10 +84,10 @@
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "RIGHT"
+	armHalign = "MIDDLE"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 90
+	xArmPos = 12
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
 	yArmPos = 70

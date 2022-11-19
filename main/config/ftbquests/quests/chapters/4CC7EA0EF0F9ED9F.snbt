@@ -21,8 +21,14 @@
 	}]
 	quests: [
 		{
-			x: 0.0d
+			title: "介绍"
+			x: -7.0d
 			y: 0.0d
+			description: [
+				"Blood Magic 是一个以血液为主题的魔法模组。"
+				""
+				"如果你有任何问题，请查阅血染知书！"
+			]
 			dependencies: ["0429F3CC27BED625"]
 			hide: true
 			id: "68E597BB986CC347"
@@ -33,14 +39,164 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: -3.0d
 			y: 0.0d
-			dependencies: ["68E597BB986CC347"]
+			shape: "hexagon"
+			description: ["站在上面，手持牺牲匕首右键给自己放血。"]
+			dependencies: ["62EDFF6E560FA6FA"]
 			id: "6E2A34BBE7F94C74"
 			tasks: [{
 				id: "16A101E6A33509A6"
 				type: "item"
 				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "1082943B34CB51E0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "记得准备创可贴"
+			description: ["一开始你只能靠割自己来获得血。"]
+			dependencies: ["68E597BB986CC347"]
+			id: "62EDFF6E560FA6FA"
+			tasks: [{
+				id: "1B0E01506FACC8CE"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6FEF72EEFC807773"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "goblintraders:powerful_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["6E2A34BBE7F94C74"]
+			id: "29B1B887DE423C0E"
+			tasks: [{
+				id: "04D28578B0FA5983"
+				type: "item"
+				item: {
+					id: "bloodmagic:blankslate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: [
+				"29B1B887DE423C0E"
+				"63F997F491F12D05"
+			]
+			id: "1A992D6C1E808B55"
+			tasks: [{
+				id: "756AA2FCFACE5DFA"
+				type: "item"
+				item: {
+					id: "bloodmagic:blankrune"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["6E2A34BBE7F94C74"]
+			id: "63F997F491F12D05"
+			tasks: [{
+				id: "3CD35DD25CCD3FAE"
+				type: "item"
+				item: {
+					id: "bloodmagic:weakbloodorb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "2 级血之祭坛"
+			x: -0.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["6E2A34BBE7F94C74"]
+			id: "01EE99671DE92C9B"
+			tasks: [
+				{
+					id: "7CADDB20130F46FB"
+					type: "item"
+					item: {
+						id: "bloodmagic:altar"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "389947BD9B0DCC19"
+					type: "item"
+					title: "Any #bloodmagic:rune"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "bloodmagic:rune"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "14CE69B4E70CF612"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["01EE99671DE92C9B"]
+			id: "00B4798806D2206B"
+			tasks: [{
+				id: "19E6174F3E3E1817"
+				type: "item"
+				item: {
+					id: "bloodmagic:reinforcedslate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["01EE99671DE92C9B"]
+			id: "555690BE29FA69D8"
+			tasks: [{
+				id: "50162BA0C5DF1236"
+				type: "item"
+				item: {
+					id: "bloodmagic:apprenticebloodorb"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

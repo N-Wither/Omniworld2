@@ -2,7 +2,7 @@
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "forge:ingots/tungsten": "null",
   "forge:ingots/lumium": "omniores:lumium_ingot",
-  "forge:silicon": "omniores:silicon_gem",
+  "forge:silicon": "omniores:silicon",
   "forge:gems/apatite": "omniores:apatite_gem",
   "forge:dusts/saltpeter": "omniores:potassium_nitrate_dust",
   "forge:ingots/steel": "omniores:steel_ingot",

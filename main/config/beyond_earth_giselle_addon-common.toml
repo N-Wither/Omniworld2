@@ -103,3 +103,33 @@
 			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
 			energyUsing = 10
 
+	[compats.pneumaticcraft]
+
+		[compats.pneumaticcraft.space_breating_upgrade]
+			#Duration of provided oxygen (oxygen provide interval)
+			oxygenDuration = 4
+			#Air usage when provide Beyond Earth oxygen to player in space
+			airUsing = 20
+
+		[compats.pneumaticcraft.space_fire_proof_upgrade]
+			#Air usage when prevent fire every tick in Beyond Earth hot planets (e.g. Venus, Mercury)
+			airUsing = 5
+
+		[compats.pneumaticcraft.venus_acid_proof_upgrade]
+			#Aire usage when prevent acid rain damage every tick in Beyond Earth venus
+			airUsing = 5
+
+		[compats.pneumaticcraft.gravity_normalizing_upgrade]
+			#Air usage when normalizing gravity every tick in Beyond Earth dimensions
+			airUsing = 5
+
+[recipes]
+	tagPreferences = ["minecraft", "tconstruct", "tmechworks", "create", "immersiveengineering", "mekanism", "thermal"]
+
+	[recipes.recycling]
+		#Compressed and plate items can restore into be each ingot (a.k.a recycling)
+		#1. Minecraft - Smelting
+		#2. Minecraft - Blasting
+		#3. Immersive Enginering - Recycling
+		enabled = true
+

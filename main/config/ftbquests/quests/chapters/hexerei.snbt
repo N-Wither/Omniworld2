@@ -30,6 +30,11 @@
 				type: "item"
 				item: "hexerei:mixing_cauldron"
 			}]
+			rewards: [{
+				id: "030E2A87B36F92FA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			title: "Hexerei"
@@ -76,6 +81,11 @@
 				type: "item"
 				item: "hexerei:candle_dipper"
 			}]
+			rewards: [{
+				id: "4658A46EBAA1EEF3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			x: 3.5d
@@ -87,16 +97,24 @@
 				type: "item"
 				item: "hexerei:pestle_and_mortar"
 			}]
+			rewards: [{
+				id: "08633840D4639C66"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
 		}
 		{
 			title: "扫帚"
 			x: 1.5d
 			y: -2.5d
+			subtitle: "魔女必备！"
+			description: ["让你能够飞行！"]
 			dependencies: ["357B167E8A99F54D"]
 			id: "60D2E976C72ED05C"
 			tasks: [{
 				id: "21AD659F0CEAEA1D"
 				type: "item"
+				title: "魔法扫帚"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -120,6 +138,30 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6F6AAAD80985A96D"
+					type: "item"
+					item: {
+						id: "majobroom:majo_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23F5C5EA5882DCB4"
+					type: "item"
+					item: {
+						id: "majobroom:majo_cloth"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 }

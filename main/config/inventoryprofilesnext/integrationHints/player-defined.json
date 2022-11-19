@@ -44,28 +44,28 @@
     "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "horizontalOffset": -6,
-                "top": 47
+                "horizontalOffset": 28,
+                "top": 28
             },
             "SETTINGS": {
-                "horizontalOffset": 11,
-                "top": 32
+                "horizontalOffset": 45,
+                "top": 13
             }
         }
     },
     "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "horizontalOffset": -5,
-                "top": 46
+                "horizontalOffset": 28,
+                "top": 28
             },
             "SORT": {
                 "horizontalOffset": -12,
                 "bottom": 12
             },
             "SETTINGS": {
-                "horizontalOffset": 11,
-                "top": 31
+                "horizontalOffset": 45,
+                "top": 13
             }
         }
     },

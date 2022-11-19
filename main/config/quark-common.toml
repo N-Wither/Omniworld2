@@ -549,7 +549,7 @@
 	Permafrost = true
 	"Nether Obsidian Spikes" = true
 	"Big Stone Clusters" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 	"Glimmering Weald" = true
 	Corundum = true
 	"Fairy Rings" = true
