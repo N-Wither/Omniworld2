@@ -1,3 +1,32 @@
+# 2.3.0 Beryl
+## New Stuff:
+- Chunk Loaders
+- Tinkers Levelling Addon
+- Immersive Petroleum
+- Shrink
+- Simply Jetpacks 
+- The Conjurer
+- Unusual End
+- Just Enough Keys
+- ChickensShed
+- EveryCompat
+- Nether's Exoticism
+- Tinker's Planner
+
+## Changes:
+- Added an inventory button for teleporting to any waystone you've activated
+- Added more data models
+- Tweaked some recipes
+- You can craft Infinity Ingot now
+- Added recipes for some creative mode items
+- We use Metropolis as our font now, hope you enjoy it
+- Fixed a bug that duplicates Source Gems
+- Added Animals to shop
+- Added Croptopia and Myrtrees saplings to Market (Farming For Blockheads)
+
+## Remove:
+- Time in A Bottle
+
 # 2.2.0 Malachite
 ## New Stuff
 - Too Many Glyphs
