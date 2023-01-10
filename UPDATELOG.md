@@ -12,6 +12,7 @@
 - EveryCompat
 - Nether's Exoticism
 - Tinker's Planner
+- Wireless Chargers
 
 ## Changes:
 - Added an inventory button for teleporting to any waystone you've activated
