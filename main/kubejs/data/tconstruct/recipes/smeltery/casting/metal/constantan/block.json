@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/constantan",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_constantan",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:constantan_block"
+  },
+  "cooling_time": 192
+}

@@ -1,0 +1,383 @@
+{
+  "name": "Occultism",
+  "icon": "occultism:ritual_dummy/craft_dimensional_matrix",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Since Modonomicon's multiblock is incompatible with Rubidium, I moved them here.$(br2)As for those structure's usage, check \"Dictionary of Spirits\"."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_________",
+            "___WCW___",
+            "__W_W_W__",
+            "_W__W__W_",
+            "_CWW0WWC_",
+            "_W__W__W_",
+            "__W_W_W__",
+            "___WCW___",
+            "_________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white"
+        }
+      },
+      "name": "Aviar's Circle"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "___C_C___",
+            "___PPP___",
+            "__W_Z_W__",
+            "CP_W_W_PC",
+            "_PZ_0_ZP_",
+            "CP_W_W_PC",
+            "__W_Z_W__",
+            "___PPP___",
+            "___C_C___"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "Z": "minecraft:skeleton_skull"
+        }
+      },
+      "name": "Ophyx' Calling"
+    },
+    {
+      "type": "multiblock",
+      "name": "Abras' Open Conjure",
+      "multiblock": {
+        "pattern": [
+          [
+            "___________",
+            "____PPP____",
+            "___WCWCW___",
+            "__W_WNW_W__",
+            "_PCWP_PWCP_",
+            "_PWZ_0_ZWP_",
+            "_PCWP_PWCP_",
+            "__W_WNW_W__",
+            "___WCWCW___",
+            "____PPP____",
+            "___________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "name": "Abras' Conjure",
+      "multiblock": {
+        "pattern": [
+          [
+            "___________",
+            "____PRP____",
+            "___WCWCW___",
+            "__W_WNW_W__",
+            "_PCWP_PWCP_",
+            "_RWZ_0_ZWR_",
+            "_PCWP_PWCP_",
+            "__W_WNW_W__",
+            "___WCWCW___",
+            "____PRP____",
+            "___________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "R": "occultism:chalk_glyph_red",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "name": "Fatma's Incentivized Attraction",
+      "multiblock": {
+        "pattern": [
+          [
+            "_______Z_______",
+            "______RRR______",
+            "_____RCWCR_____",
+            "____R__W__R____",
+            "___RG_WNW_GR___",
+            "__R__GW_WG__R__",
+            "_RC_WW___WW_CR_",
+            "ZRWWN__0__NWWRZ",
+            "_RC_WW___WW_CR_",
+            "__R__GW_WG__R__",
+            "___RG_WNW_GR___",
+            "____R__W__R____",
+            "_____RCWCR_____",
+            "______RRR______",
+            "_______Z_______"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "R": "occultism:chalk_glyph_red",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "name": "Osorin's Unbound Calling",
+      "multiblock": {
+        "pattern": [
+          [
+            "___________",
+            "____PPP____",
+            "___W_W_W___",
+            "__W_WZW_W__",
+            "_P_WP_PW_P_",
+            "_PWZ_0_ZWP_",
+            "_P_WP_PW_P_",
+            "__W_WZW_W__",
+            "___W_W_W___",
+            "____PPP____",
+            "___________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "W": "occultism:chalk_glyph_white",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "name": "Hedyrin's Lure",
+      "multiblock": {
+        "pattern": [
+          [
+            "___GGG___",
+            "__GC_CG__",
+            "_GW___WG_",
+            "GC_W_W_CG",
+            "G___0___G",
+            "GC_W_W_CG",
+            "_GW___WG_",
+            "__GC_CG__",
+            "___GGG___"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Ihagan's Enthrallment",
+      "multiblock":{
+        "pattern": [
+          [
+            "___GPG___",
+            "__GC_CG__",
+            "_GZW_WZG_",
+            "GCWP_PWCG",
+            "P___0___P",
+            "GCWP_PWCG",
+            "_GZW_WZG_",
+            "__GC_CG__",
+            "___GPG___"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold",
+          "Z": "minecraft:skeleton_skull"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Abras' Commanding Conjure",
+      "multiblock":{
+        "pattern": [
+          [
+            "___________",
+            "____PRP____",
+            "___GCWCG___",
+            "__G_WNW_G__",
+            "_PCWP_PWCP_",
+            "_RWZ_0_ZWR_",
+            "_PCWP_PWCP_",
+            "__G_WNW_G__",
+            "___GCWCG___",
+            "____PRP____",
+            "___________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "R": "occultism:chalk_glyph_red",
+          "C": "#minecraft:candles",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Eziveus' Spectral Compulsion",
+      "multiblock":{
+        "pattern": [
+          [
+            "__WSW__",
+            "_G___G_",
+            "W__W__W",
+            "C_W0W_C",
+            "W__W__W",
+            "_G___G_",
+            "__WSW__"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "C": "#minecraft:candles",
+          "S": "occultism:spirit_attuned_crystal",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Strigeor's Higher Binding",
+      "multiblock":{
+        "pattern": [
+          [
+            "_________",
+            "_C_WGW_C_",
+            "__P_W_P__",
+            "_W_SWS_W_",
+            "_GWW0WWG_",
+            "_W_SWS_W_",
+            "__P_W_P__",
+            "_C_WGW_C_",
+            "_________"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "C": "#minecraft:candles",
+          "S": "occultism:spirit_attuned_crystal",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Sevira's Permanent Confinement",
+      "multiblock":{
+        "pattern": [
+          [
+            "_____N_____",
+            "____GGG____",
+            "___GCPCG___",
+            "__G_WCW_G__",
+            "_GCWW_WWCG_",
+            "ZGPC_0_CPGZ",
+            "_GCWW_WWCG_",
+            "__G_WCW_G__",
+            "___GCPCG___",
+            "____GGG____",
+            "_____Z_____"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "P": "occultism:chalk_glyph_purple",
+          "R": "occultism:chalk_glyph_red",
+          "C": "#minecraft:candles",
+          "S": "occultism:spirit_attuned_crystal",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    },
+    {
+      "type":"multiblock",
+      "name":"Uphyxes Inverted Tower",
+      "multiblock":{
+        "pattern": [
+          [
+            "_______Z_______",
+            "______RRR______",
+            "_____RCWCR_____",
+            "____R__W__R____",
+            "___RGSWNWSGR___",
+            "__R_SGW_WGS_R__",
+            "_RC_WW___WW_CR_",
+            "ZRWWN__0__NWWRZ",
+            "_RC_WW___WW_CR_",
+            "__R_SGW_WGS_R__",
+            "___RGSWNWSGR___",
+            "____R__W__R____",
+            "_____RCWCR_____",
+            "______RRR______",
+            "_______Z_______"
+          ]
+        ],
+        "mapping": {
+          "0": "occultism:golden_sacrificial_bowl",
+          "R": "occultism:chalk_glyph_red",
+          "C": "#minecraft:candles",
+          "S": "occultism:spirit_attuned_crystal",
+          "W": "occultism:chalk_glyph_white",
+          "G": "occultism:chalk_glyph_gold",
+          "Z": "minecraft:skeleton_skull",
+          "N": "minecraft:wither_skeleton_skull"
+        }
+      }
+    }
+  ]
+}

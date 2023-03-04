@@ -4,9 +4,9 @@
       "avaritia:crystal_matrix_ingot",
       "avaritia:neutronium_ingot",
       "avaritia:infinity_ingot",
-      "nourished_end:bismuth_ingot",
-      "nourished_end:starsent_ingot",
-      "nourished_end:voidsteel_ingot",
-      "phantasm:stellium_ingot"
+      "enlightened_end:bismuth_ingot",
+      "enlightened_end:adamantite_ingot",
+      "phantasm:stellium_ingot",
+      "extendedcrafting:black_iron_ingot"
     ]
 }

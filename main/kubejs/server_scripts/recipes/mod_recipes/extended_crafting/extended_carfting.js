@@ -96,12 +96,13 @@ onEvent('recipes', event => {
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      "         ", "  AAAAA  ", " ABBBBBA ", " A CBC A ", " ABBBBBA ", " ABBBBBA ", " AB B BA ", "         ", "         "
+      "         ", "  AAAAA  ", " ABBBBBA ", " A CBC A ", " ABBDBBA ", " ABBBBBA ", " AB B BA ", "         ", "         "
     ],
     "key": {
       "A": { "tag": "forge:ingots/neutronium" },
       "B": { "tag": "forge:ingots/infinity" },
-      "C": { "item": "avaritia:infinity_catalyst" }
+      "C": { "item": "avaritia:infinity_catalyst" },
+      "D": { "item": "mekanism:mekasuit_helmet"}
     },
     "result": { "item": "avaritia:infinity_helmet" }
   }).id(kjs + exc + '/infinity_helmet');
@@ -109,12 +110,13 @@ onEvent('recipes', event => {
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      " AA   AA ", "AAA   AAA", "AAA   AAA", " ABBBBBA ", " ABBCBBA ", " ABBBBBA ", " ABBBBBA ", " ABBBBBA ", "  AAAAA  "
+      " AA   AA ", "AAA   AAA", "AAA   AAA", " ABBBBBA ", " ABBCBBA ", " ABBDBBA ", " ABBBBBA ", " ABBBBBA ", "  AAAAA  "
     ],
     "key": {
       "A": { "tag": "forge:ingots/neutronium" },
       "B": { "tag": "forge:ingots/infinity" },
-      "C": { "tag": "forge:storage_blocks/crystal_matrix" }
+      "C": { "tag": "forge:storage_blocks/crystal_matrix" },
+      "D": { "item": "mekanism:mekasuit_bodyarmor"}
     },
     "result": { "item": "avaritia:infinity_chestplate" }
   }).id(kjs + exc + '/infinity_chestplate');
@@ -122,13 +124,14 @@ onEvent('recipes', event => {
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      "AAAAAAAAA", "ABBBCBBBA", "ABAACAABA", "ABA   ABA", "ADA   ADA", "ABA   ABA", "ABA   ABA", "ABA   ABA", "AAA   AAA"
+      "AAAAAAAAA", "ABBBEBBBA", "ABAACAABA", "ABA   ABA", "ADA   ADA", "ABA   ABA", "ABA   ABA", "ABA   ABA", "AAA   AAA"
     ],
     "key": {
       "A": { "tag": "forge:ingots/neutronium" },
       "B": { "tag": "forge:ingots/infinity" },
       "C": { "item": "avaritia:infinity_catalyst" },
-      "D": { "tag": "forge:storage_blocks/crystal_matrix" }
+      "D": { "tag": "forge:storage_blocks/crystal_matrix" },
+      "E": { "item": "mekanism:mekasuit_pants"}
     },
     "result": { "item": "avaritia:infinity_legs" }
   }).id(kjs + exc + '/infinity_legs');
@@ -136,11 +139,12 @@ onEvent('recipes', event => {
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      "         ", " AAA AAA ", " ABA ABA ", " ABA ABA ", "AABA ABAA", "ABBA ABBA", "AAAA AAAA", "         ", "         "
+      "         ", " AAA AAA ", " ABA ABA ", " ABA ABA ", "AABA ABAA", "ABBADABBA", "AAAA AAAA", "         ", "         "
     ],
     "key": {
       "A": { "tag": "forge:ingots/neutronium" },
-      "B": { "tag": "forge:ingots/infinity" }
+      "B": { "tag": "forge:ingots/infinity" },
+      "D": { "item": "mekanism:mekasuit_boots"}
     },
     "result": { "item": "avaritia:infinity_boots" }
   }).id(kjs + exc + '/infinity_boots');
@@ -178,6 +182,12 @@ onEvent('recipes', event => {
       { "item": "minecraft:porkchop" },
       { "item": "minecraft:beef" },
       { "item": "minecraft:mutton" },
+      { "item": "farmersdelight:ham"},
+      { "item": "farmersdelight:bacon"},
+      { "item": "blue_skies:carabeef"},
+      { "item": "nethersdelight:hoglin_loin"},
+      { "item": "twilightforest:raw_meef"},
+      { "item": "twilightforest:hydra_chop"},
       { "item": "minecraft:cod" },
       { "item": "minecraft:salmon" },
       { "item": "minecraft:tropical_fish" },
@@ -186,6 +196,8 @@ onEvent('recipes', event => {
       { "item": "minecraft:chicken" },
       { "item": "minecraft:rotten_flesh" },
       { "item": "minecraft:spider_eye" },
+      { "item": "undergarden:raw_gwibling"},
+      { "item": "blue_skies:grittle_flatfish"},
       { "tag": "forge:eggs" },
       { "tag": "forge:nuggets/neutronium" }
     ],
@@ -208,6 +220,24 @@ onEvent('recipes', event => {
       { "item": "minecraft:poisonous_potato" },
       { "item": "minecraft:chorus_fruit" },
       { "item": "minecraft:beetroot" },
+      { "tag": "forge:crops/tomato"},
+      { "tag": "forge:crops/onion"},
+      { "tag": "forge:rice"},
+      { "tag": "forge:crops/cabbage"},
+      { "tag": "forge:crops/corn"},
+      { "tag": "forge:crops/greenbean"},
+      { "tag": "forge:crops/greenonion"},
+      { "tag": "forge:crops/honeydew"},
+      { "tag": "forge:crops/pepper"},
+      { "tag": "forge:fruits/strawberry"},
+      { "tag": "forge:fruits/cherry"},
+      { "tag": "forge:crops/coconut"},
+      { "item": "nethers_exoticism:jaboticaba"},
+      { "item": "nethers_exoticism:kiwano"},
+      { "item": "nethers_exoticism:ramboutan"},
+      { "item": "nethers_exoticism:bouddha_s_hand"},
+      { "item": "farmersdelight:hot_cocoa"},
+      { "item": "create:builders_tea"},
       { "item": "minecraft:mushroom_stew" },
       { "item": "minecraft:honey_bottle" },
       { "item": "minecraft:sweet_berries" },
@@ -255,7 +285,18 @@ onEvent('recipes', event => {
       { "item": "apotheosis:rectifier_t3" },
       { "item": "forbidden_arcanus:eternal_stella" },
       { "item": "forbidden_arcanus:smelter_prism" },
-      { "item": "minecraft:barrier"}
+      { "item": "undergarden:masticator_scales"},
+      { "item": "bloodmagic:etherealslate"},
+      { "item": "naturesaura:clock_hand"},
+      { "item": "cacao:golden_chocolate"},
+      { "item": "twilightforest:magic_beans"},
+      { "item": "alexsmobs:straddlite_block"},
+      { "tag": "artifacts:artifacts"},
+      { "item": "biomemakeover:illunite_shard"},
+      { "item": "cyclic:heart"},
+      { "item": "miniutilities:the_final_opinium_core"},
+      { "item": "arsomega:enchanted_diamond_block"},
+      { "item": "draconicevolution:chaotic_core"}
     ],
     "result": {
       "item": "avaritia:infinity_catalyst"
@@ -343,6 +384,44 @@ onEvent('recipes', event => {
     'redstone_arsenal:flux_ingot',
     'thermal_extra:drownium_ingot',
     'thermal_extra:polarium_ingot',
-    'thermal_extra:vukaium_ingot'
-  ]).id(kjs+exc+'ultimate_ingot');
+    'thermal_extra:vukaium_ingot',
+    'draconicevolution:awakened_draconium_ingot'
+  ]).id(kjs+exc+'/ultimate_ingot');
+
+  event.recipes.extendedcrafting.shapedTable("mysticalagradditions:creative_essence",
+  ["ABCDDDEBA",  "BCDFGHDEB", "CDFGGGHDE", "DFIJKLMHD", "DIINDOMMD", "DPIQRSMTD", "UDPVVVTDW", "BUDPVTDWB", "ABUDDDWBA"],
+  {
+    A: "mysticalagriculture:fertilized_essence",
+    B: "extendedcrafting:luminessence",
+    C: "mysticalagriculture:air_essence",
+    D: "mysticalagradditions:insanium_essence",
+    E: "mysticalagriculture:earth_essence",
+    F: "mysticalagriculture:nether_star_essence",
+    G: "mysticalagriculture:electrum_essence",
+    H: "mysticalagriculture:dragon_egg_essence",
+    I: "mysticalagriculture:blazing_crystal_essence",
+    J: "mysticalagriculture:terrasteel_essence",
+    K: "mysticalagriculture:lumium_essence",
+    L: "mysticalagriculture:iesnium_essence",
+    M: "mysticalagriculture:experience_essence",
+    N: "mysticalagriculture:manyullyn_essence",
+    O: "mysticalagriculture:uraninite_essence",
+    P: "mysticalagriculture:nitro_crystal_essence",
+    Q: "mysticalagriculture:spider_essence",
+    R: "mysticalagriculture:pig_iron_essence",
+    S: "mysticalagriculture:enderium_essence",
+    T: "mysticalagriculture:netherite_essence",
+    U: "mysticalagriculture:water_essence",
+    V: "mysticalagriculture:fiery_ingot_essence",
+    W: "mysticalagriculture:fire_essence"
+  }
+  ).id(kjs+exc+'/creative_essence')
+
+  event.recipes.extendedcrafting.shapedTable("avaritia:infinity_ingot",
+  ['DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDCDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD'],
+  {
+    D: 'kubejs:infinity_drop',
+    C: "avaritia:infinity_catalyst"
+  }
+  ).id(kjs + exc + '/infinity_ingot_from_drop')
 })

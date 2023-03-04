@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gears/silver",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gear"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_silver",
+    "amount": 576
+  },
+  "result": {
+    "item": "emendatusenigmatica:silver_gear"
+  },
+  "cooling_time": 152
+}

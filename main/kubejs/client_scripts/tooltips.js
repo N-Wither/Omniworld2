@@ -32,9 +32,7 @@ onEvent('item.tooltip', tooltip => {
 
     sponsorItems.forEach(item => {
         tooltip.add(item, Component.translate(kpf('sponsor')).yellow());
-    })
-
-    tooltip.add('#forge:ingots/infinity', [textWarn('tooltip.kubejs.infinity_ingot_1'), textWarn('tooltip.kubejs.infinity_ingot_2')]);
+    });
 
     tooltip.add(/sophisticatedstorage:iron_(chest|barrel|shulker_box)/, textHelp(kpf('sophisticatedstorage_craft_iron')));
     tooltip.add(/sophisticatedstorage:gold_(chest|barrel|shulker_box)/, textHelp(kpf('sophisticatedstorage_craft_gold')));
@@ -46,4 +44,14 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('kubejs:affix_gem_with_affix', textHelp(kpf('affix_gem_2')));
     tooltip.add("enderstorage:ender_tank", textWarn(kpf('ender_tank')));
     tooltip.add("thermal:compost", textHelp(kpf('compost')));
+    tooltip.add("miniutilities:magical_egg", textHelp(kpf('magical_egg')));
+    tooltip.add("refinedstorage:creative_wireless_grid", textHelp(kpf('wireless_grid')));
+    tooltip.add("refinedstorage:creative_wireless_fluid_grid", textHelp(kpf('wireless_fluid_grid')));
+    tooltip.add("refinedstorage:creative_wireless_crafting_monitor", textHelp(kpf('wireless_crafting_monitor')));
+    tooltip.add("refinedstorageaddons:creative_wireless_crafting_grid", textHelp(kpf('wireless_crafting_grid')));
+    tooltip.add("rebornstorage:creative_super_wireless_crafting_grid", textHelp(kpf('super_wireless_grid')));
+
+    tooltip.add(/cyclic:.*pipe/, textWarn(kpf('crash_warn')))
+
+    tooltip.add("globalxp:xp_block", [textWarn('kubejs.warning.remove'), textWarn('kubejs.warning.xpobelisk')])
 })

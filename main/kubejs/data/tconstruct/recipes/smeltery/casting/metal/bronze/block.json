@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/bronze",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_bronze",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:bronze_block"
+  },
+  "cooling_time": 171
+}

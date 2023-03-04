@@ -1,0 +1,23 @@
+{
+    "type": "undergarden:rotwalker",
+    "name": "entity.undergarden.rotwalker",
+    "name_color": "0x514a34",
+    "gui_scale": 0.9,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:forgotten_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.rotwalker",
+    "fabricator_drops": [
+      {
+        "item": "undergarden:utheric_shard",
+        "count": 3
+      }
+    ]
+}

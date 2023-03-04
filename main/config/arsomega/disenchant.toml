@@ -1,3 +1,0 @@
-#Allows the glyph to hit players, and disenchant held items. Cool but kinda grief-y feature.
-affect_players = false
-

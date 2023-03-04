@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "forbidden_arcanus:eternal_stella"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "tconstruct:unbreakable",
+    "level": 1
+  },
+  "max_level": 1
+}

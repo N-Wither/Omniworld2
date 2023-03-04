@@ -1,3 +1,60 @@
+# 2.4.0 Aquamarine
+## !! IMPORTANT !!
+Mod GlobalXP will be REMOVED in next update, please use Experience Obelisk instead.
+
+## Changes
+- Bugfixes
+- More compatibility recipes
+- Buffed some TConstruct materials, we don't need balance
+- Added more ores to Quantum Quarry
+- Draconic Evolution! You need some cool weapons!
+- Abnormals Series now come to 1.18!
+- Productive Bees! You will need them if you want more Infinity Ingots!
+- Added more saplings to the Market (Farming For Blockheads)
+- You can plant more trees in Insolator (Thermal Expansion) now
+- Reworked the quests' GUI
+- Added more quests
+- Many small changes that i forgot what they are
+
+## New Mods
+- Towns & Towers
+- Waystone Towers
+- Botany Trees
+- Sound Physics Remastered
+- Pane In The Glass
+- Default Options
+- Autumnity
+- Upgrade Aquatic
+- Boatload
+- Dank Storage
+- Dramatic Doors
+- Xplosives
+- Thermal Dynamics
+- Hex Casting
+- Experience Obelisk
+- Environmental
+- Atmospheric
+- Savage & Ravage
+- Effective
+- Yung's Better Dungeons
+- Yung's Better Ocean Monuments
+- Yung's Better Desert Temples
+- AlwaysEat
+- The Bumblezone
+- Brandon's Core
+- Draconic Evolution
+- Draconic Additions
+- Lightspeed
+- Productive Bees
+- Just Another Void Dimension
+
+## Remove
+- Every Compat: Very high memory usage 
+- Just Enough Effect DescriptionsL: Not compatible with latest JEI
+- Fastload: Replaced by Lightspeed
+- Smooth Boot Reloaded: as said above
+- Connected Glass: We now use a resourcepack which adds connected glass
+
 # 2.3.0 Beryl
 ## New Stuff:
 - Chunk Loaders

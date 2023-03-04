@@ -1,0 +1,27 @@
+{
+    "type": "twilightforest:kobold",
+    "name": "entity.twilightforest.kobold",
+    "name_color": "0x6f4b16",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.kobold",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:wheat",
+        "count": 3
+      },
+      {
+        "item": "minecraft:gold_nugget",
+        "count": 1
+      }
+    ]
+}

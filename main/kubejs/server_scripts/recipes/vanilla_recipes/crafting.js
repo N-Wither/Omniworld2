@@ -1,9 +1,20 @@
 // priority: 1
 
 onEvent('recipes', event => {
+    /**
+     * @param {Item} output 
+     * @param {[String]} pattern 
+     * @param {object} key 
+     * @param {String} id 
+     */
     function shaped(output, pattern, key, id){
         event.shaped(output, pattern, key).id('kubejs:crafting_shaped/'+id);
     }
+    /**
+     * @param {Item} output 
+     * @param {Ingredient} input 
+     * @param {String} id 
+     */
     function shapeless(output, input, id){
         event.shapeless(output, input).id('kubejs:crafting_shapeless/'+id);
     }
@@ -102,9 +113,29 @@ onEvent('recipes', event => {
         M: 'refinedstorage:wireless_crafting_monitor'
     }, 'super_grid');
 
+    // Immersive Petroleum
+    event.shaped("8x immersivepetroleum:asphalt", ['SBS', 'GWG', 'SBS'], {
+        S: '#forge:sand',
+        B: '#forge:bitumen',
+        G: '#forge:gravel',
+        W: "minecraft:water_bucket"
+    }).id("immersivepetroleum:asphalt");
+
+    event.shaped("12x immersivepetroleum:asphalt", ['SBS', 'GWG', 'SBS'], {
+        S: '#forge:slag',
+        B: '#forge:bitumen',
+        G: '#forge:gravel',
+        W: "minecraft:water_bucket"
+    }).id("immersivepetroleum:asphalt2");
+
     // Antimatter to other items
+    /**
+     * @param {Item} item 
+     * @param {[String]} pattern 
+     * @param {String} id 
+     */
     let antimatter = (item, pattern, id) => {
-        if(id == undefined) id = item.split(':')[1];
+        if(id == undefined) {id = item.split(':')[1]}
         event.recipes.cucumber.shaped_no_mirror(item, pattern, {a: "ftbic:antimatter"}).id('kubejs:antimatter/'+ id);
     }
     antimatter("64x minecraft:dirt", ['a  ', '   ', '   ']);
@@ -118,5 +149,15 @@ onEvent('recipes', event => {
     antimatter('48x minecraft:iron_ingot', ['aaa', '   ', '   ']);
     antimatter('32x minecraft:gold_ingot', ['   ', 'aaa', '   ']);
     antimatter("48x minecraft:amethyst_shard", ['  a', ' a ', 'a  ']);
-    antimatter("minecraft:ancient_debris", ['aaa', 'aaa', 'aaa'])
+    antimatter("minecraft:ancient_debris", ['aaa', 'aaa', 'aaa']);
+    antimatter("24x minecraft:redstone", ['   ', ' a ', 'aaa']);
+
+    // Mystical Agriculture
+    shaped('2x occultism:iesnium_ingot', ['EEE', 'E E', 'EEE'], {E: "mysticalagriculture:iesnium_essence"}, 'essence/iesnium')
+
+    // Solar Flux Reborn
+    shaped("2x solarflux:sp_custom_wyvern", ['ABA', 'BCB', 'ABA'], {A: "solarflux:sp_8", B: "draconicevolution:wyvern_energy_core", C: "draconicevolution:wyvern_core"}, 'wyvern_panel')
+
+    // Bugfix
+    shapeless("minecraft:copper_ingot", '9x #forge:nuggets/copper', 'copper_ingot')
 })

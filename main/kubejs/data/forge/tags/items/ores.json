@@ -66,9 +66,8 @@
         "gemsnjewels:iolite_nether_ore_block",
         "mythicbotany:dragonstone_ore",
         "mythicbotany:elementium_ore",
-        "nourished_end:malachite_ore",
-        "nourished_end:bismuth_ore",
-        "nourished_end:voidsteel_ore",
+        "enlightened_end:malachite_ore",
+        "enlightened_end:bismuth_ore",
         "phantasm:stellium_ore"
     ]
 }

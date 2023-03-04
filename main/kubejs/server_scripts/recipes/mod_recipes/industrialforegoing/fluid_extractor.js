@@ -17,5 +17,6 @@ onEvent('recipes', e => {
     ifFluidExtractor("integrateddynamics:menril_log", "integrateddynamics:menril_log_stripped", "integrateddynamics:menril_resin", 5, 'menril');
     ifFluidExtractor("integrateddynamics:menril_log_filled", "integrateddynamics:menril_log", "integrateddynamics:menril_resin", 10, 'menril_filled');
     ifFluidExtractor("myrtrees:rubberwood_log", "minecraft:stripped_jungle_log", "industrialforegoing:latex", 10, 'latex');
+    ifFluidExtractor("biomesoplenty:hellbark_log", "biomesoplenty:stripped_hellbark_log", "minecraft:lava", 10, 'lava')
 
 })

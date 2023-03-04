@@ -1,0 +1,23 @@
+{
+    "type": "undergarden:sploogie",
+    "name": "entity.undergarden.sploogie",
+    "name_color": "0xefdca0",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:forgotten_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.sploogie",
+    "fabricator_drops": [
+      {
+        "item": "undergarden:depthrock_pebble",
+        "count": 5
+      }
+    ]
+}

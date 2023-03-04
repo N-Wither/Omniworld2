@@ -1,0 +1,3 @@
+onEvent('recipes', e => {
+    let rip = 'kubejs:pnc_fluid_mixer/'
+})

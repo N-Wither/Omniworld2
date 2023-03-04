@@ -1,5 +1,0 @@
-#If set to false, Swap Target will only affect non-player entities: 
-affect_players = true
-#Only enable if you understand players could loose their stuff...
-allow_toss = false
-

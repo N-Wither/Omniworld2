@@ -14,7 +14,7 @@ onEvent('recipes', event => {
             else if (exception[i] == 'ftbic') fic = false;
         }
         
-        if (thr) { event.recipes.thermal.pulverizer(output, input).id('kubejs:integration/grinding/thermal_pulverizer/' + id); }
+        if (thr) { event.recipes.thermal.pulverizer(output, input).id('kubejs:integration/grinding/thermal_pulverizer/' + id).energy(2000); }
         if (cre) {
             event.recipes.create.crushing(output, input).id('kubejs:integration/grinding/create_crushing/' + id);
             event.recipes.create.milling(output, input).id('kubejs:integration/grinding/create_milling/' + id);
@@ -48,4 +48,7 @@ onEvent('recipes', event => {
     grinding(["2x sakura:surimi", Item.of('sakura:surimi').withChance(0.2)], '#forge:fishes', 'surimi', [""]);
     grinding(["omniores:quartz_dust"], "#forge:gems/quartz", 'quartz_dust', ['mekanism', 'thermal', 'immersive']);
     grinding(["omniores:ender_dust"], "minecraft:ender_pearl", 'ender_dust', ['thermal', 'ftbic']);
+    grinding(['omniores:steel_dust'], '#forge:ingots/steel', 'steel_dust', ['mekanism', 'immersive']);
+    grinding(['omniores:coal_dust'], 'minecraft:coal', 'coal_dust', ['mekanism', 'ftbic', 'immersive']);
+    grinding(["7x minecraft:amethyst_shard", "5x omniores:amethyst_dust", ChanceItem('hexcasting:charged_amethyst', 0.25)], "minecraft:amethyst_cluster", 'amethyst_cluster', ['create'])
 })

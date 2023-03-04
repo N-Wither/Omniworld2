@@ -1,0 +1,23 @@
+{
+    "type": "twilightforest:redcap",
+    "name": "entity.twilightforest.redcap",
+    "name_color": "0x8b1810",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.redcap",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:coal",
+        "count": 1
+      }
+    ]
+}

@@ -34,7 +34,15 @@
         {
             "item": "tconstruct:dragon_scale",
             "count": 4
-        }
+        },
+		{
+			"item": "draconicevolution:dragon_heart",
+			"count": 1
+		},
+		{
+			"item": "draconicevolution:draconium_dust",
+			"count": 48
+		}
 	],
 	"data_per_kill": [
 		3, 12, 30, 45

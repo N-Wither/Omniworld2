@@ -1,0 +1,27 @@
+{
+    "type": "blue_skies:cosmic_fox",
+    "name": "entity.blue_skies.cosmic_fox",
+    "name_color": "0x9753e2",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:ever_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.cosmic_fox",
+    "fabricator_drops": [
+      {
+        "item": "blue_skies:fox_pelt",
+        "count": 12
+      },
+      {
+        "item": "minecraft:salmon",
+        "count": 8
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Omniworld Tips",
+    "bold": true,
+    "color": "aqua"
+  },
+    "tip": {
+      "translate": "kubejs.tip.windmill"
+    }
+  }

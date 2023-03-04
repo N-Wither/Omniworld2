@@ -12,6 +12,17 @@
       "miningSpeed": 999.0,
       "harvestTier": "materialis:infinity",
       "attack": 999.0
+    },
+    "tconstruct:limb": {
+      "durability": 9999,
+      "drawSpeed": 9.99,
+      "velocity": 9.99,
+      "accuracy": 9.99
+    },
+    "tconstruct:grip": {
+      "durability": 9.99,
+      "accuracy": 9.99,
+      "meleeAttack": 999
     }
   }
 }

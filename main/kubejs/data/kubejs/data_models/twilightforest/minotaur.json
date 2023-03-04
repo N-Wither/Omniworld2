@@ -1,0 +1,27 @@
+{
+    "type": "twilightforest:minotaur",
+    "name": "entity.twilightforest.minotaur",
+    "name_color": "0x8a6553",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.minotaur",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:raw_meef",
+        "count": 2
+      },
+      {
+        "item": "twilightforest:maze_map_focus",
+        "count": 1
+      }
+    ]
+}

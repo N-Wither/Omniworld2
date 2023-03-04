@@ -7,7 +7,10 @@ onEvent('item.tooltip', tooltip => {
         var endLine = ['=============='];
         tooltip.add(target, startLine.concat(content, endLine));
     }
-
+    /**
+     * @param {string} key 
+     * @returns {string}
+     */
     function kpf(key) {return 'tooltip.kubejs.flavor.' + key};
 
     // Minecraft
@@ -28,12 +31,7 @@ onEvent('item.tooltip', tooltip => {
     flavor('minecraft:wither_rose', [
         textNeko(kpf('wither_rose'))
     ]);
-/*
-    flavor('minecraft:bedrock', [
-        textNeko('既然无法获得，为什么要给它做一种工具材料呢？'),
-        textWither('好玩。')
-    ]);
-*/
+    
     flavor('minecraft:cake', [
         textNeko(kpf('cake_1')),
         textWither(kpf('cake_2'))
@@ -142,21 +140,21 @@ onEvent('item.tooltip', tooltip => {
     ])
 
     // Environmental
-    /*
+    
     flavor('environmental:cartwheel', [
-        textNeko('它是怎么转起来的呢？')
+        textNeko(kpf('cartwheel'))
     ])
 
     flavor(/environmental:.*wisteria_sapling/, [
-        textWither('紫藤树应该是这个游戏里面最好看的树了。')
+        textWither(kpf('wisteria'))
     ])
 
     flavor(/environmental:.*koi/, [
-        textNeko('锦鲤养在池子里面会很好看呢。'),
-        textWither('不仅如此，锦鲤还可以在它自身32*32*8的空间内'),
-        textWither('阻止怪物生成。')
+        textNeko(kpf('koi_1')),
+        textWither(kpf('koi_2')),
+        textWither(kpf('koi_3'))
     ])
-    */
+
 
     // Forbidden & Arcanus
     flavor('forbidden_arcanus:eternal_stella', [
@@ -187,23 +185,22 @@ onEvent('item.tooltip', tooltip => {
         textNeko(kpf('banana_1')),
         textWither(kpf('banana_2'))
     ]);
-   
 
     // Twilight Forest
     flavor('twilightforest:magic_beans', [
         textNeko(kpf('magic_beans'))
     ]);
-    /*
+    
     // Upgrade Aquatic
-    flavor(/upgrade_aquatic:.*coralstone/, [
-        textNeko('让珊瑚在珊瑚石附近生长。')
+    flavor('upgrade_aquatic:coralstone', [
+        textNeko(kpf('coralstone'))
     ]);
 
     flavor(/upgrade_aquatic:.*spine/, [
-        textWither('接收到红石信号的时候就会钻出来。'),
-        textNeko('被扎到还是很疼的！')
+        textWither(kpf('spine_1')),
+        textNeko(kpf('spine_2'))
     ]);
-    */
+
     // Industrial Foregoing
     flavor('industrialforegoing:pink_slime_ingot', [
         textNeko(kpf('pink_slime_ingot_1')),
@@ -214,13 +211,13 @@ onEvent('item.tooltip', tooltip => {
     flavor('xercamusic:music_sheet', [
         textWither(kpf('music_sheet'))
     ]);
-    /*
+    
     // Draconic Evolution
     flavor('draconicevolution:info_tablet', [
-        textWither('嗯，这个信息板的内容由 Project Intelligence 提供，'),
-        textWither('使用的时候需要联网。')
+        textWither(kpf('info_tab_1')),
+        textWither(kpf('info_tab_2'))
     ]);
-    */
+
     // Aquaculture
     flavor('aquaculture:message_in_a_bottle', [
         textNeko(kpf('drifting_bottle'))

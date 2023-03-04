@@ -1,4 +1,0 @@
-#The maximum number of times this glyph may appear in a single spell
-#Range: 2 ~ 2
-per_spell_limit = 2
-

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gears/iron",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "fluid": {
+    "tag": "forge:molten_iron",
+    "amount": 576
+  },
+  "result": {
+    "item": "emendatusenigmatica:iron_gear"
+  },
+  "cooling_time": 152
+}

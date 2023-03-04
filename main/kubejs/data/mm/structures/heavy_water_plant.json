@@ -1,0 +1,95 @@
+{
+    "controllerId": "mm:heavy_water_plant",
+    "name": {
+        "text": "Heavy Water Plant"
+    },
+    "layout": [
+        [
+            " LLL ",
+            "L   L",
+            "L   L",
+            "L   L",
+            " LLL "
+        ],
+        [
+            " JJJ ",
+            "JKKKJ",
+            "JKKKJ",
+            "JKKKJ",
+            " JJJ "
+        ],
+        [
+            " DDD ",
+            "D   D",
+            "D   D",
+            "D   D",
+            " DDD "
+        ],
+        [
+            " DDD ",
+            "DGGGD",
+            "DHHHD",
+            "DGGGD",
+            " DDD "
+        ],
+        [
+            " DFD ",
+            "DGGGD",
+            "CHHHD",
+            "DGGGD",
+            " DID "
+        ],
+        [
+            " BBB ",
+            "BDDDB",
+            "EDDDB",
+            "BDDDB",
+            " BBB "
+        ]
+    ],
+    "key": {
+        "B": {
+            "type": "mm:block",
+            "block": "mekanism:steel_casing"
+        },
+        "D": {
+            "type": "mm:block",
+            "block": "immersiveengineering:sheetmetal_steel"
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "F": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": true
+        },
+        "G": {
+            "type": "mm:block",
+            "block": "immersiveengineering:fluid_pipe"
+        },
+        "H": {
+            "type": "mm:block",
+            "block": "mekanism:electric_pump"
+        },
+        "I": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": false
+        },
+        "J": {
+            "type": "mm:tag",
+            "tag": "immersiveengineering:scaffoldings/steel"
+        },
+        "K": {
+            "type": "mm:tag",
+            "tag": "immersiveengineering:scaffolding_slabs/steel"
+        },
+        "L": {
+            "type": "mm:block",
+            "block": "immersiveengineering:steel_fence"
+        }
+    }
+}

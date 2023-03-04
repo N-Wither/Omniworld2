@@ -1,0 +1,23 @@
+{
+    "type": "twilightforest:minoshroom",
+    "name": "entity.twilightforest.minoshroom",
+    "name_color": "0xa20f11",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.minoshroom",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:meef_stroganoff",
+        "count": 7
+      }
+    ]
+}

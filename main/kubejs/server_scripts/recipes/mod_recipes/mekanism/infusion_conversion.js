@@ -11,7 +11,7 @@ onEvent('recipes', e => {
         },
         "output": {
             "infuse_type": "mekanism:carbon",
-            "amount": 5
+            "amount": 10
         }
     }).id(rip+'carbon/from_coal');
 
@@ -24,7 +24,7 @@ onEvent('recipes', e => {
         },
         "output": {
             "infuse_type": "mekanism:carbon",
-            "amount": 45
+            "amount": 90
         }
     }).id(rip+'carbon/from_coal_block');
 
@@ -54,4 +54,31 @@ onEvent('recipes', e => {
             "amount": 180
         }
     }).id(rip+'carbon/from_coal_coke_block')
+
+    e.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": [
+                { "tag": "forge:storage_blocks/coal_petcoke" }
+            ] 
+        },
+        "output": {
+            "infuse_type": "mekanism:carbon",
+            "amount": 180
+        }
+    }).id(rip+'carbon/from_coal_petcoke_block')
+
+    e.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": [
+                { "tag": "forge:coal_petcoke" },
+                { "tag": "forge:dusts/coal_petcoke"}
+            ] 
+        },
+        "output": {
+            "infuse_type": "mekanism:carbon",
+            "amount": 20
+        }
+    }).id(rip+'carbon/from_coal_petcoke')
 })

@@ -1,0 +1,23 @@
+{
+    "type": "blue_skies:spewter",
+    "name": "entity.blue_skies.spewter",
+    "name_color": "0xce488d",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:ever_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.spewter",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:slime_ball",
+        "count": 8
+      }
+    ]
+  }

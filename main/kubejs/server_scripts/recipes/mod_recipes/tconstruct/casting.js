@@ -17,6 +17,6 @@ onEvent('recipes', e => {
         "fluid": {"tag": "forge:molten_plastic", "amount": 1000},
         "result": {"item": "pneumaticcraft:plastic"},
         "cooling_time": 5
-      }).id(rip + 'plastic/sand_cast');
+    }).id(rip + 'plastic/sand_cast');
 
 })

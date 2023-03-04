@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "modifier": "tinkerslevellingaddon:improvable",
+  "min_level": 1
+}

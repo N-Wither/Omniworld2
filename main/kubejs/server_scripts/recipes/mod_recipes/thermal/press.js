@@ -28,5 +28,7 @@ onEvent("recipes", event => {
     thermalPress('omniores:iron_gear', [INGOT(4, 'iron'), 'thermal:press_gear_die'], 'iron_gear', 2400);
     thermalPress('omniores:copper_gear', [INGOT(4, 'copper'), 'thermal:press_gear_die'], 'copper_gear', 2400);
     thermalPress('omniores:gold_gear', [INGOT(4, 'gold'), 'thermal:press_gear_die'], 'gold_gear', 2400);
+    thermalPress("immersiveengineering:dust_hop_graphite", [DUST(8, 'coal_coke')], 'hop_graphite_dust_1', 3000)
+    thermalPress("immersiveengineering:dust_hop_graphite", [DUST(8, 'coal_petcoke')], 'hop_graphite_dust_2', 3000)
 
 })

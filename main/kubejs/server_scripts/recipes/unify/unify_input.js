@@ -45,5 +45,7 @@ onEvent('recipes', event => {
     event.replaceInput({type: 'thermal:smelter'}, 'create:zinc_ingot', ['#forge:ingots/zinc', '#forge:dusts/zinc']);
     event.replaceInput("immersiveengineering:slag", '#forge:slag');
     event.replaceInput("immersiveengineering:ingot_steel", '#forge:ingots/steel');
-    event.replaceInput("neapolitan:dried_vanilla_pods", "#forge:vanilla")
+    event.replaceInput("neapolitan:dried_vanilla_pods", "#forge:vanilla");
+    event.replaceInput("immersivepetroleum:bitumen", '#forge:bitumen');
+    event.replaceInput("thermal:bitumen", '#forge:bitumen');
 })

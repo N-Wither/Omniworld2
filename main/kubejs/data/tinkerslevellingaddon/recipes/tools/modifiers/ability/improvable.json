@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "result": {
+    "name": "tinkerslevellingaddon:improvable",
+    "level": 1
+  },
+  "max_level": 1
+}

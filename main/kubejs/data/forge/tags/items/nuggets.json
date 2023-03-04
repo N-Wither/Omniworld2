@@ -2,9 +2,9 @@
     "replace": false,
     "values": [
       "avaritia:neutron_nugget",
-      "nourished_end:bismuth_nugget",
-      "nourished_end:starsteel_nugget",
-      "nourished_end:voidsteel_nugget",
-      "phantasm:stellium_nugget"
+      "enlightened_end:bismuth_nugget",
+      "enlightened_end:adamantite_nugget",
+      "phantasm:stellium_nugget",
+      "extendedcrafting:black_iron_nugget"
     ]
 }

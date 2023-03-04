@@ -1,9 +1,0 @@
-
-#General settings
-[general]
-	#Generate Bambooshoot on cold biomes (temperature between 0.4 and 1.0)
-	genBambooshoot = true
-	#Chance of generating clusters. Smaller value = more frequent.
-	#Range: > 0
-	chance = 30
-

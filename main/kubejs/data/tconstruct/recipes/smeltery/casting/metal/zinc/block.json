@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/zinc",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_zinc",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:zinc_block"
+  },
+  "cooling_time": 141
+}

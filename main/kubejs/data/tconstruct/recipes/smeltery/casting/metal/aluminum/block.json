@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/aluminum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_aluminum",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:aluminum_block"
+  },
+  "cooling_time": 141
+}

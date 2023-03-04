@@ -1,0 +1,23 @@
+{
+    "type": "twilightforest:upper_goblin_knight",
+    "name": "entity.twilightforest.upper_goblin_knight",
+    "name_color": "0xa9ba97",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.goblin_knight_upper",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:armor_shard",
+        "count": 3
+      }
+    ]
+}

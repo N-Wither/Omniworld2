@@ -1,0 +1,23 @@
+{
+        "type": "tconstruct:ender_slime",
+        "name": "entity.tconstruct.ender_slime",
+        "name_color": "0xD07BFC",
+        "gui_scale": 2,
+        "gui_x_offset": 0,
+        "gui_y_offset": 0,
+        "gui_z_offset": 0,
+        "sim_cost": 160,
+        "input": {
+            "item": "hostilenetworks:empty_prediction"
+        },
+        "base_drop": {
+            "item": "hostilenetworks:end_prediction"
+        },
+        "trivia": "hostile_neural_compat.trivia.ender_slime",
+        "fabricator_drops": [
+            {
+                "item": "tconstruct:ender_slime_ball",
+                "count": 2
+            }
+        ]
+}

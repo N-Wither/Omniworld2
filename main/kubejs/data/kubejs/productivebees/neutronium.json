@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#2f2f2f",
+    "secondaryColor": "#9ea2ba",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "flowerBlock": "avaritia:neutronium_block",
+    "size": 1,
+    "fireproof": true,
+    "selfbreed": false,
+    "invulnerability": [
+        "mekanism.radiation"
+    ]
+}

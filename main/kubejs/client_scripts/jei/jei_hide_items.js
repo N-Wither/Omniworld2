@@ -282,7 +282,7 @@ onEvent('jei.hide.items', event => {
         'immersiveengineering:storage_uranium',
         'immersiveengineering:ingot_uranium',
         'immersiveengineering:nugget_uranium',
-        'immersiveengineering:raw_uranium', 
+        'immersiveengineering:raw_uranium',
         'immersiveengineering:plate_uranium',
         'immersiveengineering:dust_uranium',
         'ftbic:uranium_ingot',
@@ -427,20 +427,31 @@ onEvent('jei.hide.items', event => {
         'avaritia:double_compressed_crafting_table',
         'avaritia:extreme_crafting_table',
         'avaritia:neutronium_compressor',
-        /avaritia:.*singularity/,
-        /botanypotstiers:creative.*/
+        "avaritia:iron_singularity",
+        "avaritia:gold_singularity",
+        "avaritia:copper_singularity",
+        "avaritia:lapis_singularity",
+        "avaritia:redstone_singularity",
+        "avaritia:quartz_singularity",
+        "avaritia:tin_singularity",
+        "avaritia:lead_singularity",
+        "avaritia:silver_singularity",
+        "avaritia:nickel_singularity",
+        "avaritia:diamond_singularity",
+        "avaritia:emerald_singularity",
+        "avaritia:fluxed_singularity",
+        "avaritia:platinum_singularity",
+        "avaritia:iridium_singularity",
+        "avaritia:netherite_singularity",
+        "avaritia:amethyst_singularity",
+        "avaritia:compressor",
+        "productivebees:wood_chip",
+        "productivebees:stone_chip"
     ]
 
     itemsToHide.forEach(item => {
         event.hide(Item.of(item).ignoreNBT());
         console.log(`Hidden ${item}`);
     })
-
-    if(Platform.isLoaded("fluxnetwork")){
-        event.hide(Item.of(/fluxnetwork:.*/).ignoreNBT());
-    };
-    if(Platform.isLoaded("torcherino")){
-        event.hide(Item.of(/torcherino:.*/).ignoreNBT());
-    }
 
 });

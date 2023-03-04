@@ -1,0 +1,99 @@
+{
+    "name":"Draconic Evolution",
+    "icon":"draconicevolution:draconium_ingot",
+    "category":"patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Draconic Evolution is a mod about dragon. It adds some powerful tools and machines."
+        },
+        {
+            "type": "text",
+            "title": "Fusion Crafting",
+            "text": "Fusion Crafting is an important way to craft the powerful tools. $(br)You need a Fusion Core and some Fusion Crafting Injectors."
+        },
+        {
+            "type": "multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["I     I","I  0  I","I     I"],
+                    ["I     I","I  C  I","I     I"]
+                ],
+                "mapping":{
+                    "I": "draconicevolution:basic_crafting_injector",
+                    "C": "draconicevolution:crafting_core"
+                }
+            },
+            "text": "Just an example, you can place them vertically."
+        },
+        {
+            "type": "text",
+            "text": "Only Injectors need energy, put your ingrediants on them, then go to the Fusion Core to start crafting."
+        },
+        {
+            "type": "entity",
+            "entity": "draconicevolution:draconic_guardian",
+            "text": "The most powerful boss."
+        },
+        {
+            "type": "text",
+            "title": "Equipment",
+            "text": "I recommend a Draconic Chest Piece with draconic flight, shields (obviously), undying, and at least 2 speed modules. $(br2)The new blink function on the Advanced Dislocator is also very useful especially if you assign a keybinding for it.  "
+        },
+        {
+            "type": "text",
+            "title": "Guardian Healing Crystals",
+            "text": "The Guardian crystals can no longer be destroyed by normal damage as they have shields powered directly by the chaos crystal at the heart of the island. This link can be temporarily disrupted by hitting the crystal with chaotic damage. Either get the guardian to fire at a crystal or use a chaotic tier weapon if you have one."
+        },
+        {
+            "type": "text",
+            "text": "The link will only be disrupted for a few seconds so hit the crystal with as much damage as you can to destroy it then get out of there because the guardian won't be happy!  "
+        },
+        {
+            "type": "text",
+            "title": "Basic Attacks",
+            "text": "The will occasionally charge the player and try to deal direct melee damage but more often he will bombard the player with fireballs. $(br2)The guardian also has a basic defensive move where if a player is too close for too long he will fly off at high speed while enveloping himself in a loud of fireballs."
+        },
+        {
+            "type": "text",
+            "text": "It's worth noting the guardian's fireballs are incredibly powerful and it will only take a few to break through a draconic shield.$(br2)Your best defense against these attacks is to evade/outmaneuver the guardian using your draconic elytra. (Draconic flight module) "
+        },
+        {
+            "type": "text",
+            "title": "Advanced Attacks",
+            "text": "The guardian also has several \"advanced attacks\" For these the guardian will first go and hover at the center of the island where he can draw energy directly from the island's chaos crystal. This makes him temporarily immune to damage. Then after a short charge-up period, he will activate one of several attacks. "
+        },
+        {
+            "type": "text",
+            "text": "$(l)Laser$()$(br)This one is pretty simple, The guardian will fire a beam of concentrated chaos energy at you which will melt your shield and kill you almost instantly (If you don't have a charged undying module). $(br2)Your best defense against this attack is to take cover and put one of the crystal pillars between you and the guardian. The beam can destroy end stone but not obsidian."
+        },
+        {
+            "type": "text",
+            "text": "If you are careful this is also a good chance to take out a crystal by guiding the laser to the top of the pillar.$(br2)You will quickly learn when the guardian is about to use the laser attack as after the initial charge you will hear a secondary charging sound as the laser effect builds up energy."
+        },
+        {
+            "type": "text",
+            "text": "If you have a friend helping you and you have already destroyed the crystals this is a good time for the person not being targeted to deal some damage to the guardian. "
+        },
+        {
+            "type": "text",
+            "text": "$(l)Gravity Well $()$(br)For the following advanced attacks, the guardian will use the power of the chaos crystal to generate a powerful gravity well that prevents you from flying or leaving the island's bounds, this will also cancel your creative flight ability, so use jetpacks instead.$(br2)This is where the advanced dislocator's blink function can come in handy as it allows you to get around quickly and dodge attacks."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Boombardment $()$(br)This is a pretty simple attack guardian will lock onto your position and fire a volley of fireballs at you. If you don't get out of the way fast enough you will most likely die."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Multi-Stage Attack $()$(br)This attack has 4 stages. In the first (and most annoying) stage, the guardian will spawn several guardian withers to soften you up. These are stronger than normal withers and are laser-focused on attacking players. $(br2)Once you kill the initial wave of withers the guardian will initiate 3 stages of areal bombardment."
+        },
+        {
+            "type": "text",
+            "text": "First, he will bombard the perimeter of the island in a circular pattern (So take cover at the center of the island)$(br2)Next, he will bombard the center of the island. So go the perimeter and watch out for stray fireballs.$(br2)Then finally he will bombard the entire island with random fireballs. The best way to survive this stage is to be at the "
+        },
+        {
+            "type": "text",
+            "text": "perimeter of the island and try to dodge any fireballs heading your way. $(br2)You're probably going to want to have some charged undying modules for this stage."
+        }
+    ]
+}

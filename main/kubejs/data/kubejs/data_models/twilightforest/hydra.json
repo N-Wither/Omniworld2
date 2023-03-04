@@ -1,0 +1,27 @@
+{
+    "type": "twilightforest:hydra",
+    "name": "entity.twilightforest.hydra",
+    "name_color": "0x216857",
+    "gui_scale": 0.3,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.hydra",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:hydra_chop",
+        "count": 10
+      },
+      {
+        "item": "twilightforest:fiery_blood",
+        "count": 3
+      }
+    ]
+}

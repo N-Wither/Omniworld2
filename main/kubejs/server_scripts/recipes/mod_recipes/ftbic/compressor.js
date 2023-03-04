@@ -19,4 +19,6 @@ onEvent('recipes', e => {
     e.recipes.ftbic.compressing('omniores:emerald_plate', GEM(1, 'emerald')).id(rip + 'emerald_plate');
     e.recipes.ftbic.compressing('omniores:ruby_plate', GEM(1, 'ruby')).id(rip + 'ruby_plate');
     e.recipes.ftbic.compressing('omniores:sapphire_plate', GEM(1, 'sapphire')).id(rip + 'sapphire_plate');
+    e.recipes.ftbic.compressing("immersiveengineering:dust_hop_graphite", DUST(8, 'coal_coke')).id(rip + 'hop_graphite_dust_1')
+    e.recipes.ftbic.compressing("immersiveengineering:dust_hop_graphite", DUST(8, 'coal_petcoke')).id(rip + 'hop_graphite_dust_2')
 })

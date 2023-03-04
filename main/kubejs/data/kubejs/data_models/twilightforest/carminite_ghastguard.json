@@ -1,0 +1,31 @@
+{
+    "type": "twilightforest:carminite_ghastguard",
+    "subtypes": [
+        "twilightforest:carminite_ghastguard",
+        "twilightforest:carminite_ghastling"
+    ],
+    "name": "entity.twilightforest.carminite_ghastguard",
+    "name_color": "0xFFFCFC",
+    "gui_scale": 0.4,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 160,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.carminite_ghastguard",
+    "fabricator_drops": [
+        {
+			"item": "minecraft:ghast_tear",
+			"count": 6
+		},
+		{
+			"item": "minecraft:gunpowder",
+			"count": 8
+		}
+    ]
+}

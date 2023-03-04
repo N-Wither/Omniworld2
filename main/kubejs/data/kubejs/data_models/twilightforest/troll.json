@@ -1,0 +1,23 @@
+{
+    "type": "twilightforest:troll",
+    "name": "entity.twilightforest.troll",
+    "name_color": "0x8f7873",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.troll",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:magic_beans",
+        "count": 1
+      }
+    ]
+}

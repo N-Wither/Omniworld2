@@ -1,0 +1,23 @@
+{
+    "type": "twilightforest:alpha_yeti",
+    "name": "entity.twilightforest.alpha_yeti",
+    "name_color": "0x213a59",
+    "gui_scale": 0.4,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:twilight_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.yeti_alpha",
+    "fabricator_drops": [
+      {
+        "item": "twilightforest:alpha_fur",
+        "count": 4
+      }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#d30f73",
+    "secondaryColor": "#ca00cb",
+    "flowerBlock": "avaritia:infinity_block",
+    "renderer": "thicc",
+    "size": 1.5,
+    "fireproof": true,
+    "selfheal": true,
+    "selfbreed": false,
+    "attributes": {
+        "endurance": 3
+    },
+    "invulnerability": [
+        "mekanism.radiation"
+    ]
+}

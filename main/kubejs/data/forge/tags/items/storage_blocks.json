@@ -52,13 +52,12 @@
       "gobber2:gobber2_block",
       "gobber2:gobber2_block_end",
       "gobber2:gobber2_block_nether",
-      "nourished_end:blockofmalachite",
-      "nourished_end:raw_voidsteel_block",
-      "nourished_end:voidsteel_block",
-      "nourished_end:bismuth_block",
-      "nourished_end:starsteel_block",
-      "nourished_end:raw_bismuth_block",
+      "enlightened_end:malachite_block",
+      "enlightened_end:voidsteel_block",
+      "enlightened_end:bismuth_block",
+      "enlightened_end:raw_bismuth_block",
       "forbidden_arcanus:processed_obsidian_block",
-      "phantasm:stellium_block"
+      "phantasm:stellium_block",
+      "extendedcrafting:black_iron_block"
     ]
 }

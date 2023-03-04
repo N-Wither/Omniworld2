@@ -19,10 +19,23 @@ onEvent("recipes", e => {
     e.replaceInput({mod: 'gobber2'}, '#minecraft:emerald_ores', '#forge:ores/emerald');
     e.replaceInput({mod: 'gobber2'}, '#minecraft:gold_ores', '#forge:ores/gold');
     e.replaceInput({id: 'mekanism:control_circuit/basic'}, '#forge:ingots/osmium', '#forge:plates/osmium');
-    e.replaceInput({id: 'mekanism:enriching/enriched/carbon'}, '#minecraft:coals', ['#forge:charcoal', '#forge:coal_coke']);
+    e.replaceInput({id: 'mekanism:enriching/enriched/carbon'}, '#minecraft:coals', [
+        'minecraft:coal',
+        '#forge:dusts/coal',
+        '#forge:charcoal',
+        '#forge:dusts/charcoal',
+        '#forge:coal_coke',
+        '#forge:dusts/coal_coke',
+        '#forge:coal_petcoke',
+        '#forge:dusts/coal_petcoke'
+    ]);
     e.replaceInput({id: 'scannable:scanner'}, '#forge:dusts/redstone', '#forge:circuits/basic');
     e.replaceInput({}, "pneumaticcraft:printed_circuit_board", '#forge:circuits/basic');
     e.replaceInput("pneumaticcraft:plastic", '#forge:plastic');
     e.replaceInput('hexerei:animal_fat', '#forge:tallow');
     e.replaceInput('delightful:animal_fat', '#forge:tallow');
+    e.replaceInput({id: "gag:time_sand_pouch"}, "minecraft:nautilus_shell", "minecraft:clock");
+    e.replaceInput({id: "miniutilities:angel_ring_crafting"}, '#forge:nether_stars', "gobber2:dragon_elytra");
+    e.replaceInput({id: "miniutilities:angel_ring_crafting"}, '#forge:glass', "miniutilities:chorus_opinium_core");
+    e.replaceInput({output: /botanypotstiers:creative.*/}, "minecraft:enchanted_golden_apple", "mysticalagradditions:creative_essence");
 })

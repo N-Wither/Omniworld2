@@ -1,0 +1,27 @@
+{
+    "type": "blue_skies:municipal_monkfish",
+    "name": "entity.blue_skies.municipal_monkfish",
+    "name_color": "0x2a8592",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:ever_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.municipal_monkfish",
+    "fabricator_drops": [
+      {
+        "item": "blue_skies:municipal_monkfish",
+        "count": 12
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "count": 8
+      }
+    ]
+  }
