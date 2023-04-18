@@ -1,3 +1,31 @@
+# 2.5.0 Fluorite
+## Note
+Delete saves/your_world/serverconfig folder to apply all the changes.
+
+## Changes
+- Bugfixes
+- Reduced the cost to craft Infinity Ingot with Infinity Drop
+- Removed the warning when you allocated more than 16GB RAM to the game
+- Added a warning when you allocated less than 6GB RAM to the game
+- Increased the values of PipeZ upgrades (needs server config deleted)
+- Added some custom multiblock machines, more in future
+
+## New Mods
+- Masterful Machinery
+- MemoryLeakFix
+- Controlling
+- Refined Cooking
+- Bigger Reactors
+- Phosphophyllite
+- Quartz
+- Mod Name Tooltip
+
+## Remove
+- Unusual End: Freezes the game in the End
+- Just Enough Keys: bug
+- Italian Delight: MCreator
+- Nature Expansion: MCreator
+
 # 2.4.0 Aquamarine
 ## !! IMPORTANT !!
 Mod GlobalXP will be REMOVED in next update, please use Experience Obelisk instead.
