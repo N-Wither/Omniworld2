@@ -1,3 +1,16 @@
+# 2.6.0 Ruby
+## New Mods
+- Mekanism Evolution
+- Mekanism Tweaks
+- Reforgium
+- Connectedness
+
+## Changes
+- Added the way to summon Masticator
+- You can craft 4 Infinity Catalysts one time instead of 1
+- Blocks from Masterful Machinery will drop themselves when broken
+
+
 # 2.5.0 Fluorite
 ## Note
 Delete saves/your_world/serverconfig folder to apply all the changes.
