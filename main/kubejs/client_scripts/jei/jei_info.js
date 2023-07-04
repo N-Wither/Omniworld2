@@ -13,4 +13,7 @@ onEvent('jei.information', i => {
     i.add("refinedstorage:creative_wireless_crafting_monitor", textHelp(kpf('wireless_crafting_monitor')));
     i.add("refinedstorageaddons:creative_wireless_crafting_grid", textHelp(kpf('wireless_crafting_grid')));
     i.add("rebornstorage:creative_super_wireless_crafting_grid", textHelp(kpf('super_wireless_grid')));
+    i.add(/mm:.*controller/, textHelp(kpf('multiblock_controller')));
+    i.add("biggerreactors:blutonium_ingot", textHelp(kpf('blutonium')))
+    i.add("undergarden:masticator_scales", textHelp(kpf('masticator')))
 })

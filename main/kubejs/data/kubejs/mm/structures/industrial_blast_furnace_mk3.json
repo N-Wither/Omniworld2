@@ -1,0 +1,51 @@
+{
+    "controllerId": "mm:industrial_machine",
+    "name": {"text": "Industrial Blast Furnace MK3"},
+    "layout": [
+        [
+            "DDD",
+            "DDD",
+            "DDD"
+        ],
+        [
+            "BBB",
+            "B B",
+            "BBB"
+        ],
+        [
+            "BBB",
+            "B B",
+            "BBB"
+        ],
+        [
+            "ACE",
+            "DDD",
+            "DFD"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "B": {
+            "type": "mm:block",
+            "block": "immersiveengineering:coil_hv"
+        },
+        "D": {
+            "type": "mm:block",
+            "block": "immersiveengineering:blastbrick_reinforced"
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "F": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        }
+    }
+}

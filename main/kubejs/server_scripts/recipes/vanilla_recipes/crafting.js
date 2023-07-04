@@ -8,6 +8,7 @@ onEvent('recipes', event => {
      * @param {String} id 
      */
     function shaped(output, pattern, key, id){
+        id = id || output.split(':')[1];
         event.shaped(output, pattern, key).id('kubejs:crafting_shaped/'+id);
     }
     /**
@@ -156,8 +157,45 @@ onEvent('recipes', event => {
     shaped('2x occultism:iesnium_ingot', ['EEE', 'E E', 'EEE'], {E: "mysticalagriculture:iesnium_essence"}, 'essence/iesnium')
 
     // Solar Flux Reborn
-    shaped("2x solarflux:sp_custom_wyvern", ['ABA', 'BCB', 'ABA'], {A: "solarflux:sp_8", B: "draconicevolution:wyvern_energy_core", C: "draconicevolution:wyvern_core"}, 'wyvern_panel')
+    if(Platform.isLoaded('solarflux')){
+        shaped("2x solarflux:sp_custom_wyvern", ['ABA', 'BCB', 'ABA'], {A: "solarflux:sp_8", B: "draconicevolution:wyvern_energy_core", C: "draconicevolution:wyvern_core"}, 'wyvern_panel')
+    }
 
     // Bugfix
     shapeless("minecraft:copper_ingot", '9x #forge:nuggets/copper', 'copper_ingot')
+
+    // Masterful Machinery
+    shaped("mm:base_machine_block", [' I ', 'S S', ' I '], {I: '#forge:plates/iron', S: '#forge:plates/steel'}, 'base_machine_block')
+    shaped("mm:energy_input_port", ['E', 'B'], {E: "thermal:rf_coil", B: "mm:base_machine_block"})
+    shaped("mm:energy_output_port", ['b', 'e'], {e: "thermal:rf_coil", b: "mm:base_machine_block"})
+    shaped("mm:fluid_input_port", ['k', 'b'], {k: "minecraft:bucket", b: "mm:base_machine_block"})
+    shaped("mm:fluid_output_port", ['b', 'k'], {b: "mm:base_machine_block", k: 'minecraft:bucket'})
+    shaped("mm:gas_input_port", ['a', 'b'], {b: "mm:base_machine_block", a: "mekanism:alloy_infused"})
+    shaped("mm:gas_output_port", ['b', 'a'], {b: "mm:base_machine_block", a: "mekanism:alloy_infused"})
+    shaped("mm:item_input_port", ['c', 'b'], {b: "mm:base_machine_block", c: "#forge:chests/wooden"})
+    shaped("mm:item_output_port", ['b', 'c'], {b: "mm:base_machine_block", c: '#forge:chests/wooden'})
+    shaped("mm:large_energy_input_port", ['e', 'p', 'e'], {e: "mekanism:energy_tablet", p: "mm:energy_input_port"})
+    shaped("mm:large_energy_output_port", ['e', 'p', 'e'], {e: "mekanism:energy_tablet", p: "mm:energy_output_port"})
+    shaped("mm:large_fluid_input_port", ['e', 'p', 'e'], {e: "minecraft:bucket", p: "mm:fluid_input_port"})
+    shaped("mm:large_fluid_output_port", ['e', 'p', 'e'], {e: "minecraft:bucket", p: "mm:fluid_output_port"})
+    shaped("mm:large_item_input_port", ['e', 'p', 'e'], {e: "#forge:chests/wooden", p: "mm:item_input_port"})
+    shaped("mm:large_item_output_port", ['e', 'p', 'e'], {e: "#forge:chests/wooden", p: "mm:item_output_port"})
+    shaped("mm:laser_input_port", ['m', 'b'], {b: "mm:base_machine_block", m: "mekanismgenerators:laser_focus_matrix"})
+    shaped("mm:laser_output_port", ['b', 'm'], {b: "mm:base_machine_block", m: "mekanismgenerators:laser_focus_matrix"})
+    shaped("mm:rot_input_port", ['m', 'b'], {b: "mm:base_machine_block", m: "create:cogwheel"})
+    shaped("mm:rot_output_port", ['b', 'm'], {b: "mm:base_machine_block", m: "create:cogwheel"})
+
+    shaped("mm:heavy_water_plant_controller", [' S ', 'EBE', ' C '], {
+        S: "immersiveengineering:sheetmetal_steel",
+        E: 'minecraft:bucket',
+        B: "mm:base_machine_block",
+        C: "#forge:circuits/elite"
+    })
+    shaped("mm:air_separation_unit_controller", [' S ', 'PBP', ' C '], {
+        S: "immersiveengineering:sheetmetal_iron",
+        P: "pneumaticcraft:pressure_tube",
+        B: "mm:base_machine_block",
+        C: '#forge:circuits/elite'
+    })
+    shaped('mm:industrial_machine_controller', [' C ', 'CBC', ' C '], {C: '#forge:circuits/basic', B: 'mm:base_machine_block'})
 })

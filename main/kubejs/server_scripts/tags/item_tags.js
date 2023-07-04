@@ -18,12 +18,12 @@ onEvent("tags.items", event => {
     event.add("forge:storage_blocks/quartz_enriched_iron", "refinedstorage:quartz_enriched_iron_block")
     event.add("forge:ingots", "refinedstorage:quartz_enriched_iron");
     event.add("forge:storage_blocks", "refinedstorage:quartz_enriched_iron_block");
-    event.add("minecraft:planks/mahogany", ["biomesoplenty:mahogany_planks", "hexerei:mahogany_planks"]);
-    event.add("minecraft:planks/willow", ["biomesoplenty:willow_planks", "hexerei:willow_planks", "biomemakeover:willow_planks"]);
-    event.add("minecraft:logs/willow", ["biomesoplenty:willow_log", "hexerei:willow_log", "biomemakeover:willow_log"]);
-    event.add("minecraft:logs/mahogany", ["biomesoplenty:mahogany_log", "hexerei:mahogany_log"]);
-    event.add("forge:milks", ["farmersdelight:milk_bottle", "hexerei:milk_bottle"]);
-    event.add("forge:milk", ["croptopia:milk_bottle", "hexerei:milk_bottle"]);
+    event.add("minecraft:planks/mahogany", ["biomesoplenty:mahogany_planks", /*"hexerei:mahogany_planks"*/]);
+    event.add("minecraft:planks/willow", ["biomesoplenty:willow_planks", /*"hexerei:willow_planks",*/ "biomemakeover:willow_planks"]);
+    event.add("minecraft:logs/willow", ["biomesoplenty:willow_log", /*"hexerei:willow_log",*/ "biomemakeover:willow_log"]);
+    event.add("minecraft:logs/mahogany", ["biomesoplenty:mahogany_log", /*"hexerei:mahogany_log"*/]);
+    event.add("forge:milks", ["farmersdelight:milk_bottle", /*"hexerei:milk_bottle"*/]);
+    event.add("forge:milk", ["croptopia:milk_bottle", /*"hexerei:milk_bottle"*/]);
     event.add("forge:salts", "mekanism:salt");
     event.add("forge:tool_pot", "croptopia:cooking_pot");
     event.add("forge:tool_skillet", "croptopia:frying_pan");
@@ -46,7 +46,7 @@ onEvent("tags.items", event => {
     event.add('forge:cheeses', ["beyond_earth:cheese", "sakura:cheese"]);
     event.add('forge:cheese', 'croptopia:cheese');
     event.add("materialis:plastic_material", "immersiveengineering:plate_duroplast");
-    event.add('forge:tallow', ['hexerei:animal_fat', 'delightful:animal_fat']);
+    event.add('forge:tallow', [/*'hexerei:animal_fat',*/'delightful:animal_fat']);
     event.add('forge:flour', "pneumaticcraft:wheat_flour");
     event.add("minecraft:music_discs", [
         'wildbackport:music_disc_5',
@@ -69,7 +69,7 @@ onEvent("tags.items", event => {
 
     event.add("diet:fruits", ["culturaldelights:avocado", "nethers_exoticism:jaboticaba", "nethers_exoticism:kiwano", "nethers_exoticism:pitaya", "nethers_exoticism:ramboutan", "nethers_exoticism:bouddha_s_hand"]);
     event.add("diet:vegetables", ["culturaldelights:cucumber", "culturaldelights:eggplant", "culturaldelights:white_eggplant", "nethersdelight:propelpearl", "nethersdelight:plate_of_stuffed_hoglin_ham", "nethersdelight:plate_of_stuffed_hoglin_roast", "nethersdelight:plate_of_stuffed_hoglin_snout"]);
-    event.add("diet:proteins", ["culturaldelights:squid", "culturaldelights:glow_squid", "culturaldelights:raw_calamari", "hexerei:blood_bottle", "nethersdelight:hoglin_ear", "nethersdelight:hoglin_loin", "nethersdelight:strider_slice", "nethersdelight:propelpearl", "nethersdelight:plate_of_stuffed_hoglin_ham", "nethersdelight:plate_of_stuffed_hoglin_roast", "nethersdelight:plate_of_stuffed_hoglin_snout"]);
+    event.add("diet:proteins", ["culturaldelights:squid", "culturaldelights:glow_squid", "culturaldelights:raw_calamari", /*"hexerei:blood_bottle",*/ "nethersdelight:hoglin_ear", "nethersdelight:hoglin_loin", "nethersdelight:strider_slice", "nethersdelight:propelpearl", "nethersdelight:plate_of_stuffed_hoglin_ham", "nethersdelight:plate_of_stuffed_hoglin_roast", "nethersdelight:plate_of_stuffed_hoglin_snout"]);
     event.add("diet:ingredients", ["nethersdelight:hoglin_hide", "nethersdelight:raw_stuffed_hoglin"]);
 
     event.add('forge:affix_appliable', /.*_(sword|axe|pickaxe|shovel|paxel|aiot|helmet|chestplate|leggings|pants|boots|knife)/);
@@ -90,5 +90,15 @@ onEvent("tags.items", event => {
     event.add('forge:creative_items/fluid', ["create:creative_fluid_tank", "mekanism:creative_fluid_tank"])
     event.add('forge:creative_items/item', ["create:creative_crate", "mekanism:creative_bin"])
 
-    event.add('twilightforest:banned_uncraftables', ["tconstruct:tinkers_anvil", "tconstruct:scorched_anvil"])
+    event.add('twilightforest:banned_uncraftables', ["tconstruct:tinkers_anvil", "tconstruct:scorched_anvil"]),
+
+    event.add('mm:ports/energy/in', ['mm:energy_input_port', 'mm:large_energy_input_port'])
+    event.add('mm:ports/fluid/in', ["mm:fluid_input_port", "mm:large_fluid_input_port"])
+    event.add('mm:ports/fluid/out', ["mm:fluid_output_port", "mm:large_fluid_output_port"])
+    event.add('mm:ports/fluid', /mm:.*fluid.*port/)
+    event.add('mm:ports/gas/in', ["mm:gas_input_port"])
+    event.add('mm:ports/gas/out', ["mm:gas_output_port"])
+    event.add('mm:ports/item/in', /mm:.*item_input_port/)
+    event.add('mm:ports/item/out', /mm:.*item_output_port/)
+    event.add('mm:ports', [/mm:.*port/, 'mm:base_machine_block'])
 })

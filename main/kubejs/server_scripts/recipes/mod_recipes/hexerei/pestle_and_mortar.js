@@ -19,5 +19,5 @@ onEvent('recipes', e => {
         }).id(id)
     }
 
-    HexereiPestle("5x omniores:amethyst_dust", ['#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst'], 200)
+    // HexereiPestle("5x omniores:amethyst_dust", ['#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst', '#forge:gems/amethyst'], 200)
 })

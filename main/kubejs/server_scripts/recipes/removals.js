@@ -71,7 +71,12 @@ onEvent('recipes', event => {
         "avaritia:infinity_catalyst",
         "avaritia:compressed_crafting_table",
         "avaritia:double_compressed_crafting_table",
-        "globalxp:xp_block"
+        "mysticalworld:tin_button",
+        "mysticalworld:lead_button",
+        "mysticalworld:copper_button",
+        "mysticalworld:silver_button",
+        "mysticalworld:sapphire_button",
+        "mysticalworld:orichalcum_button"
     ]
 
     itemToRemove.forEach(item => {
@@ -89,7 +94,7 @@ onEvent('recipes', event => {
     event.remove({ id: "buildersaddition:iron_rod" });
     event.remove({ id: /industrialforegoing:.*gear/ });
     event.remove({ id: /(cyclic|create|immersiveengineering|tconstruct|thermal).*(copper_ingot)/ });
-    event.remove({ id: "majobroom:majo_broom" });
+    // event.remove({ id: "majobroom:majo_broom" });
     event.remove({ output: "pipez:basic_upgrade" });
     event.remove({ output: "pipez:improved_upgrade" });
     event.remove({ output: "pipez:advanced_upgrade" });

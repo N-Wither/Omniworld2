@@ -31,9 +31,12 @@ onEvent('block.right_click', e => {
         e.player.playSound('minecraft:item.crop.plant');
     }
 
-    // For blocks that will be removed
-    if(e.block.id == "globalxp:xp_block"){
-        e.player.tell(Component.translate('kubejs.warning.remove').red())
-        e.player.tell(Component.translate('kubejs.warning.xpobelisk').red())
+    // Plush
+    if(e.block.id == "kubejs:nwither_plush" && e.player.getHeldItem(MAIN_HAND) == null){
+        let facing = e.getFacing()
+        e.server.runCommandSilent(`setblock ${e.block.x} ${e.block.y} ${e.block.z} ${e.block.id}[facing=${facing}]`)
     }
+
+    // For blocks that will be removed
+    
 })

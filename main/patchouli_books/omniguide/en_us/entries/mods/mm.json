@@ -1,0 +1,87 @@
+{
+    "name":"Custom Multiblocks",
+    "icon":"mm:heavy_water_plant_controller",
+    "category":"patchouli:mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"I made some multiblock machines."
+        },
+        {
+            "type":"text",
+            "text":"Tip: To help you building, I made Building Gadgets templates (game_dir/building_gadgets_templates) and Create schematics of these multiblocks."
+        },
+        {
+            "type":"multiblock",
+            "name":"Industrial Heavy Water Separator",
+            "multiblock":{
+                "pattern":[
+                    [
+                        " MMM ",
+                        "M   M",
+                        "M   M",
+                        "M   M",
+                        " MMM "
+                    ],
+                    [
+                        " KKK ",
+                        "KLLLK",
+                        "KLLLK",
+                        "KLLLK",
+                        " KKK "
+                    ],
+                    [
+                        " AAA ",
+                        "ANINA",
+                        "AJIJA",
+                        "ANINA",
+                        " AAA "
+                    ],
+                    [
+                        " AAA ",
+                        "AEFEA",
+                        "AEFEA",
+                        "AEFEA",
+                        " AAA "
+                    ],
+                    [
+                        " AAA ",
+                        "AEFEA",
+                        "HEFEG",
+                        "AEFEA",
+                        " ACA "
+                    ],
+                    [
+                        " BDB ",
+                        "BAAAB",
+                        "BA0AB",
+                        "BAAAB",
+                        " BBB "
+                    ]
+                ],
+                "mapping":{
+                    "A":"immersiveengineering:sheetmetal_steel",
+                    "B":"mekanism:steel_casing",
+                    "C":"mm:heavy_water_plant_controller",
+                    "D":"#mm:ports/energy/in",
+                    "0":"immersiveengineering:sheetmetal_steel",
+                    "E":"immersiveengineering:fluid_pipe",
+                    "F":"mekanism:electric_pump",
+                    "G":"#mm:ports/fluid/in",
+                    "H":"#mm:ports/fluid/out",
+                    "I":"immersiveengineering:fluid_sorter",
+                    "J":"immersiveengineering:fluid_placer",
+                    "K":"#immersiveengineering:scaffoldings/steel",
+                    "L":"#immersiveengineering:scaffolding_slabs/steel",
+                    "M":"immersiveengineering:steel_fence",
+                    "N":"immersiveengineering:heavy_engineering"
+                }
+            },
+            "text": "Template / Schematic ID: heavy_water_separator"
+        },
+        {
+            "type":"text",
+            "text":"All three kinds of steel scafolddings (slabs) can be used in this structure."
+        }
+    ]
+}

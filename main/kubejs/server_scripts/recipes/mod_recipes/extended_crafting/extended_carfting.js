@@ -294,12 +294,13 @@ onEvent('recipes', event => {
       { "tag": "artifacts:artifacts"},
       { "item": "biomemakeover:illunite_shard"},
       { "item": "cyclic:heart"},
-      { "item": "miniutilities:the_final_opinium_core"},
+      { "item": "apotheosis:mythic_material"},
       { "item": "arsomega:enchanted_diamond_block"},
       { "item": "draconicevolution:chaotic_core"}
     ],
     "result": {
-      "item": "avaritia:infinity_catalyst"
+      "item": "avaritia:infinity_catalyst",
+      "count": 4
     }
   }).id(kjs + exc + '/infinity_catalyst')
 
@@ -382,9 +383,10 @@ onEvent('recipes', event => {
     'bloodsmeltery:bloodbrass_ingot',
     'pneumaticcraft:ingot_iron_compressed',
     'redstone_arsenal:flux_ingot',
-    'thermal_extra:drownium_ingot',
-    'thermal_extra:polarium_ingot',
-    'thermal_extra:vukaium_ingot',
+    'thermal_extra:shellite_ingot',
+    'thermal_extra:twinite_ingot',
+    'thermal_extra:soul_infused_ingot',
+    'thermal_extra:dragonsteel_ingot',
     'draconicevolution:awakened_draconium_ingot'
   ]).id(kjs+exc+'/ultimate_ingot');
 
@@ -421,7 +423,7 @@ onEvent('recipes', event => {
   ['DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDCDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD', 'DDDDDDDDD'],
   {
     D: 'kubejs:infinity_drop',
-    C: "avaritia:infinity_catalyst"
+    C: "extendedcrafting:ultimate_singularity"
   }
   ).id(kjs + exc + '/infinity_ingot_from_drop')
 })

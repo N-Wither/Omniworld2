@@ -1,0 +1,107 @@
+{
+    "controllerId": "mm:heavy_water_plant",
+    "name": {
+        "text": "Industrial Heavy Water Separator"
+    },
+    "layout": [
+        [
+            " MMM ",
+            "M   M",
+            "M   M",
+            "M   M",
+            " MMM "
+        ],
+        [
+            " KKK ",
+            "KLLLK",
+            "KLLLK",
+            "KLLLK",
+            " KKK "
+        ],
+        [
+            " AAA ",
+            "ANINA",
+            "AJIJA",
+            "ANINA",
+            " AAA "
+        ],
+        [
+            " AAA ",
+            "AEFEA",
+            "AEFEA",
+            "AEFEA",
+            " AAA "
+        ],
+        [
+            " AAA ",
+            "AEFEA",
+            "GEFEH",
+            "AEFEA",
+            " ACA "
+        ],
+        [
+            " BDB ",
+            "BAAAB",
+            "BAAAB",
+            "BAAAB",
+            " BBB "
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "immersiveengineering:sheetmetal_steel"
+        },
+        "B": {
+            "type": "mm:block",
+            "block": "mekanism:steel_casing"
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "immersiveengineering:fluid_pipe"
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "mekanism:electric_pump"
+        },
+        "G": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": true
+        },
+        "H": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": false
+        },
+        "I": {
+            "type": "mm:block",
+            "block": "immersiveengineering:fluid_sorter"
+        },
+        "J": {
+            "type": "mm:block",
+            "block": "immersiveengineering:fluid_placer"
+        },
+        "K": {
+            "type": "mm:tag",
+            "tag": "immersiveengineering:scaffoldings/steel"
+        },
+        "L": {
+            "type": "mm:tag",
+            "tag": "immersiveengineering:scaffolding_slabs/steel"
+        },
+        "M": {
+            "type": "mm:block",
+            "block": "immersiveengineering:steel_fence"
+        },
+        "N": {
+            "type": "mm:block",
+            "block": "immersiveengineering:heavy_engineering"
+        }
+    }
+}

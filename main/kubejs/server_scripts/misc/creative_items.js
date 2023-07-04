@@ -17,6 +17,7 @@ onEvent('recipes', e => {
         F: 'create:brass_casing',
         G: "create:copper_casing",
         H: "compressedcreativity:compressed_iron_casing",
+        // H: "create:andesite_casing",
         S: "avaritia:infinity_block"
     }).id('kubejs:creative_motor')
 
@@ -91,10 +92,10 @@ onEvent('recipes', e => {
           "C": {"item": "extendedcrafting:ultimate_singularity"},
           "D": {"item": "thermal:rf_coil"},
           "E": {"item": "avaritia:infinity_ingot"},
-          "F": {"item": "thermal_extra:advanced_rf_coil_augment"},
-          "G": {"item": "thermal_extra:advanced_rf_coil_xfer_augment"},
+          "F": {"item": "thermal_extra:rf_coil_augment_5"},
+          "G": {"item": "thermal_extra:rf_coil_xfer_augment_5"},
           "H": {"item": "avaritia:infinity_block"},
-          "I": {"item": "thermal_extra:advanced_rf_coil_storage_augment"}
+          "I": {"item": "thermal_extra:rf_coil_storage_augment_5"}
         },
         "result": {"item": "thermal:rf_coil_creative_augment"}
       }
@@ -107,8 +108,8 @@ onEvent('recipes', e => {
         "key": {
           "A": {"item": "mysticalagradditions:creative_essence"},
           "B": {"item": "thermal:fluid_cell_frame"},
-          "C": {"item": "thermal_extra:dragon_enderium_ingot"},
-          "D": {"item": "thermal_extra:bigger_fluid_tank_augment"},
+          "C": {"item": "thermal_extra:dragonsteel_ingot"},
+          "D": {"item": "thermal_extra:fluid_tank_augment_6"},
           "E": {"item": "avaritia:infinity_ingot"},
           "F": {"item": "avaritia:infinity_catalyst"},
           "G": {"item": "avaritia:infinity_block"}

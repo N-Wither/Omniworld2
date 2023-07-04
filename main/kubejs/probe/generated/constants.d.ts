@@ -6,7 +6,7 @@ declare const HOUR: 3600000;
 declare const SLOT_FEET: EquipmentSlot;
 declare const SLOT_HEAD: EquipmentSlot;
 declare const FTBQuests: Internal.FTBQuestsKubeJSWrapper;
-declare const global: {"jeiRuntime": Internal.JeiRuntime, "disabledItems": [{}, "avaritia:extreme_crafting_table", "avaritia:neutronium_compressor", {}, {}, "beyond_earth:steel_ingot", "beyond_earth:steel_nugget", "beyond_earth:steel_block"], "disabledFluids": ["empatic:molten_manasteel", "empatic:molten_elementium", "empatic:molten_terrasteel", "empatic:molten_cloggrum", "empatic:molten_utherium", "empatic:molten_froststeel", "empatic:molten_forgotten"]};
+declare const global: {"jeiRuntime": Internal.JeiRuntime, "disabledItems": {1: null, 2: null, 3: null, 4: null, 5: null, 6: null, 7: null, 0: null}, "disabledFluids": {1: null, 2: null, 3: null, 4: null, 5: null, 6: null, 0: null}};
 declare const MAIN_HAND: Hand;
 declare const SLOT_LEGS: EquipmentSlot;
 declare const AIR_BLOCK: Internal.AirBlock;

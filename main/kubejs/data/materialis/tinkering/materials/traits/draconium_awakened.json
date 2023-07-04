@@ -12,5 +12,35 @@
       "name": "materialis:fluxburner",
       "level": 2
     }
-  ]
+  ],
+  "perStat": {
+    "tconstruct:limb": [
+      {
+        "name": "materialis:power_hungry",
+        "level": 3
+      },
+      {
+        "name": "materialis:fluxripper",
+        "level": 2
+      },
+      {
+        "name": "materialis:fluxbolt",
+        "level": 3
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "materialis:power_hungry",
+        "level": 3
+      },
+      {
+        "name": "materialis:fluxripper",
+        "level": 2
+      },
+      {
+        "name": "materialis:fluxbolt",
+        "level": 2
+      }
+    ]
+  }
 }

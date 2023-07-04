@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "kubejs:block/nwither_plush/s"
+    },
+    "facing=north": {
+      "model": "kubejs:block/nwither_plush/n"
+    },
+    "facing=east": {
+      "model": "kubejs:block/nwither_plush/e"
+    },
+    "facing=west": {
+      "model": "kubejs:block/nwither_plush/w"
+    }
+  }
+}

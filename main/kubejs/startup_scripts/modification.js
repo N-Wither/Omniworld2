@@ -39,3 +39,10 @@ onEvent('item.modification', event => {
     })
   })
 })
+
+onEvent('block.modification', e => {
+  e.modify(/mm:.*/, block => {
+    block.destroySpeed = 2
+    block.explosionResistance = 4
+  })
+})

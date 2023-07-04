@@ -1,0 +1,95 @@
+{
+    "controllerId": "mm:air_separation_unit",
+    "name": {"text": "Air Separation Unit"},
+    "layout": [
+        [
+            "    AAA    ",
+            "    AAA    ",
+            "    AAA    "
+        ],
+        [
+            "    AAA    ",
+            "    ABA    ",
+            "    AAA    "
+        ],
+        [
+            "AAA AAA AAA",
+            "AAA ABA AJA",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA AAA AAA",
+            "D EFEBA ABA",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA AAA AAA",
+            "AIA ABA ABA",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA AAA AAA",
+            "D EFEBA ABA",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA AAA AAA",
+            "AIA AGA ABA",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA ACA AAA",
+            "D EFEGEFEKH",
+            "AAA AAA AAA"
+        ],
+        [
+            "AAA ABA ABA",
+            "AAA BBB BBB",
+            "AAA ABA ABA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "immersiveengineering:sheetmetal_iron"
+        },
+        "B": {
+            "type": "mm:block",
+            "block": "immersiveengineering:light_engineering"
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:mekanism_gas",
+            "input": false
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:pressure_chamber_valve"
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:pressure_tube"
+        },
+        "G": {
+            "type": "mm:block",
+            "block": "immersiveengineering:fluid_sorter"
+        },
+        "H": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "I": {
+            "type": "mm:block",
+            "block": "mekanism:pressure_disperser"
+        },
+        "J": {
+            "type": "mm:block",
+            "block": "engineersdecor:steel_floor_grating"
+        },
+        "K": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:flux_compressor"
+        }
+    }
+}

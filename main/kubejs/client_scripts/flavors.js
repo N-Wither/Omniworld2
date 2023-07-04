@@ -234,12 +234,6 @@ onEvent('item.tooltip', tooltip => {
         textWither(kpf('engulfing_lightning_3'))
     ]);
 
-    flavor('kubejs:nwither_plush', [
-        textWither(kpf('nwither_plush_1')),
-        textWither(kpf('nwither_plush_2')),
-        textWither(kpf('nwither_plush_3'))
-    ]);
-
     flavor('kubejs:rhythm_gamers_glove', [
         textNeko(kpf('gamers_glove_1')),
         textWither(kpf('gamers_glove_2'))

@@ -39,6 +39,18 @@ onEvent("block.registry", event => {
         // .item(item => {
         //     item.displayName('NWitherKawaii Plushie');
         // })
-        
+    
+    event.create('mm:base_machine_block')
+        .material('metal')
+        .hardness(3)
+        .resistance(4)
+        .textureAll('mm:block/base_block')
 
+    event.create('censer')
+        .material('stone')
+        .hardness(0)
+        .resistance(0)
+        .renderType('cutout')
+        .box(5,0,5,11,15,11)
+        .lightLevel(0.4)
 })

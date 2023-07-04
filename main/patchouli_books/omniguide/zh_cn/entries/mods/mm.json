@@ -1,0 +1,248 @@
+{
+    "name":"自定义多方块机械",
+    "icon":"mm:heavy_water_plant_controller",
+    "category":"patchouli:mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"我弄了一些自定义的多方块结构。翻到后页以查看结构。"
+        },
+        {
+            "type":"text",
+            "text":"提示：为了方便你的建造，我准备了 Buliding Gadgets 的模板和 Create 的结构蓝图，对于前者可以在游戏目录的 building_gadgets_template 文件夹找到，后者可以直接在蓝图桌中输入结构 ID 找到。"
+        },
+        {
+            "type":"multiblock",
+            "name":"工业重水分离设备",
+            "multiblock":{
+                "pattern":[
+                    [
+                        " MMM ",
+                        "M   M",
+                        "M   M",
+                        "M   M",
+                        " MMM "
+                    ],
+                    [
+                        " KKK ",
+                        "KLLLK",
+                        "KLLLK",
+                        "KLLLK",
+                        " KKK "
+                    ],
+                    [
+                        " AAA ",
+                        "ANINA",
+                        "AJIJA",
+                        "ANINA",
+                        " AAA "
+                    ],
+                    [
+                        " AAA ",
+                        "AEFEA",
+                        "AEFEA",
+                        "AEFEA",
+                        " AAA "
+                    ],
+                    [
+                        " AAA ",
+                        "AEFEA",
+                        "HEFEG",
+                        "AEFEA",
+                        " ACA "
+                    ],
+                    [
+                        " BDB ",
+                        "BAAAB",
+                        "BA0AB",
+                        "BAAAB",
+                        " BBB "
+                    ]
+                ],
+                "mapping":{
+                    "A":"immersiveengineering:sheetmetal_steel",
+                    "B":"mekanism:steel_casing",
+                    "C":"mm:heavy_water_plant_controller",
+                    "D":"#mm:ports/energy/in",
+                    "0":"immersiveengineering:sheetmetal_steel",
+                    "E":"immersiveengineering:fluid_pipe",
+                    "F":"mekanism:electric_pump",
+                    "G":"#mm:ports/fluid/in",
+                    "H":"#mm:ports/fluid/out",
+                    "I":"immersiveengineering:fluid_sorter",
+                    "J":"immersiveengineering:fluid_placer",
+                    "K":"#immersiveengineering:scaffoldings/steel",
+                    "L":"#immersiveengineering:scaffolding_slabs/steel",
+                    "M":"immersiveengineering:steel_fence",
+                    "N":"immersiveengineering:heavy_engineering"
+                }
+            },
+            "text": "模板/结构 ID：heavy_water_separator"
+        },
+        {
+            "type":"text",
+            "text":"所有三种钢脚手架（和台阶）都能使用。"
+        },
+        {
+            "type":"multiblock",
+            "name":"空气分离单元",
+            "multiblock":{
+                "pattern":[
+                    [
+                        "    AAA    ",
+                        "    AAA    ",
+                        "    AAA    "
+                    ],
+                    [
+                        "    AAA    ",
+                        "    ABA    ",
+                        "    AAA    "
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "AAA ABA AJA",
+                        "AAA AAA AAA"
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "D EFEBA ABA",
+                        "AAA AAA AAA"
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "AIA ABA ABA",
+                        "AAA AAA AAA"
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "D EFEBA ABA",
+                        "AAA AAA AAA"
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "AIA AGA ABA",
+                        "AAA AAA AAA"
+                    ],
+                    [
+                        "AAA AAA AAA",
+                        "D EFEGEFEKH",
+                        "AAA ACA AAA"
+                    ],
+                    [
+                        "AAA ABA ABA",
+                        "AAA B0B BBB",
+                        "AAA ABA ABA"
+                    ]
+                ],
+                "mapping":{
+                    "A":"immersiveengineering:sheetmetal_iron",
+                    "B":"immersiveengineering:light_engineering",
+                    "0":"immersiveengineering:light_engineering",
+                    "C":"mm:air_separation_unit_controller",
+                    "D":"#mm:ports/gas/out",
+                    "E":"pneumaticcraft:pressure_chamber_valve",
+                    "F":"pneumaticcraft:pressure_tube",
+                    "G":"immersiveengineering:fluid_sorter",
+                    "H":"#mm:ports/energy/in",
+                    "I":"mekanism:pressure_disperser",
+                    "J":"engineersdecor:steel_floor_grating",
+                    "K":"pneumaticcraft:flux_compressor"
+                }
+            },
+            "text": "模板/结构 ID：air_separation_unit"
+        },
+        {
+            "type":"text",
+            "text":""
+        },
+        {
+            "type":"multiblock",
+            "name":"工业高炉 MK1",
+            "multiblock":{
+                "pattern":[
+                    [
+                        "DDD",
+                        "DDD",
+                        "DDD"
+                    ],
+                    [
+                        "BBB",
+                        "B B",
+                        "BBB"
+                    ],
+                    [
+                        "BBB",
+                        "B B",
+                        "BBB"
+                    ],
+                    [
+                        "ECA",
+                        "D0D",
+                        "DFD"
+                    ]
+                ],
+                "mapping":{
+                    "0":"immersiveengineering:blastbrick_reinforced",
+                    "A":"#mm:ports/item/out",
+                    "B":"immersiveengineering:coil_lv",
+                    "C":"mm:industrial_machine_controller",
+                    "D":"immersiveengineering:blastbrick_reinforced",
+                    "E":"#mm:ports/item/in",
+                    "F":"#mm:ports/energy/in"
+                }
+            },
+            "text":"模板/结构 ID：industrial_blast_furnace_mk1"
+        },
+        {
+            "type":"text",
+            "text":"MK2: 琥珀金线圈 $(br)MK3: 高压线圈$(br2)等级越高，速度和效率越高，耗电也越高。"
+        },
+        {
+            "type":"multiblock",
+            "name":"工业焦炉",
+            "text":"模板/结构 ID：industrial_coke_oven",
+            "multiblock":{
+                "pattern":[
+                    [
+                        "AAA",
+                        "AAA",
+                        "AAA"
+                    ],
+                    [
+                        "AAA",
+                        "A A",
+                        "AAA"
+                    ],
+                    [
+                        "AAA",
+                        "A A",
+                        "AAA"
+                    ],
+                    [
+                        "AAA",
+                        "A G",
+                        "AAA"
+                    ],
+                    [
+                        "ACA",
+                        "E0B",
+                        "AFA"
+                    ]
+                ],
+                "mapping":{
+                    "0":"immersiveengineering:coil_lv",
+                    "A":"immersiveengineering:cokebrick",
+                    "B":"#mm:ports/item/out",
+                    "C":"mm:industrial_machine_controller",
+                    "E":"#mm:ports/item/in",
+                    "F":"#mm:ports/energy/in",
+                    "G":"#mm:ports/fluid/out"
+                }
+            }
+        },
+        {
+            "type":"text",
+            "text":"由于配方不支持物品标签，因此没有原木烧木炭的配方。"
+        }
+    ]
+}

@@ -10,16 +10,23 @@
     "item.hostilenetworks.twilight_prediction": "通用暮色预测产物",
     "item.hostilenetworks.ever_prediction": "通用永恒预测产物",
     "item.kubejs.infinity_drop": "无尽液滴",
+    "item.kubejs.helium_bucket": "液态氦桶",
 
     "block.kubejs.torcherino": "加速火把",
     "block.kubejs.molten_infinity_fluid": "熔融无尽",
     "block.kubejs.cryotheum_fluid": "极寒之凛冰",
     "block.kubejs.nwither_plush": "NWitherKawaii 毛绒玩偶",
+    "block.kubejs.helium": "液态氦",
+    "block.kubejs.censer": "香炉",
 
     "fluid.kubejs.molten_infinity": "熔融无尽",
     "fluid.kubejs.flowing_molten_infinity": "流动熔融无尽",
     "fluid.kubejs.cryotheum": "极寒之凛冰",
     "fluid.kubejs.flowing_cryotheum": "流动极寒之凛冰",
+    "fluid.kubejs.helium": "液态氦",
+    "fluid.kubejs.flowing_helium": "流动液态氦",
+
+    "gas.kubejs.helium": "氦气",
 
     "tooltip.kubejs.flavor.log_1": "木头是很重要的！",
     "tooltip.kubejs.flavor.log_2": "什么时候都会用到，所以多收集一些吧！",
@@ -82,9 +89,6 @@
     "tooltip.kubejs.flavor.engulfing_lightning_1": "用于「斩草」的薙刀。",
     "tooltip.kubejs.flavor.engulfing_lightning_2": "对向此物之军势，也会如苇草般倒下吧...",
     "tooltip.kubejs.flavor.engulfing_lightning_3": "对着地上的杂草右键试试看。",
-    "tooltip.kubejs.flavor.nwither_plush_1": "赞助者跟我说随便整点什么东西或者是我的人偶都可以，",
-    "tooltip.kubejs.flavor.nwither_plush_2": "我本来想随便搞点什么的，想了想这样还是太不走心了，",
-    "tooltip.kubejs.flavor.nwither_plush_3": "所以还是做了这个。至于精细模型什么的实在做不出来。",
     "tooltip.kubejs.flavor.present": "要送给谁呢？",
     "tooltip.kubejs.flavor.pale_diamond_1": "普普通通的无色钻石，不过要较真的话，",
     "tooltip.kubejs.flavor.pale_diamond_2": "MC 里面的蓝色钻石才是异类吧。",
@@ -161,6 +165,10 @@
     "tooltip.kubejs.wireless_crafting_monitor": "手持无线合成监控器潜行左键创造控制器获取。",
     "tooltip.kubejs.super_wireless_grid": "手持超级无线终端潜行左键创造控制器获取。",
     "tooltip.kubejs.wireless_crafting_grid": "手持无线合成终端潜行左键创造控制器获取。",
+    "tooltip.kubejs.rotatable_with_wrench": "使用新月锤可以旋转此方块",
+    "tooltip.kubejs.multiblock_controller": "在 Omniworld 指导手册中查询此控制器适用的多方块结构：",
+    "tooltip.kubejs.blutonium": "在蓝晶再处理器中加工蓝晶获取。",
+    "tooltip.kubejs.masticator": "吞咀者需要通过降生祭坛召唤。",
 
     "kubejs.server_events.purge": "正在清理掉落物！",
     "kubejs.server_events.book": "给，这次别弄丢了！",
@@ -251,5 +259,37 @@
 
     "entity.productivebees.chaos_bee": "混沌蜜蜂",
     "entity.productivebees.neutronium_bee": "中子素蜜蜂",
-    "entity.productivebees.infinity_bee": "无尽蜜蜂"
+    "entity.productivebees.infinity_bee": "无尽蜜蜂",
+
+    "block.multiblocked.heavy_water_plant": "工业重水分离设备",
+    "multiblocked.recipe_map.heavy_water_plant": "工业重水分离设备",
+    "multiblocked.heavy_water_plant.description": "至少需要 1 个流体输入端口，1 个流体输出端口和 1 个能量输入端口。",
+
+    "structure.kubejs.heavy_water_separator": "工业重水分离设备",
+    "structure.kubejs.air_separation_unit": "空气分离单元",
+    "structure.kubejs.industrial_blast_furnace": "工业高炉 （MK1/MK2/Mk3）",
+    "structure.kubejs.industrial_coke_oven": "工业焦炉",
+
+    "block.mm.base_machine_block": "基础机械方块",
+    "block.mm.heavy_water_plant_controller": "工业重水分离设备控制器",
+    "block.mm.air_separation_unit_controller": "空气分离单元控制器",
+    "block.mm.industrial_machine_controller": "工业机械控制器",
+    "block.mm.energy_input_port": "能量输入端口",
+    "block.mm.energy_output_port": "能量输出端口",
+    "block.mm.fluid_input_port": "流体输入端口",
+    "block.mm.fluid_output_port": "流体输出端口",
+    "block.mm.gas_input_port": "气体输入端口",
+    "block.mm.gas_output_port": "气体输出端口",
+    "block.mm.item_input_port": "物品输入端口",
+    "block.mm.item_output_port": "物品输出端口",
+    "block.mm.large_energy_input_port": "大型能量输入端口",
+    "block.mm.large_energy_output_port": "大型能量输出端口",
+    "block.mm.large_fluid_input_port": "大型流体输入端口",
+    "block.mm.large_fluid_output_port": "大型流体输出端口",
+    "block.mm.large_item_input_port": "大型物品输入端口",
+    "block.mm.large_item_output_port": "大型物品输出端口",
+    "block.mm.laser_input_port": "激光输入端口",
+    "block.mm.laser_output_port": "激光输出端口",
+    "block.mm.rot_input_port": "旋转动力输入端口",
+    "block.mm.rot_output_port": "旋转动力输出端口"
 }

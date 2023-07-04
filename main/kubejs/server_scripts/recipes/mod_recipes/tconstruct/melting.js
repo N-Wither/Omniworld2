@@ -25,4 +25,6 @@ onEvent('recipes', e => {
     tconstructMelting("kubejs:molten_infinity", 810, Ingredient.of("#forge:storage_blocks/infinity"), 2500, 180, 'molten_infinity_from_block');
     tconstructMelting("thermal:glowstone", 250, Ingredient.of("#forge:dusts/glowstone"), 700, 30, 'glowstone_dust')
     tconstructMelting("thermal:glowstone", 1000, Ingredient.of("#forge:storage_blocks/glowstone"), 700, 90, 'glowstone')
+    tconstructMelting("pneumaticcraft:plastic", 1000, Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:plastic"}}'), 300, 20, 'plastic_comb')
+
 })

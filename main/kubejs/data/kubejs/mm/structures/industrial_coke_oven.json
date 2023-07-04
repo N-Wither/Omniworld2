@@ -1,0 +1,61 @@
+{
+    "controllerId": "mm:industrial_machine",
+    "name": {"text": "Industrial Coke Oven"},
+    "layout": [
+        [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        [
+            "AAA",
+            "A A",
+            "AAA"
+        ],
+        [
+            "AAA",
+            "A A",
+            "AAA"
+        ],
+        [
+            "AAA",
+            "G A",
+            "AAA"
+        ],
+        [
+            "ACA",
+            "BDE",
+            "AFA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "immersiveengineering:cokebrick"
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "D": {
+            "type": "mm:block",
+            "block": "immersiveengineering:coil_lv"
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "F": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "G": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": false
+        }
+    }
+}

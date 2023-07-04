@@ -32,7 +32,7 @@ onEvent('client.tick', e => {
     e.player.paint({
         gameVersion: {
             type: 'text',
-            text: 'Omniworld 2.4.0 Aquamarine',
+            text: 'Omniworld 2.7.0 Sapphire',
             scale: 1.0,
             alignX: 'right',
             alignY: 'bottom',
@@ -44,7 +44,7 @@ onEvent('client.tick', e => {
     e.player.paint({
         versionLogo: {
             type: 'item',
-            item: "gemsnjewels:aquamarine",
+            item: "gemsnjewels:sapphire",
             alignX: 'right',
             alignY: 'bottom',
             x: 8,

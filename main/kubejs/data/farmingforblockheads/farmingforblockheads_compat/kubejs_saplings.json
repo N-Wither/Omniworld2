@@ -50,8 +50,6 @@
         {"output": "ecologics:coconut_seedling"},
         {"output": "forbidden_arcanus:cherrywood_sapling"},
         {"output": "forbidden_arcanus:mysterywood_sapling"},
-        {"output": "hexerei:willow_sapling"},
-        {"output": "hexerei:mahogany_sapling"},
         {"output": "autumnity:maple_sapling"},
         {"output": "autumnity:red_maple_sapling"},
         {"output": "autumnity:orange_maple_sapling"},

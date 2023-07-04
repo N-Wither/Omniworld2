@@ -1,8 +1,8 @@
 // priority: 10
 
-function MmProcess() {
+function MmProcess(structureId) {
     this.json = {
-        structureId: '',
+        structureId: structureId,
         name: {
             text: ''
         },
@@ -13,10 +13,6 @@ function MmProcess() {
 }
 
 MmProcess.prototype = {
-    structure: function(id){
-        this.json.structureId = id
-        return this
-    },
     name: function(name){
         this.json.name.text = name
         return this
@@ -75,4 +71,42 @@ let mmFluid = (fluid, amount) => {
     }
 }
 
+let mmGas = (gas, amount) => {
+    return {
+        type: 'mm:simple',
+        ingredient: {
+            type: 'mm:mekanism_gas',
+            amount: amount,
+            gas: gas
+        }
+    }
+}
+
+let mmEnergyPerTick = (amount) => {
+    return {
+        type: 'mm:per_tick',
+        ingredient : {
+            type: 'mm:energy',
+            amount: amount
+        }
+    }
+}
+
+let mmItemTag = (tag, count) => {
+    count = count || 1
+    return {
+        type: 'mm:simple',
+        ingredient: {
+            type: 'mm:item',
+            count: count,
+            tag: tag
+        }
+    }
+}
+
 let HWP = 'kubejs:heavy_water_plant'
+let ASU = 'kubejs:air_separation_unit'
+let BF1 = 'kubejs:industrial_blast_furnace_mk1'
+let BF2 = 'kubejs:industrial_blast_furnace_mk2'
+let BF3 = 'kubejs:industrial_blast_furnace_mk3'
+let ICO = 'kubejs:industrial_coke_oven'

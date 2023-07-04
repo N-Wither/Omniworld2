@@ -38,6 +38,14 @@ function ForgeItem(item, count){
     return {"item": item, "count": count}
 }
 
+function fluidTag(tag, amount){
+    amount = amount || 90;
+    return {
+        tag: tag,
+        amount: amount
+    }
+}
+
 /**
  * @param {string} item 
  * @param {number} chance 

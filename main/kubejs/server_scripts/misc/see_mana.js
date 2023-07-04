@@ -1,5 +1,6 @@
 onEvent('block.right_click', e => {
-    if((e.block.id == 'botania:mana_pool' || e.block.id == "botania:diluted_pool" || e.block.id == "botania:fabulous_pool" || e.block.id == 'botania:creative_pool') && e.player.mainHandItem == 'minecraft:air'){
+    let manaPools = ['botania:mana_pool', 'botania:diluted_pool', 'botania:fabulous_pool', 'botania:creative_pool']
+    if((manaPools.includes(e.block.id)) && e.player.mainHandItem == 'minecraft:air'){
         let mana = e.block.entityData.mana;
         let cap = e.block.entityData.manaCap;
         if (e.block.id != 'botania:creative_pool'){
