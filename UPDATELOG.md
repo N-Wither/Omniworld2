@@ -1,3 +1,17 @@
+# 2.7.0 Sapphire
+## New Mods
+- Botanical Machinery
+- Smooth Swapping
+- Quit
+- Fastload
+- MaxHealthFix
+
+## Removed Mods
+- Hexerei: Not compatible with latest version of JEI, and author has stopped support for 1.18.2.
+
+## Changes
+- The cap of modifier "Adapting" (from Tinkers Reforged) is set to 2147483647 instead of default 15
+
 # 2.6.0 Ruby
 ## New Mods
 - Mekanism Evolution
