@@ -1,3 +1,18 @@
+# 2.8.0 Alexandrite
+## New Mods
+- ModernFix
+- ImmediatelyFast Reforged
+- CullessLeaves Reforged
+
+## Removed Mods
+- Lightspeed
+- Smooth Swapping
+
+## Changes
+- Fixed a bug in quests
+- Changed the recipe of Beam (Druidcraft) to avoid recipe conflict
+- Remved the warning when you allocate more than 16GB of RAM (again)
+
 # 2.7.0 Sapphire
 ## New Mods
 - Botanical Machinery
