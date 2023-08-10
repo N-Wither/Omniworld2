@@ -32,7 +32,7 @@ onEvent('client.tick', e => {
     e.player.paint({
         gameVersion: {
             type: 'text',
-            text: 'Omniworld 2.7.0 Sapphire',
+            text: 'Omniworld 2.9.0 Citrine',
             scale: 1.0,
             alignX: 'right',
             alignY: 'bottom',
@@ -44,7 +44,7 @@ onEvent('client.tick', e => {
     e.player.paint({
         versionLogo: {
             type: 'item',
-            item: "gemsnjewels:sapphire",
+            item: "gemsnjewels:citrine",
             alignX: 'right',
             alignY: 'bottom',
             x: 8,

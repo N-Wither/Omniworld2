@@ -198,4 +198,10 @@ onEvent('recipes', event => {
         C: '#forge:circuits/elite'
     })
     shaped('mm:industrial_machine_controller', [' C ', 'CBC', ' C '], {C: '#forge:circuits/basic', B: 'mm:base_machine_block'})
+
+    // Druidcraft
+    event.shaped("4x druidcraftrg:beam", ['L', 'R', 'L'], {L: '#minecraft:logs', R: '#forge:rope'}).id('druidcraftrg:beam')
+
+    // Cyclic
+    event.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block').id('cyclic:crafting/nether_wart_reverse')
 })

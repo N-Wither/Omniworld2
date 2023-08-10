@@ -101,4 +101,6 @@ onEvent("tags.items", event => {
     event.add('mm:ports/item/in', /mm:.*item_input_port/)
     event.add('mm:ports/item/out', /mm:.*item_output_port/)
     event.add('mm:ports', [/mm:.*port/, 'mm:base_machine_block'])
+
+    event.add("silentgear:grader_catalysts/tier5", "avaritia:neutron_pile")
 })

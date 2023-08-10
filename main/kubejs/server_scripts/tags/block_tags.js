@@ -16,6 +16,7 @@ onEvent("block.tags", event => {
     event.add("minecraft:mineable/pickaxe", /mm:.*/)
 
     event.add('forge:immovable', [
-        /doubleslabs:.*/
+        /doubleslabs:.*/,
+        /dankstorage:*/
     ])
 })

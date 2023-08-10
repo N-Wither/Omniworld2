@@ -2,26 +2,30 @@
   "default": [
     {
       "name": "materialis:power_hungry",
-      "level": 3
+      "level": 4
     },
     {
       "name": "materialis:fluxripper",
-      "level": 2
+      "level": 3
     },
     {
       "name": "materialis:fluxburner",
-      "level": 2
+      "level": 3
+    },
+    {
+      "name": "tinkerslevellingaddon:improvable",
+      "level": 1
     }
   ],
   "perStat": {
     "tconstruct:limb": [
       {
         "name": "materialis:power_hungry",
-        "level": 3
+        "level": 4
       },
       {
         "name": "materialis:fluxripper",
-        "level": 2
+        "level": 3
       },
       {
         "name": "materialis:fluxbolt",
@@ -31,11 +35,11 @@
     "tconstruct:grip": [
       {
         "name": "materialis:power_hungry",
-        "level": 3
+        "level": 4
       },
       {
         "name": "materialis:fluxripper",
-        "level": 2
+        "level": 3
       },
       {
         "name": "materialis:fluxbolt",
