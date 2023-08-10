@@ -1,3 +1,21 @@
+# 2.9.0 Citrine
+## New Mods
+- Tinkers Calibration
+- Just Enough Mekanism Multiblocks
+- Create: Ender Transmission
+
+## Changes
+- **Dank Storage**: The Dock cannot be moved by Carryon Mod anymore;
+- **Bigger Reactors**: Fuel Usage 1.0 -> 0.8, Energy Output Rate 10 -> 16;
+- **Botany Pots Tiers**: Elite 4 -> 6, Super 8 -> 12, Creative 16 -> 24;
+- **Powah**: Increased stats;
+- **Silent Gear**: New Grader catalyst;
+- **Tinkers Construct**: Some materials now have built-in Improvable (Tinkers Levelling Addon) trait;
+- **Mekanism Generators**: Fisson Reactor will not meltdown anymore;
+- **Mekanism Generators**: Increased stats for Turbine. Solar Generator and Fusion Fuel;
+
+## Note
+- **Tinkers Reforged**: It's sad but I tried several times, it turned out the max damage that Adapting trait can provide is 15, this cannot be set to higher value in config file due to fxxking "balancing".
 # 2.8.0 Alexandrite
 ## New Mods
 - ModernFix
