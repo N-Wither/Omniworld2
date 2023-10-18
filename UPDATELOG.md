@@ -1,3 +1,10 @@
+# 2.10.0 Opal
+## Note
+This is the last update of Omniworld 2, if no critical bugs.
+## Changes
+- Updated mods
+- Bugfixes
+
 # 2.9.0 Citrine
 ## New Mods
 - Tinkers Calibration
